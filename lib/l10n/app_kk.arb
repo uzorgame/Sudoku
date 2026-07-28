@@ -1,0 +1,418 @@
+{
+  "@@locale": "kk",
+  "@championshipScore": {
+    "placeholders": {
+      "score": {
+        "type": "int"
+      }
+    }
+  },
+  "@toNextPlace": {
+    "placeholders": {
+      "points": {
+        "type": "int"
+      }
+    }
+  },
+  "@totalScore": {
+    "placeholders": {
+      "score": {
+        "type": "String"
+      }
+    }
+  },
+  "@leaderboardRow": {
+    "placeholders": {
+      "rank": {
+        "type": "int"
+      },
+      "name": {
+        "type": "String"
+      },
+      "points": {
+        "type": "String"
+      }
+    }
+  },
+  "@yourPosition": {
+    "placeholders": {
+      "rank": {
+        "type": "int"
+      },
+      "points": {
+        "type": "String"
+      }
+    }
+  },
+  "@battleWinRate": {
+    "description": "Battle mode win percentage label.",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@battleDefeatMessage": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "@levelHeading": {
+    "placeholders": {
+      "level": {
+        "type": "int"
+      },
+      "difficulty": {
+        "type": "String"
+      }
+    }
+  },
+  "@rankLabel": {
+    "placeholders": {
+      "rank": {
+        "type": "int"
+      }
+    }
+  },
+  "@rewardExtraHearts": {
+    "placeholders": {
+      "count": {
+        "type": "num"
+      }
+    }
+  },
+  "@rewardStars": {
+    "placeholders": {
+      "count": {
+        "type": "num"
+      }
+    }
+  },
+  "@undoAdCountdown": {
+    "placeholders": {
+      "seconds": {
+        "type": "int"
+      }
+    }
+  },
+  "@hintAdCountdown": {
+    "placeholders": {
+      "seconds": {
+        "type": "int"
+      }
+    }
+  },
+  "@lifeAdCountdown": {
+    "placeholders": {
+      "seconds": {
+        "type": "int"
+      }
+    }
+  },
+  "@combo_x": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@streak_n": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@speed_bonus": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "@comboX": {
+    "description": "Combo multiplier badge",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@streakN": {
+    "description": "Streak badge",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@speedBonus": {
+    "description": "Award for finishing faster than target",
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "@victoryMessage": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "@versionLabel": {
+    "placeholders": {
+      "version": {
+        "type": "String"
+      }
+    }
+  },
+  "@rankBadgeChasing": {
+    "placeholders": {
+      "current": {
+        "type": "int"
+      },
+      "delta": {
+        "type": "int"
+      },
+      "target": {
+        "type": "int"
+      }
+    }
+  },
+  "appTitle": "Судоку",
+  "navHome": "Үй",
+  "navDaily": "Шақыру",
+  "navAchievements": "Жетістіктер",
+  "achievements_title": "Жетістіктер",
+  "ach_section_title": "Мақсаттар мен сыйақылар",
+  "ach_title_wins_50": "50 жеңіс",
+  "ach_title_no_mistakes": "Темір жігер",
+  "ach_title_streak_3days": "3 күн қатарынан",
+  "ach_title_fast_solver": "Найзағайдай жылдам",
+  "ach_title_wins_100": "100 жеңіс",
+  "ach_desc_wins_50": "Классикалық режимде 50 рет жеңіңіз",
+  "ach_desc_no_mistakes": "Көмексіз әрі қателіксіз қатарынан 3 ойынды аяқтаңыз",
+  "ach_desc_streak_3days": "Үш күн қатарынан күн сайын ойнаңыз",
+  "ach_desc_fast_solver": "3 минуттан кем уақытта судоку шешіңіз",
+  "ach_desc_wins_100": "Классикалық режимде 100 рет жеңіңіз",
+  "ach_status_finished": "Аяқталды",
+  "ach_status_in_progress": "{current} ойын аяқталды",
+  "@ach_status_in_progress": {
+    "placeholders": {
+      "current": {
+        "type": "int"
+      }
+    }
+  },
+  "ach_percent": "{percent}%",
+  "@ach_percent": {
+    "placeholders": {
+      "percent": {
+        "type": "int"
+      }
+    }
+  },
+  "ach_obtained_on": "Алынған күні: {date}",
+  "@ach_obtained_on": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "ach_locked": "Құлыпталған",
+  "dailyStreak": "Күнделікті жолақ",
+  "selectDifficultyTitle": "Қиындықты таңдаңыз",
+  "selectDifficultyDailyChallenge": "Күнделікті қиындық",
+  "playAction": "Ойнау",
+  "championshipTitle": "Чемпионат",
+  "championshipScore": "Ұпай {score}",
+  "toNextPlace": "Келесі жерге: {points} pts",
+  "youAreTop": "Сіз # 1",
+  "championshipRoundDescriptionPlaceholder": "Чемпионат жүгіруді арттыру үшін осы турды ойнаңыз.",
+  "championshipRoundCompletedLabel": "Орындалды",
+  "totalScore": "Жалпы балл: {score}",
+  "meLabel": "Мені",
+  "leaderboardRow": "Орын {rank} қойыңыз. {name}. {points} нүктелер",
+  "yourPosition": "Менің орным {rank}. {points} нүктелер",
+  "pointsShort": "п.",
+  "championshipAutoScroll": "Менің позицияммен автоматты түрде айналдырыңыз",
+  "bestLabel": "Ең жақсы",
+  "play": "Ойнау",
+  "battleTitle": "Шайқас",
+  "battleWinRate": "Жеңеді {count}%",
+  "battleYouLabel": "Сен",
+  "battleVictoryTitle": "Сіз жеңдіңіз!",
+  "battleDefeatTitle": "Қарсылас алдымен аяқталды",
+  "battleDefeatMessage": "{name} сізден бұрын жұмбақты шешті.",
+  "battleSimpleDefeatTitle": "Сіз жоғалттыңыз",
+  "battleExitToMainMenu": "Негізгі мәзір",
+  "playerFlagSettingTitle": "Ойнатқыштың жалаушасы",
+  "selectPlayerFlag": "Туды таңдаңыз",
+  "confirmFlagSelectionTitle": "Туды растаңыз",
+  "confirmFlagSelectionMessage": "Сіз бұл жалаушаны таңдағыңыз келе ме? Туды кейінірек ойын параметрлерінде өзгертуге болады.",
+  "confirmFlagSelectionConfirm": "Растау",
+  "startAction": "Жүргізу",
+  "levelHeading": "{level} деңгейі - {difficulty}",
+  "rankProgress": "Жетістік деңгейі",
+  "rankLabel": "{rank} дәрежесі",
+  "newGame": "Жаңа ойын",
+  "continueGame": "Ойынды жалғастырыңыз",
+  "weeklyProgress": "Апта сайынғы прогресс",
+  "rewardsTitle": "Марапаттар",
+  "rewardNoMistakesTitle": "Қиындықты қателіктерсіз аяқтаңыз",
+  "rewardExtraHearts": "+{count, plural, one {# жүрек} other {# жүректер}}",
+  "rewardThreeInRowTitle": "Қатарынан үш қиындықты аяқтаңыз",
+  "rewardUniqueTrophy": "Бірегей олжа",
+  "rewardSevenDayTitle": "7 күндік жолақты ұстаңыз",
+  "rewardStars": "+{count, plural, one {# жұлдыз} other {# Жұлдыздар}}",
+  "todayPuzzle": "Бүгінгі жұмбақ",
+  "todayPuzzleDescription": "Sudoku-ды қосымша сыйақы алу үшін аяқтаңыз және сіздің жолыңызды тірі қалдырыңыз.",
+  "continueAction": "Жалғастыру",
+  "adMessage": "Жарнама: жасырын заттарды табыңыз! Қазір ойнаңыз.",
+  "adPlay": "Ойнау",
+  "undo": "Күтіп ұстау",
+  "erase": "Өшіру",
+  "autoNotes": "Авто ескертпелер",
+  "statusOn": "Ішінде",
+  "statusOff": "Ажыратылған",
+  "notes": "ЕСталдар",
+  "hint": "Тұспал",
+  "undoAdTitle": "Болдырмау үшін жарнаманы қараңыз",
+  "undoAdDescription": "Соңғы жылжыту үшін осы қысқа жарнаманы қараңыз.",
+  "undoAdCountdown": "Жарнама {seconds}s-де аяқталады",
+  "hintAdTitle": "Жарнаманы кеңес алу үшін қараңыз",
+  "hintAdDescription": "Осы қысқа жарнаманы кеңес алу үшін қараңыз.",
+  "hintAdCountdown": "Жарнама {seconds}s-де аяқталады",
+  "lifeAdTitle": "Жүректі қалпына келтіру үшін жарнаманы қараңыз",
+  "lifeAdDescription": "Қызыл жүректі қалпына келтіру және ойнау үшін осы қысқа жарнаманы қараңыз.",
+  "lifeAdCountdown": "Жарнама {seconds}s-де аяқталады",
+  "gameScreenTitle": "Судоку",
+  "combo_x": "Combo × {count}",
+  "streak_n": "{count} жол",
+  "speed_bonus": "Жылдамдық бонус {time}",
+  "comboX": "Комбо ×{count}",
+  "streakN": "{count} жол",
+  "speedBonus": "Жылдамдық бонус ({time})",
+  "noActiveGameMessage": "Белсенді ойын жоқ. Негізгі экранға оралыңыз.",
+  "victoryTitle": "Құттықтаймыз!",
+  "victoryMessage": "Жұмбақ {time} түрінде шешілді.",
+  "backToHome": "Үй",
+  "playAnother": "Қайтадан ойнаңыз",
+  "outOfLivesTitle": "Сіз жүректеріңіз жоқсыз",
+  "outOfLivesDescription": "Ойнау үшін бір қызыл жүрек қалпына келтіріңіз.",
+  "restoreLifeAction": "1 қызыл жүректі қалпына келтіріңіз",
+  "cancelAction": "Күшін жою",
+  "settingsTitle": "Параметрлер",
+  "themeSectionTitle": "Тақырып",
+  "themeWhite": "Классикалық жарық",
+  "themeCream": "Кілегей",
+  "themeGreen": "Талшы",
+  "themeBlack": "Қараңғы",
+  "themePurple": "Күлгін қараңғы",
+  "themeFontSize": "Шрифт өлшемі",
+  "fontSizeExtraSmall": "Қосымша кішкентай",
+  "fontSizeSmall": "Кішкене",
+  "fontSizeMedium": "Амал",
+  "fontSizeLarge": "Ірі",
+  "fontSizeExtraLarge": "Қосымша үлкен",
+  "languageSectionTitle": "Тіл",
+  "audioSectionTitle": "Дыбыс және музыка",
+  "soundsEffectsLabel": "Дыбыстық әсерлер",
+  "vibrationLabel": "Діріл",
+  "comboBadgesLabel": "Combo төсбелгілері",
+  "comboHapticsLabel": "Badge Haptics",
+  "miscSectionTitle": "Өзге",
+  "howToPlayTitle": "Қалай ойнауға болады",
+  "howToPlayRowRule": "Әр жолда 1-ден 9-ға дейін сандар жоқ",
+  "howToPlayColumnRule": "Әр бағанда 1-ден 9-ға дейін цифрлар қайталанбайды",
+  "howToPlayBoxRule": "Әр 3 × 3 жолағына 1-ден 9-ға дейін сандар қайталанбайды",
+  "howToPlayFooter": "Әр ұяшықты толтырыңыз және сіз жеңесіз!",
+  "howToPlayAction": "Алды",
+  "championshipLocalSection": "Чемпионат (жергілікті)",
+  "hideCompletedNumbersLabel": "Аяқталған сандарды жасыру",
+  "aboutApp": "Жөнінде",
+  "versionLabel": "{version} нұсқасы",
+  "aboutLegalese": "Nahreba UzOR Inc.",
+  "languageEnglish": "Ағылшынша",
+  "languageRussian": "Русский",
+  "languageUkrainian": "Українська",
+  "languageGerman": "Дайтер",
+  "languageFrench": "Français",
+  "languageChinese": "中文",
+  "languageHindi": "हिन्दी",
+  "languageGeorgian": "ქათულთული",
+  "languageSpanish": "Эспенол",
+  "languageItalian": "Итальяно",
+  "languageJapanese": "日本語",
+  "languageKorean": "한국어",
+  "languageTurkish": "Түрікче",
+  "languagePolish": "Полски",
+  "languagePortuguese": "Португалықтар",
+  "languageIndonesian": "Бахаса Индонезия",
+  "languageVietnamese": "Tiếng việt",
+  "languageThai": "ไทย",
+  "languageDutch": "Nederlands",
+  "languageSwedish": "Свенка",
+  "languageRomanian": "Романă",
+  "languageCzech": "Čeština",
+  "languageFinnish": "Суоми",
+  "languageKazakh": "Қазақ тілі",
+  "languageBulgarian": "Блгарски",
+  "languageMalay": "Bahasa melayu",
+  "languageNepali": "Итер",
+  "languagePunjabi": "ੰਜੰਜੀ",
+  "languageSwahili": "Кисвахили",
+  "languageTamil": "தமிழ்",
+  "languageSlovak": "Словенчина",
+  "export": "Сыртқа шығару",
+  "import": "Импорт",
+  "resetMyScore": "Менің ұпайымды қалпына келтіріңіз",
+  "resetMyScoreConfirmation": "Сіз есепті қалпына келтіргіңіз келе ме? Бұл әрекетті болдырмауға болмайды.",
+  "resetAction": "Ысыру",
+  "regenerateOpponents": "Қарсыластарды қалпына келтіріңіз",
+  "confirm": "Растау",
+  "cancel": "Күшін жою",
+  "done": "Жасалды",
+  "privacyPolicyTitle": "Құпиялылық саясаты",
+  "privacyPolicyAccept": "Мен қабылдаймын",
+  "privacyPolicyPrompt": "Сіз құпиялылық саясатын қабылдайсыз ба?",
+  "privacyPolicyLearnMore": "Қосымша ақпарат →",
+  "privacyPolicyDecline": "Мен құлдыраймын",
+  "privacyPolicyClose": "Жабу",
+  "privacyPolicyLoadError": "Құпиялылық саясатын жүктеу сәтсіз аяқталды. Қайталап көріңіз.",
+  "failed": "Сәтсіз аяқталды",
+  "rankBadgeChasing": "#{current} • + {delta}-ге дейін #{target}",
+  "statsTitle": "Статистика",
+  "statsGamesSection": "Ойындар",
+  "statsGamesStarted": "Ойындар басталды",
+  "statsGamesWon": "Ойындар жеңді",
+  "statsWinRate": "Жеңіс жылдамдығы",
+  "statsFlawless": "Мінсіз әрлеу",
+  "statsTimeSection": "Уақыт",
+  "statsBestTime": "Ең жақсы уақыт",
+  "statsAverageTime": "Орташа уақыт",
+  "statsStreakSection": "Жол",
+  "statsCurrentStreak": "Ағымдағы жолақ",
+  "statsBestStreak": "Ең жақсы жолақ",
+  "difficultyNovice": "Жаңадан бастаушы",
+  "difficultyNoviceShort": "Жаң.",
+  "difficultyMedium": "Орташа",
+  "difficultyMediumShort": "Орта.",
+  "difficultyHigh": "Қиын",
+  "difficultyHighShort": "Қиын",
+  "difficultyExpert": "Сарапшы",
+  "difficultyExpertShort": "Сар.",
+  "difficultyMaster": "Шебер",
+  "difficultyMasterShort": "Шеб.",
+  "ach_title_supermind": "Суперой",
+  "ach_desc_supermind": "Кез келген қиындықта қателіксіз, көмексіз 2 минут 30 секундтан аз уақытта жеңіңіз",
+  "rateDialogTitle": "Ойын ұнай ма? 💛",
+  "rateDialogSubtitle": "Бағаңыз Sudoku-дың одан әрі жақсаруына көмектеседі!",
+  "rateDialogDismiss": "Шығу",
+  "rateDialogConfirm": "Иә, керемет!"
+}

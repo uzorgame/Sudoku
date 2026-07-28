@@ -1,0 +1,418 @@
+{
+  "@@locale": "tr",
+  "@championshipScore": {
+    "placeholders": {
+      "score": {
+        "type": "int"
+      }
+    }
+  },
+  "@toNextPlace": {
+    "placeholders": {
+      "points": {
+        "type": "int"
+      }
+    }
+  },
+  "@totalScore": {
+    "placeholders": {
+      "score": {
+        "type": "String"
+      }
+    }
+  },
+  "@leaderboardRow": {
+    "placeholders": {
+      "rank": {
+        "type": "int"
+      },
+      "name": {
+        "type": "String"
+      },
+      "points": {
+        "type": "String"
+      }
+    }
+  },
+  "@yourPosition": {
+    "placeholders": {
+      "rank": {
+        "type": "int"
+      },
+      "points": {
+        "type": "String"
+      }
+    }
+  },
+  "@battleWinRate": {
+    "description": "Battle mode win percentage label.",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@battleDefeatMessage": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "@levelHeading": {
+    "placeholders": {
+      "level": {
+        "type": "int"
+      },
+      "difficulty": {
+        "type": "String"
+      }
+    }
+  },
+  "@rankLabel": {
+    "placeholders": {
+      "rank": {
+        "type": "int"
+      }
+    }
+  },
+  "@rewardExtraHearts": {
+    "placeholders": {
+      "count": {
+        "type": "num"
+      }
+    }
+  },
+  "@rewardStars": {
+    "placeholders": {
+      "count": {
+        "type": "num"
+      }
+    }
+  },
+  "@undoAdCountdown": {
+    "placeholders": {
+      "seconds": {
+        "type": "int"
+      }
+    }
+  },
+  "@hintAdCountdown": {
+    "placeholders": {
+      "seconds": {
+        "type": "int"
+      }
+    }
+  },
+  "@lifeAdCountdown": {
+    "placeholders": {
+      "seconds": {
+        "type": "int"
+      }
+    }
+  },
+  "@combo_x": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@streak_n": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@speed_bonus": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "@comboX": {
+    "description": "Combo multiplier badge",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@streakN": {
+    "description": "Streak badge",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@speedBonus": {
+    "description": "Award for finishing faster than target",
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "@victoryMessage": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "@versionLabel": {
+    "placeholders": {
+      "version": {
+        "type": "String"
+      }
+    }
+  },
+  "@rankBadgeChasing": {
+    "placeholders": {
+      "current": {
+        "type": "int"
+      },
+      "delta": {
+        "type": "int"
+      },
+      "target": {
+        "type": "int"
+      }
+    }
+  },
+  "appTitle": "Sudoku",
+  "navHome": "Ana Sayfa",
+  "navDaily": "Mücadele",
+  "navAchievements": "Başarımlar",
+  "achievements_title": "Başarımlar",
+  "ach_section_title": "Hedefler ve Ödüller",
+  "ach_title_wins_50": "50 Galibiyet",
+  "ach_title_no_mistakes": "Çelik İrade",
+  "ach_title_streak_3days": "3 Günlük Seri",
+  "ach_title_fast_solver": "Şimşek Hızı",
+  "ach_title_wins_100": "100 Galibiyet",
+  "ach_desc_wins_50": "Klasik modda 50 kez kazan",
+  "ach_desc_no_mistakes": "İpucu ve hata yapmadan art arda 3 oyun tamamla",
+  "ach_desc_streak_3days": "Aralıksız 3 gün boyunca her gün oyna",
+  "ach_desc_fast_solver": "Bir sudokuyu 3 dakikadan kısa sürede çöz",
+  "ach_desc_wins_100": "Klasik modda 100 kez kazan",
+  "ach_status_finished": "Tamamlandı",
+  "ach_status_in_progress": "{current} oyun tamamlandı",
+  "@ach_status_in_progress": {
+    "placeholders": {
+      "current": {
+        "type": "int"
+      }
+    }
+  },
+  "ach_percent": "{percent}%",
+  "@ach_percent": {
+    "placeholders": {
+      "percent": {
+        "type": "int"
+      }
+    }
+  },
+  "ach_obtained_on": "Kazanıldı: {date}",
+  "@ach_obtained_on": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "ach_locked": "Kilitli",
+  "dailyStreak": "Günlük seri",
+  "selectDifficultyTitle": "Zorluk seç",
+  "selectDifficultyDailyChallenge": "Günlük meydan okuma",
+  "playAction": "Oyna",
+  "championshipTitle": "Şampiyonluk",
+  "championshipScore": "Skor {score}",
+  "toNextPlace": "Sonraki sıraya: {points} puan",
+  "youAreTop": "1. sıradasınız",
+  "championshipRoundDescriptionPlaceholder": "Şampiyonluk koşunuzu artırmak için bu turu oynayın.",
+  "championshipRoundCompletedLabel": "Tamamlandı",
+  "totalScore": "Toplam puan: {score}",
+  "meLabel": "Ben",
+  "leaderboardRow": "Sıra {rank}. {name}. {points} puan",
+  "yourPosition": "Benim yerim {rank}. {points} puan",
+  "pointsShort": "puan",
+  "championshipAutoScroll": "Konumuma otomatik kaydır",
+  "bestLabel": "En iyi",
+  "play": "Oyna",
+  "battleTitle": "Savaş",
+  "battleWinRate": "Kazanır {count}%",
+  "battleYouLabel": "Sen",
+  "battleVictoryTitle": "Sen kazandın!",
+  "battleDefeatTitle": "Rakip önce bitirdi",
+  "battleDefeatMessage": "{name} bulmacayı senden önce çözdü.",
+  "battleSimpleDefeatTitle": "Sen kayıp",
+  "battleExitToMainMenu": "Ana menü",
+  "playerFlagSettingTitle": "Oyuncu bayrağı",
+  "selectPlayerFlag": "Bayrağınızı seçin",
+  "confirmFlagSelectionTitle": "Bayrağınızı onaylayın",
+  "confirmFlagSelectionMessage": "Bu bayrağı seçmek istediğinizden emin misiniz? Bayrağınızı daha sonra oyun ayarlarından değiştirebilirsiniz.",
+  "confirmFlagSelectionConfirm": "Onayla",
+  "startAction": "Başlat",
+  "levelHeading": "Seviye {level} — {difficulty}",
+  "rankProgress": "Sıra ilerlemesi",
+  "rankLabel": "Sıra {rank}",
+  "newGame": "Yeni oyun",
+  "continueGame": "Oyuna devam et",
+  "weeklyProgress": "Haftalık ilerleme",
+  "rewardsTitle": "Ödüller",
+  "rewardNoMistakesTitle": "Mücadeleyi hatasız tamamla",
+  "rewardExtraHearts": "+{count, plural, one {# kalp} other {# kalpler}}",
+  "rewardThreeInRowTitle": "Üç mücadeleyi arka arkaya tamamla",
+  "rewardUniqueTrophy": "Benzersiz kupa",
+  "rewardSevenDayTitle": "7 günlük süreyi sürdür seri",
+  "rewardStars": "+{count, plural, one {# yıldız} other {# yıldızlar}}",
+  "todayPuzzle": "Bugünün bulmacası",
+  "todayPuzzleDescription": "Ekstra bir ödül kazanmak ve serinizi canlı tutmak için sudoku'yu bitirin.",
+  "continueAction": "Devam",
+  "adMessage": "Reklam: Gizli nesneleri bulun! Şimdi oyna.",
+  "adPlay": "Oynat",
+  "undo": "Geri Al",
+  "erase": "Sil",
+  "autoNotes": "Otomatik notlar",
+  "statusOn": "AÇIK",
+  "statusOff": "KAPALI",
+  "notes": "Notlar",
+  "hint": "İpucu",
+  "undoAdTitle": "Geri almak için reklamı izleyin",
+  "undoAdDescription": "Son hamlenizi geri almak için bu kısa reklamı izleyin.",
+  "undoAdCountdown": "Reklam {seconds}s'de bitiyor",
+  "hintAdTitle": "İpucu almak için reklamı izleyin",
+  "hintAdDescription": "İpucu kazanmak için bu kısa reklamı izleyin.",
+  "hintAdCountdown": "Reklam {seconds}s'de bitiyor {seconds}s",
+  "lifeAdTitle": "Kalbi yenilemek için reklamı izleyin",
+  "lifeAdDescription": "Kırmızı kalbi yenilemek ve oynamaya devam etmek için bu kısa reklamı izleyin.",
+  "lifeAdCountdown": "Reklam {seconds}s",
+  "gameScreenTitle": "Sudoku",
+  "combo_x": "Combo ile bitiyor ×{count}",
+  "streak_n": "Çizgi {count}",
+  "speed_bonus": "Hız Bonusu {time}",
+  "comboX": "Kombo x{count}",
+  "streakN": "Çizgi {count}",
+  "speedBonus": "Hız Bonusu ({time})",
+  "noActiveGameMessage": "Aktif oyun yok. Ana ekrana dönün.",
+  "victoryTitle": "Tebrikler!",
+  "victoryMessage": "Bulmaca {time}'da çözüldü.",
+  "backToHome": "Ana Sayfa",
+  "playAnother": "Tekrar oyna",
+  "outOfLivesTitle": "Kalpleriniz bitti",
+  "outOfLivesDescription": "Oynamaya devam etmek için bir kırmızı kalbi geri yükleyin.",
+  "restoreLifeAction": "1 kırmızı kalbi geri yükleyin",
+  "cancelAction": "İptal",
+  "settingsTitle": "Ayarlar",
+  "themeSectionTitle": "Tema",
+  "themeWhite": "Klasik Açık",
+  "themeCream": "Krem",
+  "themeGreen": "Nane",
+  "themeBlack": "Koyu",
+  "themePurple": "Mor Koyu",
+  "themeFontSize": "Yazı tipi boyutu",
+  "fontSizeExtraSmall": "Ekstra küçük",
+  "fontSizeSmall": "Küçük",
+  "fontSizeMedium": "Orta",
+  "fontSizeLarge": "Büyük",
+  "fontSizeExtraLarge": "Ekstra büyük",
+  "languageSectionTitle": "Dil",
+  "audioSectionTitle": "Ses ve müzik",
+  "soundsEffectsLabel": "Ses efektleri",
+  "vibrationLabel": "Titreşim",
+  "comboBadgesLabel": "Kombo rozetler",
+  "comboHapticsLabel": "Rozet dokunuşları",
+  "miscSectionTitle": "Diğer",
+  "howToPlayTitle": "Nasıl oynanır",
+  "howToPlayRowRule": "Her satırda tekrarlanmayan 1'den 9'a kadar rakamlar bulunur",
+  "howToPlayColumnRule": "Her sütunda tekrarı olmayan 1'den 9'a kadar rakamlar",
+  "howToPlayBoxRule": "Her 3×3 kutuda tekrarı olmayan 1'den 9'a kadar rakamlar bulunur",
+  "howToPlayFooter": "Her hücreyi doldurun ve kazanırsınız!",
+  "howToPlayAction": "Anladım",
+  "championshipLocalSection": "Şampiyonluk (yerel)",
+  "hideCompletedNumbersLabel": "Tamamlandı gizle rakamlar",
+  "aboutApp": "Hakkında",
+  "versionLabel": "Sürüm {version}",
+  "aboutLegalese": "Nahreba UZOR A.Ş.",
+  "languageEnglish": "İngilizce",
+  "languageRussian": "Rusça",
+  "languageUkrainian": "Ukrayna",
+  "languageGerman": "Almanca",
+  "languageFrench": "Fransızca",
+  "languageChinese": "中文",
+  "languageHindi": "evet",
+  "languageGeorgian": "ქართული",
+  "languageSpanish": "İspanyolca",
+  "languageItalian": "İtalyan",
+  "languageJapanese": "日本語",
+  "languageKorean": "한국어",
+  "languageTurkish": "Türkçe",
+  "languagePolish": "Polski",
+  "languagePortuguese": "Portekizce",
+  "languageIndonesian": "Bahasa Endonezya",
+  "languageVietnamese": "Tiếng Việt",
+  "languageThai": "ไทย",
+  "languageDutch": "Hollanda",
+  "languageSwedish": "Svenska",
+  "languageRomanian": "Romanya",
+  "languageCzech": "Čeština",
+  "languageFinnish": "Suomi",
+  "languageKazakh": "bu kadar",
+  "languageBulgarian": "Bulgarlar",
+  "languageMalay": "Bahasa Melayu",
+  "languageNepali": "नेपाली",
+  "languagePunjabi": "ਪੰਜਾਬੀ",
+  "languageSwahili": "Kiswahili",
+  "languageTamil": "தமிழ்",
+  "languageSlovak": "Slovençina",
+  "export": "Dışa aktar",
+  "import": "İçe aktar",
+  "resetMyScore": "Sıfırla puanım",
+  "resetMyScoreConfirmation": "Skoru sıfırlamak istediğinizden emin misiniz? Bu işlem geri alınamaz.",
+  "resetAction": "Sıfırla",
+  "regenerateOpponents": "Rakipleri yeniden oluştur",
+  "confirm": "Onayla",
+  "cancel": "İptal",
+  "done": "Bitti",
+  "privacyPolicyTitle": "Gizlilik Politikası",
+  "privacyPolicyAccept": "Kabul ediyorum",
+  "privacyPolicyPrompt": "Gizlilik Politikasını kabul ediyor musunuz?",
+  "privacyPolicyLearnMore": "Daha fazla bilgi →",
+  "privacyPolicyDecline": "Reddediyorum",
+  "privacyPolicyClose": "Kapat",
+  "privacyPolicyLoadError": "Gizlilik politikası yüklenemedi. Lütfen tekrar deneyin.",
+  "failed": "Başarısız",
+  "rankBadgeChasing": "Sıra #{current} • +{delta} ile #{target}",
+  "statsTitle": "İstatistikler",
+  "statsGamesSection": "Oyunlar",
+  "statsGamesStarted": "Oyunlar başladı",
+  "statsGamesWon": "Oyunlar kazanıldı",
+  "statsWinRate": "Kazandı oran",
+  "statsFlawless": "Kusursuz bitirişler",
+  "statsTimeSection": "Zaman",
+  "statsBestTime": "En iyi zaman",
+  "statsAverageTime": "Ortalama süre",
+  "statsStreakSection": "Seri",
+  "statsCurrentStreak": "Mevcut galibiyet serisi",
+  "statsBestStreak": "En iyi galibiyet serisi",
+  "difficultyNovice": "Acemi",
+  "difficultyNoviceShort": "Kasım",
+  "difficultyMedium": "Orta Düzey",
+  "difficultyMediumShort": "Uluslararası",
+  "difficultyHigh": "İleri Düzey",
+  "difficultyHighShort": "Av.",
+  "difficultyExpert": "Uzman",
+  "difficultyExpertShort": "Uzm.",
+  "difficultyMaster": "Usta",
+  "difficultyMasterShort": "Bayan.",
+  "ach_title_supermind": "Süper Zihin",
+  "ach_desc_supermind": "Herhangi bir zorlukta hata ya da ipucu olmadan 2 dakika 30 saniyeden kısa sürede kazan",
+  "rateDialogTitle": "Oyunu beğendin mi? 💛",
+  "rateDialogSubtitle": "Puanın Sudoku'nun daha da iyi olmasına yardımcı olacak!",
+  "rateDialogDismiss": "Çıkış",
+  "rateDialogConfirm": "Evet, harika!"
+}

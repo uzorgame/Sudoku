@@ -1,0 +1,418 @@
+{
+  "@@locale": "nl",
+  "@championshipScore": {
+    "placeholders": {
+      "score": {
+        "type": "int"
+      }
+    }
+  },
+  "@toNextPlace": {
+    "placeholders": {
+      "points": {
+        "type": "int"
+      }
+    }
+  },
+  "@totalScore": {
+    "placeholders": {
+      "score": {
+        "type": "String"
+      }
+    }
+  },
+  "@leaderboardRow": {
+    "placeholders": {
+      "rank": {
+        "type": "int"
+      },
+      "name": {
+        "type": "String"
+      },
+      "points": {
+        "type": "String"
+      }
+    }
+  },
+  "@yourPosition": {
+    "placeholders": {
+      "rank": {
+        "type": "int"
+      },
+      "points": {
+        "type": "String"
+      }
+    }
+  },
+  "@battleWinRate": {
+    "description": "Battle mode win percentage label.",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@battleDefeatMessage": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "@levelHeading": {
+    "placeholders": {
+      "level": {
+        "type": "int"
+      },
+      "difficulty": {
+        "type": "String"
+      }
+    }
+  },
+  "@rankLabel": {
+    "placeholders": {
+      "rank": {
+        "type": "int"
+      }
+    }
+  },
+  "@rewardExtraHearts": {
+    "placeholders": {
+      "count": {
+        "type": "num"
+      }
+    }
+  },
+  "@rewardStars": {
+    "placeholders": {
+      "count": {
+        "type": "num"
+      }
+    }
+  },
+  "@undoAdCountdown": {
+    "placeholders": {
+      "seconds": {
+        "type": "int"
+      }
+    }
+  },
+  "@hintAdCountdown": {
+    "placeholders": {
+      "seconds": {
+        "type": "int"
+      }
+    }
+  },
+  "@lifeAdCountdown": {
+    "placeholders": {
+      "seconds": {
+        "type": "int"
+      }
+    }
+  },
+  "@combo_x": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@streak_n": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@speed_bonus": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "@comboX": {
+    "description": "Combo multiplier badge",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@streakN": {
+    "description": "Streak badge",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@speedBonus": {
+    "description": "Award for finishing faster than target",
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "@victoryMessage": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "@versionLabel": {
+    "placeholders": {
+      "version": {
+        "type": "String"
+      }
+    }
+  },
+  "@rankBadgeChasing": {
+    "placeholders": {
+      "current": {
+        "type": "int"
+      },
+      "delta": {
+        "type": "int"
+      },
+      "target": {
+        "type": "int"
+      }
+    }
+  },
+  "appTitle": "Sudoku",
+  "navHome": "Thuis",
+  "navDaily": "Uitdaging",
+  "navAchievements": "Prestaties",
+  "achievements_title": "Prestaties",
+  "ach_section_title": "Doelen en Beloningen",
+  "ach_title_wins_50": "50 Overwinningen",
+  "ach_title_no_mistakes": "IJzeren wil",
+  "ach_title_streak_3days": "3-daagse Reeks",
+  "ach_title_fast_solver": "Bliksemsnel",
+  "ach_title_wins_100": "100 Overwinningen",
+  "ach_desc_wins_50": "Win 50 keer in de klassieke modus",
+  "ach_desc_no_mistakes": "Voltooi 3 spellen op rij zonder hints of fouten",
+  "ach_desc_streak_3days": "Speel 3 dagen op rij dagelijks",
+  "ach_desc_fast_solver": "Los een sudoku op in minder dan 3 minuten",
+  "ach_desc_wins_100": "Win 100 keer in de klassieke modus",
+  "ach_status_finished": "Voltooid",
+  "ach_status_in_progress": "{current} spellen voltooid",
+  "@ach_status_in_progress": {
+    "placeholders": {
+      "current": {
+        "type": "int"
+      }
+    }
+  },
+  "ach_percent": "{percent}%",
+  "@ach_percent": {
+    "placeholders": {
+      "percent": {
+        "type": "int"
+      }
+    }
+  },
+  "ach_obtained_on": "Behaald: {date}",
+  "@ach_obtained_on": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "ach_locked": "Vergrendeld",
+  "dailyStreak": "Dagelijkse streak",
+  "selectDifficultyTitle": "Kies moeilijkheidsgraad",
+  "selectDifficultyDailyChallenge": "Dagelijkse uitdaging",
+  "playAction": "Toneelstuk",
+  "championshipTitle": "Kampioenschap",
+  "championshipScore": "Score: {score}",
+  "toNextPlace": "Naar volgende plaats: {points} punten",
+  "youAreTop": "Jij bent #1",
+  "championshipRoundDescriptionPlaceholder": "Speel deze ronde om je kampioenschapsrun een boost te geven.",
+  "championshipRoundCompletedLabel": "Voltooid",
+  "totalScore": "Totaalscore: {score}",
+  "meLabel": "Mij",
+  "leaderboardRow": "Plaats {rank}. {name}. {points} punten",
+  "yourPosition": "Mijn plaats {rank}. {points} punten",
+  "pointsShort": "punten",
+  "championshipAutoScroll": "Scroll automatisch naar mijn positie",
+  "bestLabel": "Beste",
+  "play": "Toneelstuk",
+  "battleTitle": "Strijd",
+  "battleWinRate": "Wint {count}%",
+  "battleYouLabel": "Jij",
+  "battleVictoryTitle": "Jij hebt gewonnen!",
+  "battleDefeatTitle": "Tegenstander eindigde als eerste",
+  "battleDefeatMessage": "{name} heeft de puzzel vóór jou opgelost.",
+  "battleSimpleDefeatTitle": "Jij hebt verloren",
+  "battleExitToMainMenu": "Hoofdmenu",
+  "playerFlagSettingTitle": "Speler vlag",
+  "selectPlayerFlag": "Kies uw vlag",
+  "confirmFlagSelectionTitle": "Bevestig uw vlag",
+  "confirmFlagSelectionMessage": "Weet u zeker dat u deze vlag wilt kiezen? Je kunt je vlag later in de spelinstellingen wijzigen.",
+  "confirmFlagSelectionConfirm": "Bevestigen",
+  "startAction": "Begin",
+  "levelHeading": "Niveau {level} — {difficulty}",
+  "rankProgress": "Rang vooruitgang",
+  "rankLabel": "Rang {rank}",
+  "newGame": "Nieuw spel",
+  "continueGame": "Ga verder met het spel",
+  "weeklyProgress": "Wekelijkse voortgang",
+  "rewardsTitle": "Beloningen",
+  "rewardNoMistakesTitle": "Voltooi de uitdaging zonder fouten",
+  "rewardExtraHearts": "+{count, plural, one {# hart} other {# harten}}",
+  "rewardThreeInRowTitle": "Voltooi drie uitdagingen op rij",
+  "rewardUniqueTrophy": "Unieke trofee",
+  "rewardSevenDayTitle": "Houd een streak van 7 dagen aan",
+  "rewardStars": "+{count, plural, one {# ster} other {# sterren}}",
+  "todayPuzzle": "De puzzel van vandaag",
+  "todayPuzzleDescription": "Voltooi de sudoku om een ​​extra beloning te verdienen en je streak levend te houden.",
+  "continueAction": "Doorgaan",
+  "adMessage": "Advertentie: Vind verborgen voorwerpen! Speel nu.",
+  "adPlay": "Toneelstuk",
+  "undo": "Ongedaan maken",
+  "erase": "Wissen",
+  "autoNotes": "Automatische notities",
+  "statusOn": "OP",
+  "statusOff": "UIT",
+  "notes": "Opmerkingen",
+  "hint": "Tip",
+  "undoAdTitle": "Bekijk de advertentie om deze ongedaan te maken",
+  "undoAdDescription": "Bekijk deze korte advertentie om uw laatste zet ongedaan te maken.",
+  "undoAdCountdown": "Advertentie eindigt over {seconds}s",
+  "hintAdTitle": "Bekijk de advertentie om een ​​hint te krijgen",
+  "hintAdDescription": "Bekijk deze korte advertentie om een ​​hint te verdienen.",
+  "hintAdCountdown": "Advertentie eindigt over {seconds}s",
+  "lifeAdTitle": "Bekijk de advertentie om een ​​hart te herstellen",
+  "lifeAdDescription": "Bekijk deze korte advertentie om een ​​rood hart te herstellen en blijf spelen.",
+  "lifeAdCountdown": "Advertentie eindigt over {seconds}s",
+  "gameScreenTitle": "Sudoku",
+  "combo_x": "Combinatie ×{count}",
+  "streak_n": "Reeks {count}",
+  "speed_bonus": "Snelheidsbonus {time}",
+  "comboX": "Combinatie x{count}",
+  "streakN": "Reeks {count}",
+  "speedBonus": "Snelheidsbonus ({time})",
+  "noActiveGameMessage": "Geen actief spel. Keer terug naar het startscherm.",
+  "victoryTitle": "Gefeliciteerd!",
+  "victoryMessage": "Puzzel opgelost in {time}.",
+  "backToHome": "Thuis",
+  "playAnother": "Speel opnieuw",
+  "outOfLivesTitle": "Je hebt geen hart meer",
+  "outOfLivesDescription": "Herstel één rood hart om te blijven spelen.",
+  "restoreLifeAction": "Herstel 1 rood hart",
+  "cancelAction": "Annuleren",
+  "settingsTitle": "Instellingen",
+  "themeSectionTitle": "Thema",
+  "themeWhite": "Klassiek licht",
+  "themeCream": "Room",
+  "themeGreen": "Munt",
+  "themeBlack": "Donker",
+  "themePurple": "Paars Donker",
+  "themeFontSize": "Lettergrootte",
+  "fontSizeExtraSmall": "Extra klein",
+  "fontSizeSmall": "Klein",
+  "fontSizeMedium": "Middel",
+  "fontSizeLarge": "Groot",
+  "fontSizeExtraLarge": "Extra groot",
+  "languageSectionTitle": "Taal",
+  "audioSectionTitle": "Geluid & muziek",
+  "soundsEffectsLabel": "Geluidseffecten",
+  "vibrationLabel": "Trillingen",
+  "comboBadgesLabel": "Combi-badges",
+  "comboHapticsLabel": "Badge-haptiek",
+  "miscSectionTitle": "Ander",
+  "howToPlayTitle": "Hoe te spelen",
+  "howToPlayRowRule": "Elke rij heeft de cijfers 1 tot en met 9 zonder herhalingen",
+  "howToPlayColumnRule": "Elke kolom heeft de cijfers 1 tot en met 9 zonder herhalingen",
+  "howToPlayBoxRule": "Elk vakje van 3×3 heeft de cijfers 1 tot en met 9 zonder herhalingen",
+  "howToPlayFooter": "Vul elke cel en je wint!",
+  "howToPlayAction": "Ik heb het",
+  "championshipLocalSection": "Kampioenschap (lokaal)",
+  "hideCompletedNumbersLabel": "Voltooide cijfers verbergen",
+  "aboutApp": "Over",
+  "versionLabel": "Versie {version}",
+  "aboutLegalese": "Nahreba UZOR Inc.",
+  "languageEnglish": "Engels",
+  "languageRussian": "Русский",
+  "languageUkrainian": "Українська",
+  "languageGerman": "Duits",
+  "languageFrench": "Frans",
+  "languageChinese": "中文",
+  "languageHindi": "Ja",
+  "languageGeorgian": "Ja",
+  "languageSpanish": "Spaans",
+  "languageItalian": "Italiaans",
+  "languageJapanese": "日本語",
+  "languageKorean": "한국어",
+  "languageTurkish": "Turkçe",
+  "languagePolish": "Polski",
+  "languagePortuguese": "Portugees",
+  "languageIndonesian": "Bahasa Indonesië",
+  "languageVietnamese": "Tiếng Việt",
+  "languageThai": "ไทย",
+  "languageDutch": "Nederlands",
+  "languageSwedish": "Zweeds",
+  "languageRomanian": "Română",
+  "languageCzech": "Čeština",
+  "languageFinnish": "Suomi",
+  "languageKazakh": "Het is zo",
+  "languageBulgarian": "Български",
+  "languageMalay": "Bahasa Melayu",
+  "languageNepali": "Ja",
+  "languagePunjabi": "Ja",
+  "languageSwahili": "Kiswahili",
+  "languageTamil": "Ja",
+  "languageSlovak": "Slovenië",
+  "export": "Exporteren",
+  "import": "Importeren",
+  "resetMyScore": "Reset mijn score",
+  "resetMyScoreConfirmation": "Weet je zeker dat je de score wilt resetten? Deze actie kan niet ongedaan worden gemaakt.",
+  "resetAction": "Opnieuw instellen",
+  "regenerateOpponents": "Genereer tegenstanders",
+  "confirm": "Bevestigen",
+  "cancel": "Annuleren",
+  "done": "Klaar",
+  "privacyPolicyTitle": "Privacybeleid",
+  "privacyPolicyAccept": "Ik accepteer",
+  "privacyPolicyPrompt": "Accepteert u het privacybeleid?",
+  "privacyPolicyLearnMore": "Meer informatie →",
+  "privacyPolicyDecline": "Ik weiger",
+  "privacyPolicyClose": "Dichtbij",
+  "privacyPolicyLoadError": "Kan het privacybeleid niet laden. Probeer het opnieuw.",
+  "failed": "Mislukt",
+  "rankBadgeChasing": "Rang #{current} • +{delta} tot #{target}",
+  "statsTitle": "Statistieken",
+  "statsGamesSection": "Spellen",
+  "statsGamesStarted": "Spelletjes begonnen",
+  "statsGamesWon": "Gewonnen wedstrijden",
+  "statsWinRate": "Winstpercentage",
+  "statsFlawless": "Onberispelijke afwerkingen",
+  "statsTimeSection": "Tijd",
+  "statsBestTime": "Beste tijd",
+  "statsAverageTime": "Gemiddelde tijd",
+  "statsStreakSection": "Streep",
+  "statsCurrentStreak": "Huidige reeks",
+  "statsBestStreak": "Beste reeks",
+  "difficultyNovice": "Beginner",
+  "difficultyNoviceShort": "Beg.",
+  "difficultyMedium": "Gemiddeld",
+  "difficultyMediumShort": "Gem.",
+  "difficultyHigh": "Moeilijk",
+  "difficultyHighShort": "Moe.",
+  "difficultyExpert": "Deskundige",
+  "difficultyExpertShort": "Uitv.",
+  "difficultyMaster": "Meester",
+  "difficultyMasterShort": "Mst.",
+  "ach_title_supermind": "Superbrein",
+  "ach_desc_supermind": "Win op elk niveau zonder fouten of hints in minder dan 2 minuten en 30 seconden",
+  "rateDialogTitle": "Vind je het spel leuk? 💛",
+  "rateDialogSubtitle": "Jouw beoordeling helpt Sudoku nog beter te worden!",
+  "rateDialogDismiss": "Afsluiten",
+  "rateDialogConfirm": "Ja, geweldig!"
+}

@@ -1,0 +1,417 @@
+{
+  "@@locale": "zh",
+  "appTitle": "数独",
+  "navHome": "首页",
+  "navDaily": "挑战",
+  "navAchievements": "成就",
+  "achievements_title": "成就",
+  "ach_section_title": "目标与奖励",
+  "ach_title_wins_50": "50 场胜利",
+  "ach_title_no_mistakes": "钢铁意志",
+  "ach_title_streak_3days": "连续 3 天",
+  "ach_title_fast_solver": "闪电通关",
+  "ach_title_wins_100": "100 场胜利",
+  "ach_desc_wins_50": "在经典模式下赢得 50 场比赛",
+  "ach_desc_no_mistakes": "连续完成3局且不使用提示、不出现失误",
+  "ach_desc_streak_3days": "连续 3 天每天游玩",
+  "ach_desc_fast_solver": "在 3 分钟内完成一局数独",
+  "ach_desc_wins_100": "在经典模式下赢得 100 场比赛",
+  "ach_status_finished": "已完成",
+  "ach_status_in_progress": "{current} 局已完成",
+  "@ach_status_in_progress": {
+    "placeholders": {
+      "current": {
+        "type": "int"
+      }
+    }
+  },
+  "ach_percent": "{percent}%",
+  "@ach_percent": {
+    "placeholders": {
+      "percent": {
+        "type": "int"
+      }
+    }
+  },
+  "ach_obtained_on": "获得时间：{date}",
+  "@ach_obtained_on": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "ach_locked": "未解锁",
+  "dailyStreak": "连续天数",
+  "selectDifficultyTitle": "选择难度",
+  "selectDifficultyDailyChallenge": "每日挑战",
+  "playAction": "游玩",
+  "championshipTitle": "锦标赛",
+  "championshipScore": "得分 {score}",
+  "@championshipScore": {
+    "placeholders": {
+      "score": {
+        "type": "int"
+      }
+    }
+  },
+  "toNextPlace": "距下一名还差 {points} 分",
+  "@toNextPlace": {
+    "placeholders": {
+      "points": {
+        "type": "int"
+      }
+    }
+  },
+  "youAreTop": "您是第 1 名",
+  "championshipRoundDescriptionPlaceholder": "进行这一轮，推动你的锦标赛征程。",
+  "championshipRoundCompletedLabel": "已完成",
+  "totalScore": "总得分：{score}",
+  "@totalScore": {
+    "placeholders": {
+      "score": {
+        "type": "String"
+      }
+    }
+  },
+  "meLabel": "我",
+  "leaderboardRow": "第 {rank} 名。{name}。{points} 分",
+  "@leaderboardRow": {
+    "placeholders": {
+      "rank": {
+        "type": "int"
+      },
+      "name": {
+        "type": "String"
+      },
+      "points": {
+        "type": "String"
+      }
+    }
+  },
+  "yourPosition": "我的名次 {rank}。{points} 分",
+  "@yourPosition": {
+    "placeholders": {
+      "rank": {
+        "type": "int"
+      },
+      "points": {
+        "type": "String"
+      }
+    }
+  },
+  "pointsShort": "分",
+  "championshipAutoScroll": "自动滚动到我的位置",
+  "bestLabel": "最佳成绩",
+  "play": "游玩",
+  "battleTitle": "对战",
+  "battleWinRate": "胜场 {count}%",
+  "@battleWinRate": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "battleYouLabel": "你",
+  "battleVictoryTitle": "你赢了！",
+  "battleDefeatTitle": "对手获胜",
+  "battleDefeatMessage": "{name} 比你更快完成了数独。",
+  "@battleDefeatMessage": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "battleSimpleDefeatTitle": "你输了",
+  "battleExitToMainMenu": "返回主菜单",
+  "playerFlagSettingTitle": "玩家旗帜",
+  "selectPlayerFlag": "选择你的旗帜",
+  "confirmFlagSelectionTitle": "确认你的旗帜",
+  "confirmFlagSelectionMessage": "你确定要选择这面旗帜吗？你可以稍后在游戏设置中更改你的旗帜。",
+  "confirmFlagSelectionConfirm": "确认",
+  "startAction": "开始",
+  "levelHeading": "等级 {level} — {difficulty}",
+  "@levelHeading": {
+    "placeholders": {
+      "level": {
+        "type": "int"
+      },
+      "difficulty": {
+        "type": "String"
+      }
+    }
+  },
+  "rankProgress": "段位进度",
+  "rankLabel": "段位 {rank}",
+  "@rankLabel": {
+    "placeholders": {
+      "rank": {
+        "type": "int"
+      }
+    }
+  },
+  "newGame": "新游戏",
+  "continueGame": "继续游戏",
+  "weeklyProgress": "每周进度",
+  "rewardsTitle": "奖励",
+  "rewardNoMistakesTitle": "无错误完成挑战",
+  "rewardExtraHearts": "+{count, plural, one {# 心} other {# 心}}",
+  "@rewardExtraHearts": {
+    "placeholders": {
+      "count": {
+        "type": "num"
+      }
+    }
+  },
+  "rewardThreeInRowTitle": "连续完成三次挑战",
+  "rewardUniqueTrophy": "专属奖杯",
+  "rewardSevenDayTitle": "保持 7 天连胜",
+  "rewardStars": "+{count, plural, one {# 星星} other {# 星星}}",
+  "@rewardStars": {
+    "placeholders": {
+      "count": {
+        "type": "num"
+      }
+    }
+  },
+  "todayPuzzle": "今日谜题",
+  "todayPuzzleDescription": "完成数独即可获得额外奖励并保持连胜。",
+  "continueAction": "继续",
+  "adMessage": "广告：寻找隐藏物品！立即游玩。",
+  "adPlay": "游玩",
+  "undo": "撤销",
+  "erase": "清除",
+  "autoNotes": "自动笔记",
+  "statusOn": "开启",
+  "statusOff": "关闭",
+  "notes": "笔记",
+  "hint": "提示",
+  "undoAdTitle": "观看广告以撤销",
+  "undoAdDescription": "观看短广告即可撤销上一步。",
+  "undoAdCountdown": "广告将在 {seconds} 秒后结束",
+  "@undoAdCountdown": {
+    "placeholders": {
+      "seconds": {
+        "type": "int"
+      }
+    }
+  },
+  "hintAdTitle": "观看广告以获得提示",
+  "hintAdDescription": "观看短广告即可获得提示。",
+  "hintAdCountdown": "广告将在 {seconds} 秒后结束",
+  "@hintAdCountdown": {
+    "placeholders": {
+      "seconds": {
+        "type": "int"
+      }
+    }
+  },
+  "lifeAdTitle": "观看广告以恢复爱心",
+  "lifeAdDescription": "观看这段短广告以恢复一个红心并继续游戏。",
+  "lifeAdCountdown": "广告将在 {seconds} 秒后结束",
+  "@lifeAdCountdown": {
+    "placeholders": {
+      "seconds": {
+        "type": "int"
+      }
+    }
+  },
+  "gameScreenTitle": "数独",
+  "combo_x": "连击 ×{count}",
+  "@combo_x": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "streak_n": "连胜 {count}",
+  "@streak_n": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "speed_bonus": "极速奖励 {time}",
+  "@speed_bonus": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "comboX": "连击 x{count}",
+  "@comboX": {
+    "description": "连击倍率徽章",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "streakN": "连胜 {count}",
+  "@streakN": {
+    "description": "连胜徽章",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "speedBonus": "极速奖励 ({time})",
+  "@speedBonus": {
+    "description": "比目标更快完成的奖励",
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "noActiveGameMessage": "没有进行中的游戏。返回主界面。",
+  "victoryTitle": "恭喜！",
+  "victoryMessage": "在 {time} 内完成谜题。",
+  "@victoryMessage": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "backToHome": "首页",
+  "playAnother": "再来一局",
+  "outOfLivesTitle": "心已用完",
+  "outOfLivesDescription": "恢复一个红心以继续游戏。",
+  "restoreLifeAction": "恢复 1 个红心",
+  "cancelAction": "取消",
+  "settingsTitle": "设置",
+  "themeSectionTitle": "主题",
+  "themeWhite": "经典浅色",
+  "themeCream": "奶油色",
+  "themeGreen": "薄荷色",
+  "themeBlack": "深色",
+  "themePurple": "暗紫色",
+  "themeFontSize": "字体大小",
+  "fontSizeExtraSmall": "特小",
+  "fontSizeSmall": "小",
+  "fontSizeMedium": "中",
+  "fontSizeLarge": "大",
+  "fontSizeExtraLarge": "特大",
+  "languageSectionTitle": "语言",
+  "audioSectionTitle": "声音与音乐",
+  "soundsEffectsLabel": "音效",
+  "vibrationLabel": "震动",
+  "comboBadgesLabel": "连击徽章",
+  "comboHapticsLabel": "徽章触感反馈",
+  "miscSectionTitle": "其他",
+  "howToPlayTitle": "怎么玩",
+  "howToPlayRowRule": "每一行都要填上1到9且不重复",
+  "howToPlayColumnRule": "每一列都要填上1到9且不重复",
+  "howToPlayBoxRule": "每个3×3宫都要填上1到9且不重复",
+  "howToPlayFooter": "填满所有格子就赢了！",
+  "howToPlayAction": "知道了",
+  "championshipLocalSection": "锦标赛（本地）",
+  "hideCompletedNumbersLabel": "隐藏已用数字",
+  "aboutApp": "关于",
+  "versionLabel": "版本 {version}",
+  "@versionLabel": {
+    "placeholders": {
+      "version": {
+        "type": "String"
+      }
+    }
+  },
+  "aboutLegalese": "纳雷巴·乌佐尔公司",
+  "languageEnglish": "英语",
+  "languageRussian": "俄罗斯",
+  "languageUkrainian": "Українська",
+  "languageGerman": "德语",
+  "languageFrench": "法国人",
+  "languageChinese": "中文",
+  "languageHindi": "हिन्दी",
+  "languageGeorgian": "ქართული",
+  "languageSpanish": "西班牙语",
+  "languageItalian": "意大利人",
+  "languageJapanese": "日本语",
+  "languageKorean": "한국어",
+  "languageTurkish": "图尔克切",
+  "languagePolish": "波尔斯基",
+  "languagePortuguese": "葡萄牙语",
+  "languageIndonesian": "印度尼西亚语",
+  "languageVietnamese": "越南",
+  "languageThai": "ไทย",
+  "languageDutch": "荷兰",
+  "languageSwedish": "斯文斯卡",
+  "languageRomanian": "罗马语",
+  "languageCzech": "切什蒂纳",
+  "languageFinnish": "芬兰",
+  "languageKazakh": "哈萨哈提利",
+  "languageBulgarian": "Български",
+  "languageMalay": "马来语",
+  "languageNepali": "नेपाली",
+  "languagePunjabi": "ਪੰਜਾਬੀ",
+  "languageSwahili": "斯瓦希里语",
+  "languageTamil": "தமிழ்",
+  "languageSlovak": "斯洛文尼亚",
+  "export": "导出",
+  "import": "导入",
+  "resetMyScore": "重置我的得分",
+  "resetMyScoreConfirmation": "确定要重置得分吗？此操作无法撤销。",
+  "resetAction": "重置",
+  "regenerateOpponents": "重新生成对手",
+  "confirm": "确认",
+  "cancel": "取消",
+  "done": "完成",
+  "privacyPolicyTitle": "隐私政策",
+  "privacyPolicyAccept": "我同意",
+  "privacyPolicyPrompt": "您是否接受隐私政策？",
+  "privacyPolicyLearnMore": "了解详情 →",
+  "privacyPolicyDecline": "我不同意",
+  "privacyPolicyClose": "关闭",
+  "privacyPolicyLoadError": "无法加载隐私政策。请重试。",
+  "failed": "失败",
+  "rankBadgeChasing": "第 {current} 名 • 还差 {delta} 分到第 {target} 名",
+  "@rankBadgeChasing": {
+    "placeholders": {
+      "current": {
+        "type": "int"
+      },
+      "delta": {
+        "type": "int"
+      },
+      "target": {
+        "type": "int"
+      }
+    }
+  },
+  "statsTitle": "统计",
+  "statsGamesSection": "对局",
+  "statsGamesStarted": "开始的对局",
+  "statsGamesWon": "获胜的对局",
+  "statsWinRate": "胜率",
+  "statsFlawless": "完美通关",
+  "statsTimeSection": "时间",
+  "statsBestTime": "最佳时间",
+  "statsAverageTime": "平均时间",
+  "statsStreakSection": "连胜",
+  "statsCurrentStreak": "当前连胜",
+  "statsBestStreak": "最高连胜",
+  "difficultyNovice": "新手",
+  "difficultyNoviceShort": "新手",
+  "difficultyMedium": "中等",
+  "difficultyMediumShort": "中等",
+  "difficultyHigh": "困难",
+  "difficultyHighShort": "困难",
+  "difficultyExpert": "专家",
+  "difficultyExpertShort": "专家",
+  "difficultyMaster": "大师",
+  "difficultyMasterShort": "大师",
+  "ach_title_supermind": "超级头脑",
+  "ach_desc_supermind": "在任意难度下不犯错、不用提示，于2分30秒内获胜",
+  "rateDialogTitle": "喜欢这个游戏吗？💛",
+  "rateDialogSubtitle": "您的评分将帮助 Sudoku 变得更好！",
+  "rateDialogDismiss": "退出",
+  "rateDialogConfirm": "是的，太棒了！"
+}

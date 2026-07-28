@@ -1,0 +1,418 @@
+{
+  "@@locale": "th",
+  "@championshipScore": {
+    "placeholders": {
+      "score": {
+        "type": "int"
+      }
+    }
+  },
+  "@toNextPlace": {
+    "placeholders": {
+      "points": {
+        "type": "int"
+      }
+    }
+  },
+  "@totalScore": {
+    "placeholders": {
+      "score": {
+        "type": "String"
+      }
+    }
+  },
+  "@leaderboardRow": {
+    "placeholders": {
+      "rank": {
+        "type": "int"
+      },
+      "name": {
+        "type": "String"
+      },
+      "points": {
+        "type": "String"
+      }
+    }
+  },
+  "@yourPosition": {
+    "placeholders": {
+      "rank": {
+        "type": "int"
+      },
+      "points": {
+        "type": "String"
+      }
+    }
+  },
+  "@battleWinRate": {
+    "description": "Battle mode win percentage label.",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@battleDefeatMessage": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "@levelHeading": {
+    "placeholders": {
+      "level": {
+        "type": "int"
+      },
+      "difficulty": {
+        "type": "String"
+      }
+    }
+  },
+  "@rankLabel": {
+    "placeholders": {
+      "rank": {
+        "type": "int"
+      }
+    }
+  },
+  "@rewardExtraHearts": {
+    "placeholders": {
+      "count": {
+        "type": "num"
+      }
+    }
+  },
+  "@rewardStars": {
+    "placeholders": {
+      "count": {
+        "type": "num"
+      }
+    }
+  },
+  "@undoAdCountdown": {
+    "placeholders": {
+      "seconds": {
+        "type": "int"
+      }
+    }
+  },
+  "@hintAdCountdown": {
+    "placeholders": {
+      "seconds": {
+        "type": "int"
+      }
+    }
+  },
+  "@lifeAdCountdown": {
+    "placeholders": {
+      "seconds": {
+        "type": "int"
+      }
+    }
+  },
+  "@combo_x": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@streak_n": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@speed_bonus": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "@comboX": {
+    "description": "Combo multiplier badge",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@streakN": {
+    "description": "Streak badge",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@speedBonus": {
+    "description": "Award for finishing faster than target",
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "@victoryMessage": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "@versionLabel": {
+    "placeholders": {
+      "version": {
+        "type": "String"
+      }
+    }
+  },
+  "@rankBadgeChasing": {
+    "placeholders": {
+      "current": {
+        "type": "int"
+      },
+      "delta": {
+        "type": "int"
+      },
+      "target": {
+        "type": "int"
+      }
+    }
+  },
+  "appTitle": "ซูโดกุ",
+  "navHome": "บ้าน",
+  "navDaily": "ท้าทาย",
+  "navAchievements": "ความสำเร็จ",
+  "achievements_title": "ความสำเร็จ",
+  "ach_section_title": "เป้าหมายและรางวัล",
+  "ach_title_wins_50": "ชนะ 50 ครั้ง",
+  "ach_title_no_mistakes": "ใจเหล็ก",
+  "ach_title_streak_3days": "ต่อเนื่อง 3 วัน",
+  "ach_title_fast_solver": "เร็วสายฟ้า",
+  "ach_title_wins_100": "ชนะ 100 ครั้ง",
+  "ach_desc_wins_50": "ชนะ 50 ครั้งในโหมดคลาสสิก",
+  "ach_desc_no_mistakes": "จบเกมให้ครบ 3 เกมติดโดยไม่มีคำใบ้และไม่พลาด",
+  "ach_desc_streak_3days": "เล่นทุกวันต่อเนื่อง 3 วัน",
+  "ach_desc_fast_solver": "แก้ซูโดกุให้เสร็จภายใน 3 นาที",
+  "ach_desc_wins_100": "ชนะ 100 ครั้งในโหมดคลาสสิก",
+  "ach_status_finished": "เสร็จสิ้น",
+  "ach_status_in_progress": "จบแล้ว {current} เกม",
+  "@ach_status_in_progress": {
+    "placeholders": {
+      "current": {
+        "type": "int"
+      }
+    }
+  },
+  "ach_percent": "{percent}%",
+  "@ach_percent": {
+    "placeholders": {
+      "percent": {
+        "type": "int"
+      }
+    }
+  },
+  "ach_obtained_on": "ได้รับเมื่อ: {date}",
+  "@ach_obtained_on": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "ach_locked": "ล็อก",
+  "dailyStreak": "สตรีครายวัน",
+  "selectDifficultyTitle": "เลือกความยากลำบาก",
+  "selectDifficultyDailyChallenge": "ความท้าทายรายวัน",
+  "playAction": "เล่น",
+  "championshipTitle": "แชมป์",
+  "championshipScore": "คะแนน {score}",
+  "toNextPlace": "ไปยังสถานที่ถัดไป: {points} แต้ม",
+  "youAreTop": "คุณคือ #1",
+  "championshipRoundDescriptionPlaceholder": "เล่นรอบนี้เพื่อเพิ่มแชมป์ของคุณ",
+  "championshipRoundCompletedLabel": "สมบูรณ์",
+  "totalScore": "คะแนนรวม: {score}",
+  "meLabel": "ฉัน",
+  "leaderboardRow": "สถานที่ {rank} {name}. {points} คะแนน",
+  "yourPosition": "สถานที่ของฉัน {rank} {points} คะแนน",
+  "pointsShort": "คะแนน",
+  "championshipAutoScroll": "เลื่อนอัตโนมัติไปยังตำแหน่งของฉัน",
+  "bestLabel": "ดีที่สุด",
+  "play": "เล่น",
+  "battleTitle": "การต่อสู้",
+  "battleWinRate": "ชนะ {count}%",
+  "battleYouLabel": "คุณ",
+  "battleVictoryTitle": "คุณชนะ!",
+  "battleDefeatTitle": "ฝ่ายตรงข้ามจบก่อน",
+  "battleDefeatMessage": "{name} ไขปริศนาก่อนคุณ",
+  "battleSimpleDefeatTitle": "คุณแพ้",
+  "battleExitToMainMenu": "เมนูหลัก",
+  "playerFlagSettingTitle": "ธงผู้เล่น",
+  "selectPlayerFlag": "เลือกธงของคุณ",
+  "confirmFlagSelectionTitle": "ยืนยันธงของคุณ",
+  "confirmFlagSelectionMessage": "คุณแน่ใจหรือไม่ว่าต้องการเลือกธงนี้ คุณสามารถเปลี่ยนธงของคุณได้ในภายหลังในการตั้งค่าเกม",
+  "confirmFlagSelectionConfirm": "ยืนยัน",
+  "startAction": "เริ่ม",
+  "levelHeading": "ระดับ {level} — {difficulty}",
+  "rankProgress": "ความก้าวหน้าของอันดับ",
+  "rankLabel": "อันดับ {rank}",
+  "newGame": "เกมใหม่",
+  "continueGame": "เล่นเกมต่อ",
+  "weeklyProgress": "ความคืบหน้ารายสัปดาห์",
+  "rewardsTitle": "รางวัล",
+  "rewardNoMistakesTitle": "จบการท้าทายโดยไม่มีข้อผิดพลาด",
+  "rewardExtraHearts": "+{count, plural, one {# หัวใจ} other {# หัวใจ}}",
+  "rewardThreeInRowTitle": "พิชิตความท้าทายสามรายการติดต่อกัน",
+  "rewardUniqueTrophy": "ถ้วยรางวัลที่ไม่ซ้ำใคร",
+  "rewardSevenDayTitle": "รักษาแนว 7 วัน",
+  "rewardStars": "+{count, plural, one {# ดาว} other {# ดาว}}",
+  "todayPuzzle": "ปริศนาวันนี้",
+  "todayPuzzleDescription": "จบซูโดกุเพื่อรับรางวัลพิเศษและรักษาสถิติของคุณเอาไว้",
+  "continueAction": "ดำเนินการต่อ",
+  "adMessage": "โฆษณา: ค้นหาวัตถุที่ซ่อนอยู่! เล่นเลย",
+  "adPlay": "เล่น",
+  "undo": "เลิกทำ",
+  "erase": "ลบ",
+  "autoNotes": "บันทึกอัตโนมัติ",
+  "statusOn": "บน",
+  "statusOff": "ปิด",
+  "notes": "หมายเหตุ",
+  "hint": "คำใบ้",
+  "undoAdTitle": "ดูโฆษณาเพื่อเลิกทำ",
+  "undoAdDescription": "ดูโฆษณาสั้นๆ นี้เพื่อเลิกทำการเคลื่อนไหวครั้งล่าสุดของคุณ",
+  "undoAdCountdown": "โฆษณาสิ้นสุดใน {seconds}s",
+  "hintAdTitle": "ดูโฆษณาเพื่อรับคำแนะนำ",
+  "hintAdDescription": "ดูโฆษณาสั้นๆ นี้เพื่อรับคำแนะนำ",
+  "hintAdCountdown": "โฆษณาสิ้นสุดใน {seconds}s",
+  "lifeAdTitle": "ดูโฆษณาเพื่อฟื้นคืนหัวใจ",
+  "lifeAdDescription": "ดูโฆษณาสั้นๆ นี้เพื่อฟื้นคืนหัวใจสีแดงและเล่นต่อ",
+  "lifeAdCountdown": "โฆษณาสิ้นสุดใน {seconds}s",
+  "gameScreenTitle": "ซูโดกุ",
+  "combo_x": "คอมโบ ×{count}",
+  "streak_n": "สตรีค {count}",
+  "speed_bonus": "โบนัสความเร็ว {time}",
+  "comboX": "คอมโบ x{count}",
+  "streakN": "สตรีค {count}",
+  "speedBonus": "โบนัสความเร็ว ({time})",
+  "noActiveGameMessage": "ไม่มีเกมที่ใช้งานอยู่ กลับไปที่หน้าจอหลัก",
+  "victoryTitle": "ยินดีด้วย!",
+  "victoryMessage": "ไขปริศนาได้ใน {time}",
+  "backToHome": "บ้าน",
+  "playAnother": "เล่นอีกครั้ง",
+  "outOfLivesTitle": "คุณหมดใจแล้ว",
+  "outOfLivesDescription": "เรียกคืนหัวใจสีแดงหนึ่งดวงเพื่อเล่นต่อไป",
+  "restoreLifeAction": "ฟื้นฟูหัวใจสีแดง 1 อัน",
+  "cancelAction": "ยกเลิก",
+  "settingsTitle": "การตั้งค่า",
+  "themeSectionTitle": "ธีม",
+  "themeWhite": "แสงคลาสสิก",
+  "themeCream": "ครีม",
+  "themeGreen": "มิ้นต์",
+  "themeBlack": "มืด",
+  "themePurple": "สีม่วงเข้ม",
+  "themeFontSize": "ขนาดตัวอักษร",
+  "fontSizeExtraSmall": "เล็กพิเศษ",
+  "fontSizeSmall": "เล็ก",
+  "fontSizeMedium": "ปานกลาง",
+  "fontSizeLarge": "ใหญ่",
+  "fontSizeExtraLarge": "ใหญ่พิเศษ",
+  "languageSectionTitle": "ภาษา",
+  "audioSectionTitle": "เสียงและดนตรี",
+  "soundsEffectsLabel": "เอฟเฟกต์เสียง",
+  "vibrationLabel": "การสั่นสะเทือน",
+  "comboBadgesLabel": "ป้ายคำสั่งผสม",
+  "comboHapticsLabel": "ระบบสัมผัสของป้ายสถานะ",
+  "miscSectionTitle": "อื่น",
+  "howToPlayTitle": "วิธีการเล่น",
+  "howToPlayRowRule": "แต่ละแถวมีตัวเลข 1 ถึง 9 โดยไม่มีเลขซ้ำ",
+  "howToPlayColumnRule": "แต่ละคอลัมน์มีตัวเลข 1 ถึง 9 โดยไม่มีการซ้ำ",
+  "howToPlayBoxRule": "แต่ละกล่องขนาด 3×3 มีตัวเลข 1 ถึง 9 โดยไม่มีเลขซ้ำ",
+  "howToPlayFooter": "เติมทุกเซลล์แล้วคุณจะชนะ!",
+  "howToPlayAction": "เข้าใจแล้ว",
+  "championshipLocalSection": "แชมเปี้ยนชิพ (ท้องถิ่น)",
+  "hideCompletedNumbersLabel": "ซ่อนตัวเลขที่เสร็จสมบูรณ์",
+  "aboutApp": "เกี่ยวกับ",
+  "versionLabel": "เวอร์ชัน {version}",
+  "aboutLegalese": "Nahreba UZOR Inc.",
+  "languageEnglish": "ภาษาอังกฤษ",
+  "languageRussian": "รัสเซีย",
+  "languageUkrainian": "Украйнська",
+  "languageGerman": "เยอรมัน",
+  "languageFrench": "ฝรั่งเศส",
+  "languageChinese": "中文",
+  "languageHindi": "हिन्दी",
+  "languageGeorgian": "ქრთულวิดีโอ",
+  "languageSpanish": "สเปน",
+  "languageItalian": "อิตาเลียโน่",
+  "languageJapanese": "日本語",
+  "languageKorean": "เกาหลี",
+  "languageTurkish": "เติร์กเช่",
+  "languagePolish": "โพลสกี้",
+  "languagePortuguese": "ภาษาโปรตุเกส",
+  "languageIndonesian": "บาฮาซาอินโดนีเซีย",
+  "languageVietnamese": "เตียงเวียต",
+  "languageThai": "ไทย",
+  "languageDutch": "เนเธอร์แลนด์",
+  "languageSwedish": "สเวนสกา",
+  "languageRomanian": "โรมาเนีย",
+  "languageCzech": "เชสตินา",
+  "languageFinnish": "ซูโอมิ",
+  "languageKazakh": "Қазақ тілі",
+  "languageBulgarian": "Български",
+  "languageMalay": "บาฮาซามลายู",
+  "languageNepali": "เนปาล",
+  "languagePunjabi": "ਪੰਜਾਬੀ",
+  "languageSwahili": "คิสวาฮิลี",
+  "languageTamil": "தமிழͪ",
+  "languageSlovak": "สโลเวนชินา",
+  "export": "ส่งออก",
+  "import": "นำเข้า",
+  "resetMyScore": "รีเซ็ตคะแนนของฉัน",
+  "resetMyScoreConfirmation": "คุณแน่ใจหรือไม่ว่าต้องการรีเซ็ตคะแนน การดำเนินการนี้ไม่สามารถยกเลิกได้",
+  "resetAction": "รีเซ็ต",
+  "regenerateOpponents": "สร้างฝ่ายตรงข้ามขึ้นมาใหม่",
+  "confirm": "ยืนยัน",
+  "cancel": "ยกเลิก",
+  "done": "เสร็จแล้ว",
+  "privacyPolicyTitle": "นโยบายความเป็นส่วนตัว",
+  "privacyPolicyAccept": "ฉันยอมรับ",
+  "privacyPolicyPrompt": "คุณยอมรับนโยบายความเป็นส่วนตัวหรือไม่?",
+  "privacyPolicyLearnMore": "เรียนรู้เพิ่มเติม →",
+  "privacyPolicyDecline": "ฉันปฏิเสธ",
+  "privacyPolicyClose": "ปิด",
+  "privacyPolicyLoadError": "โหลดนโยบายความเป็นส่วนตัวไม่สำเร็จ โปรดลองอีกครั้ง",
+  "failed": "ล้มเหลว",
+  "rankBadgeChasing": "อันดับ #{current} • +{delta} ถึง #{target}",
+  "statsTitle": "สถิติ",
+  "statsGamesSection": "เกมส์",
+  "statsGamesStarted": "เกมส์เริ่มแล้ว",
+  "statsGamesWon": "เกมส์ชนะ",
+  "statsWinRate": "อัตราการชนะ",
+  "statsFlawless": "เสร็จสิ้นไร้ที่ติ",
+  "statsTimeSection": "เวลา",
+  "statsBestTime": "เวลาที่ดีที่สุด",
+  "statsAverageTime": "เวลาเฉลี่ย",
+  "statsStreakSection": "ริ้ว",
+  "statsCurrentStreak": "แนวปัจจุบัน",
+  "statsBestStreak": "แนวที่ดีที่สุด",
+  "difficultyNovice": "มือใหม่",
+  "difficultyNoviceShort": "ใหม่",
+  "difficultyMedium": "ปานกลาง",
+  "difficultyMediumShort": "กลาง",
+  "difficultyHigh": "ยาก",
+  "difficultyHighShort": "ยาก",
+  "difficultyExpert": "ผู้เชี่ยวชาญ",
+  "difficultyExpertShort": "เชี่ยว",
+  "difficultyMaster": "ปรมาจารย์",
+  "difficultyMasterShort": "ปรม.",
+  "ach_title_supermind": "สุดยอดมันสมอง",
+  "ach_desc_supermind": "ชนะทุกระดับความยากโดยไม่ใช้คำใบ้และไม่พลาดภายใน 2 นาที 30 วินาที",
+  "rateDialogTitle": "ชอบเกมนี้ไหม? 💛",
+  "rateDialogSubtitle": "การให้คะแนนของคุณจะช่วยให้ Sudoku ดีขึ้นกว่าเดิม!",
+  "rateDialogDismiss": "ออก",
+  "rateDialogConfirm": "ใช่ เยี่ยมมาก!"
+}

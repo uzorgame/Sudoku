@@ -1,0 +1,418 @@
+{
+  "@@locale": "sw",
+  "appTitle": "Sudoku",
+  "navHome": "Nyumbani",
+  "navDaily": "Changamoto",
+  "navAchievements": "Mafanikio",
+  "achievements_title": "Mafanikio",
+  "ach_section_title": "Malengo na Zawadi",
+  "ach_title_wins_50": "Ushindi 50",
+  "ach_title_no_mistakes": "Nia ya Chuma",
+  "ach_title_streak_3days": "Mfululizo wa Siku 3",
+  "ach_title_fast_solver": "Mwepesi kama Radi",
+  "ach_title_wins_100": "Ushindi 100",
+  "ach_desc_wins_50": "Shinda mara 50 katika hali ya Classic",
+  "ach_desc_no_mistakes": "Kamilisha michezo 3 mfululizo bila vidokezo wala makosa",
+  "ach_desc_streak_3days": "Cheza kila siku kwa siku 3 mfululizo",
+  "ach_desc_fast_solver": "Tatua sudoku ndani ya dakika 3",
+  "ach_desc_wins_100": "Shinda mara 100 katika hali ya Classic",
+  "ach_status_finished": "Imekamilika",
+  "ach_status_in_progress": "Michezo {current} imekamilika",
+  "@ach_status_in_progress": {
+    "placeholders": {
+      "current": {
+        "type": "int"
+      }
+    }
+  },
+  "ach_percent": "{percent}%",
+  "@ach_percent": {
+    "placeholders": {
+      "percent": {
+        "type": "int"
+      }
+    }
+  },
+  "ach_obtained_on": "Ilipatikana: {date}",
+  "@ach_obtained_on": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "ach_locked": "Imefungwa",
+  "dailyStreak": "Kila siku streak",
+  "selectDifficultyTitle": "Chagua ugumu",
+  "selectDifficultyDailyChallenge": "Changamoto ya kila siku",
+  "playAction": "Cheza",
+  "championshipTitle": "Mashindano",
+  "championshipScore": "Alama {score}",
+  "@championshipScore": {
+    "placeholders": {
+      "score": {
+        "type": "int"
+      }
+    }
+  },
+  "toNextPlace": "Kwa mahali palipo: {points} pts",
+  "@toNextPlace": {
+    "placeholders": {
+      "points": {
+        "type": "int"
+      }
+    }
+  },
+  "youAreTop": "Wewe ni #1",
+  "championshipRoundDescriptionPlaceholder": "Cheza raundi hii ili kuongeza ubingwa wako.",
+  "championshipRoundCompletedLabel": "Imekamilika",
+  "totalScore": "Jumla ya alama: {score}",
+  "@totalScore": {
+    "placeholders": {
+      "score": {
+        "type": "String"
+      }
+    }
+  },
+  "meLabel": "Mimi",
+  "leaderboardRow": "Weka {rank}. {name}. {points} alama",
+  "@leaderboardRow": {
+    "placeholders": {
+      "rank": {
+        "type": "int"
+      },
+      "name": {
+        "type": "String"
+      },
+      "points": {
+        "type": "String"
+      }
+    }
+  },
+  "yourPosition": "Mahali pangu {rank}. {points} alama",
+  "@yourPosition": {
+    "placeholders": {
+      "rank": {
+        "type": "int"
+      },
+      "points": {
+        "type": "String"
+      }
+    }
+  },
+  "pointsShort": "pts",
+  "championshipAutoScroll": "Otomatiki kwa msimamo wangu",
+  "bestLabel": "Bora",
+  "play": "Cheza",
+  "battleTitle": "Vita",
+  "battleWinRate": "Inashinda {count}%",
+  "@battleWinRate": {
+    "description": "Battle mode win percentage label.",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "battleYouLabel": "Wewe",
+  "battleVictoryTitle": "Umeshinda!",
+  "battleDefeatTitle": "Mpinzani alimaliza kwanza",
+  "battleDefeatMessage": "{name} kutatua puzzle mbele yako.",
+  "@battleDefeatMessage": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "battleSimpleDefeatTitle": "Umepotea",
+  "battleExitToMainMenu": "Menyu kuu",
+  "playerFlagSettingTitle": "Bendera ya mchezaji",
+  "selectPlayerFlag": "Chagua bendera yako",
+  "confirmFlagSelectionTitle": "Thibitisha bendera yako",
+  "confirmFlagSelectionMessage": "Je! Una uhakika unataka kuchagua bendera hii? Unaweza kubadilisha bendera yako baadaye katika mipangilio ya mchezo.",
+  "confirmFlagSelectionConfirm": "Thibitisha",
+  "startAction": "Anza",
+  "levelHeading": "Kiwango {level} - {difficulty}",
+  "@levelHeading": {
+    "placeholders": {
+      "level": {
+        "type": "int"
+      },
+      "difficulty": {
+        "type": "String"
+      }
+    }
+  },
+  "rankProgress": "Maendeleo ya kiwango",
+  "rankLabel": "Nafasi {rank}",
+  "@rankLabel": {
+    "placeholders": {
+      "rank": {
+        "type": "int"
+      }
+    }
+  },
+  "newGame": "Mchezo mpya",
+  "continueGame": "Endelea mchezo",
+  "weeklyProgress": "Maendeleo ya kila wiki",
+  "rewardsTitle": "Thawabu",
+  "rewardNoMistakesTitle": "Maliza changamoto bila makosa",
+  "rewardExtraHearts": "+{count, plural, one {# moyo} other {# mioyo}}",
+  "@rewardExtraHearts": {
+    "placeholders": {
+      "count": {
+        "type": "num"
+      }
+    }
+  },
+  "rewardThreeInRowTitle": "Kamilisha changamoto tatu mfululizo",
+  "rewardUniqueTrophy": "Nyara ya kipekee",
+  "rewardSevenDayTitle": "Dumisha safu ya siku 7",
+  "rewardStars": "+{count, plural, one {# nyota} other {# nyota}}",
+  "@rewardStars": {
+    "placeholders": {
+      "count": {
+        "type": "num"
+      }
+    }
+  },
+  "todayPuzzle": "Puzzle ya leo",
+  "todayPuzzleDescription": "Maliza Sudoku kupata thawabu ya ziada na kuweka safu yako hai.",
+  "continueAction": "Endelea",
+  "adMessage": "AD: Pata vitu vilivyofichwa! Cheza sasa.",
+  "adPlay": "Cheza",
+  "undo": "Ondoa",
+  "erase": "Futa",
+  "autoNotes": "Vidokezo vya kiotomatiki",
+  "statusOn": "On",
+  "statusOff": "Mbali",
+  "notes": "Vidokezo",
+  "hint": "Dokezo",
+  "undoAdTitle": "Tazama tangazo ili kuondoa",
+  "undoAdDescription": "Tazama tangazo hili fupi ili kuondoa hoja yako ya mwisho.",
+  "undoAdCountdown": "AD inaisha katika {seconds}s",
+  "@undoAdCountdown": {
+    "placeholders": {
+      "seconds": {
+        "type": "int"
+      }
+    }
+  },
+  "hintAdTitle": "Tazama tangazo kupata wazo",
+  "hintAdDescription": "Tazama tangazo hili fupi kupata maoni.",
+  "hintAdCountdown": "AD inaisha katika {seconds}s",
+  "@hintAdCountdown": {
+    "placeholders": {
+      "seconds": {
+        "type": "int"
+      }
+    }
+  },
+  "lifeAdTitle": "Tazama tangazo ili kurejesha moyo",
+  "lifeAdDescription": "Tazama tangazo hili fupi ili kurejesha moyo nyekundu na kuendelea kucheza.",
+  "lifeAdCountdown": "AD inaisha katika {seconds}s",
+  "@lifeAdCountdown": {
+    "placeholders": {
+      "seconds": {
+        "type": "int"
+      }
+    }
+  },
+  "gameScreenTitle": "Sudoku",
+  "combo_x": "Combo × {count}",
+  "@combo_x": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "streak_n": "Mfululizo {count}",
+  "@streak_n": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "speed_bonus": "Bonasi ya kasi {time}",
+  "@speed_bonus": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "comboX": "Kombo ×{count}",
+  "@comboX": {
+    "description": "Combo multiplier badge",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "streakN": "Mfululizo {count}",
+  "@streakN": {
+    "description": "Streak badge",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "speedBonus": "Bonasi ya kasi ({time})",
+  "@speedBonus": {
+    "description": "Award for finishing faster than target",
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "noActiveGameMessage": "Hakuna mchezo wa kufanya kazi. Rudi kwenye skrini ya nyumbani.",
+  "victoryTitle": "Hongera!",
+  "victoryMessage": "Puzzle iliyotatuliwa katika {time}.",
+  "@victoryMessage": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "backToHome": "Nyumbani",
+  "playAnother": "Cheza tena",
+  "outOfLivesTitle": "Uko nje ya mioyo",
+  "outOfLivesDescription": "Rejesha moyo mmoja nyekundu ili uendelee kucheza.",
+  "restoreLifeAction": "Rejesha moyo 1 nyekundu",
+  "cancelAction": "Ghairi",
+  "settingsTitle": "Mipangilio",
+  "themeSectionTitle": "Mada",
+  "themeWhite": "Mwanga wa kawaida",
+  "themeCream": "Krimu",
+  "themeGreen": "Minty",
+  "themeBlack": "Giza",
+  "themePurple": "Zambarau giza",
+  "themeFontSize": "Saizi ya fonti",
+  "fontSizeExtraSmall": "Kidogo kidogo",
+  "fontSizeSmall": "Ndogo",
+  "fontSizeMedium": "Kati",
+  "fontSizeLarge": "Kubwa",
+  "fontSizeExtraLarge": "Kubwa ya ziada",
+  "languageSectionTitle": "Lugha",
+  "audioSectionTitle": "Sauti na Muziki",
+  "soundsEffectsLabel": "Athari za sauti",
+  "vibrationLabel": "Mtikisiko",
+  "comboBadgesLabel": "Beji za combo",
+  "comboHapticsLabel": "Mtikisiko wa beji",
+  "miscSectionTitle": "Nyingine",
+  "howToPlayTitle": "Jinsi ya kucheza",
+  "howToPlayRowRule": "Kila safu ina nambari 1 hadi 9 bila kurudiwa",
+  "howToPlayColumnRule": "Kila safu ina nambari 1 hadi 9 bila kurudiwa",
+  "howToPlayBoxRule": "Kila sanduku 3 × 3 lina nambari 1 hadi 9 bila kurudiwa",
+  "howToPlayFooter": "Jaza kila seli na unashinda!",
+  "howToPlayAction": "Nimepata",
+  "championshipLocalSection": "Mashindano (ya ndani)",
+  "hideCompletedNumbersLabel": "Ficha nambari zilizokamilishwa",
+  "aboutApp": "Kuhusu",
+  "versionLabel": "Toleo {version}",
+  "@versionLabel": {
+    "placeholders": {
+      "version": {
+        "type": "String"
+      }
+    }
+  },
+  "aboutLegalese": "UZOR",
+  "languageEnglish": "Kiingereza",
+  "languageRussian": "Руский",
+  "languageUkrainian": "Українська",
+  "languageGerman": "Deutsch",
+  "languageFrench": "Français",
+  "languageChinese": "中文",
+  "languageHindi": "हिन",
+  "languageGeorgian": "ქართული",
+  "languageSpanish": "Español",
+  "languageItalian": "Italiano",
+  "languageJapanese": "日本語",
+  "languageKorean": "한국어",
+  "languageTurkish": "Türkçe",
+  "languagePolish": "Polski",
+  "languagePortuguese": "Português",
+  "languageIndonesian": "Bahasa Indonesia",
+  "languageVietnamese": "Tiếng việt",
+  "languageThai": "ไทย",
+  "languageDutch": "Nederlands",
+  "languageSwedish": "Svenska",
+  "languageRomanian": "Română",
+  "languageCzech": "Čeština",
+  "languageFinnish": "Suomi",
+  "languageKazakh": "Қазақ тілі",
+  "languageBulgarian": "Български",
+  "languageMalay": "Bahasa Melayu",
+  "languageNepali": "नेप",
+  "languagePunjabi": "ਪੰਜਾਬੀ",
+  "languageSwahili": "Kiswahili",
+  "languageTamil": "தமிழ்",
+  "languageSlovak": "Slovenčina",
+  "export": "Kuuza nje",
+  "import": "Kuagiza",
+  "resetMyScore": "Rudisha alama yangu",
+  "resetMyScoreConfirmation": "Je! Una uhakika unataka kuweka upya alama? Kitendo hiki hakiwezi kufutwa.",
+  "resetAction": "Rudisha",
+  "regenerateOpponents": "Wapinzani upya",
+  "confirm": "Thibitisha",
+  "cancel": "Ghairi",
+  "done": "Imekamilika",
+  "privacyPolicyTitle": "Sera ya faragha",
+  "privacyPolicyAccept": "Nakubali",
+  "privacyPolicyPrompt": "Je! Unakubali sera ya faragha?",
+  "privacyPolicyLearnMore": "Jifunze zaidi →",
+  "privacyPolicyDecline": "Ninapungua",
+  "privacyPolicyClose": "Karibu",
+  "privacyPolicyLoadError": "Imeshindwa kupakia sera ya faragha. Tafadhali jaribu tena.",
+  "failed": "Imeshindwa",
+  "rankBadgeChasing": "Nafasi #{current} • +{delta} hadi #{target}",
+  "@rankBadgeChasing": {
+    "placeholders": {
+      "current": {
+        "type": "int"
+      },
+      "delta": {
+        "type": "int"
+      },
+      "target": {
+        "type": "int"
+      }
+    }
+  },
+  "statsTitle": "Takwimu",
+  "statsGamesSection": "Michezo",
+  "statsGamesStarted": "Michezo ilianza",
+  "statsGamesWon": "Michezo ilishinda",
+  "statsWinRate": "Kiwango cha kushinda",
+  "statsFlawless": "Kumaliza bila makosa",
+  "statsTimeSection": "Wakati",
+  "statsBestTime": "Wakati mzuri",
+  "statsAverageTime": "Wakati wa wastani",
+  "statsStreakSection": "Mfululizo",
+  "statsCurrentStreak": "Streak ya sasa",
+  "statsBestStreak": "Streak bora",
+  "difficultyNovice": "Mwanzo",
+  "difficultyNoviceShort": "Novemba.",
+  "difficultyMedium": "Kati",
+  "difficultyMediumShort": "Kat.",
+  "difficultyHigh": "Juu",
+  "difficultyHighShort": "Ushauri.",
+  "difficultyExpert": "Mtaalam",
+  "difficultyExpertShort": "Mta.",
+  "difficultyMaster": "Mwalimu",
+  "difficultyMasterShort": "MST.",
+  "ach_title_supermind": "Akili Bora",
+  "ach_desc_supermind": "Shinda kwa ugumu wowote bila makosa au vidokezo ndani ya dakika 2 na sekunde 30",
+  "rateDialogTitle": "Je, unapenda mchezo? 💛",
+  "rateDialogSubtitle": "Ukadiriaji wako utasaidia Sudoku kuwa bora zaidi!",
+  "rateDialogDismiss": "Ondoka",
+  "rateDialogConfirm": "Ndiyo, ni nzuri sana!"
+}

@@ -1,0 +1,418 @@
+{
+  "@@locale": "sk",
+  "appTitle": "sudoku",
+  "navHome": "Domov",
+  "navDaily": "Výzva",
+  "navAchievements": "Úspechy",
+  "achievements_title": "Úspechy",
+  "ach_section_title": "Ciele a odmeny",
+  "ach_title_wins_50": "50 výhier",
+  "ach_title_no_mistakes": "Železná vôľa",
+  "ach_title_streak_3days": "Séria 3 dní",
+  "ach_title_fast_solver": "Bleskurýchly",
+  "ach_title_wins_100": "100 výhier",
+  "ach_desc_wins_50": "Vyhraj 50-krát v klasickom režime",
+  "ach_desc_no_mistakes": "Dokončite 3 hry po sebe bez rád a bez chýb",
+  "ach_desc_streak_3days": "Hraj každý deň 3 dni po sebe",
+  "ach_desc_fast_solver": "Vyrieš sudoku za menej než 3 minúty",
+  "ach_desc_wins_100": "Vyhraj 100-krát v klasickom režime",
+  "ach_status_finished": "Dokončené",
+  "ach_status_in_progress": "Dokončené hry: {current}",
+  "@ach_status_in_progress": {
+    "placeholders": {
+      "current": {
+        "type": "int"
+      }
+    }
+  },
+  "ach_percent": "{percent}%",
+  "@ach_percent": {
+    "placeholders": {
+      "percent": {
+        "type": "int"
+      }
+    }
+  },
+  "ach_obtained_on": "Získané: {date}",
+  "@ach_obtained_on": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "ach_locked": "Zamknuté",
+  "dailyStreak": "Denná séria",
+  "selectDifficultyTitle": "Vyberte si obtiažnosť",
+  "selectDifficultyDailyChallenge": "Denná výzva",
+  "playAction": "Hrať",
+  "championshipTitle": "majstrovstvá",
+  "championshipScore": "Skóre {score}",
+  "@championshipScore": {
+    "placeholders": {
+      "score": {
+        "type": "int"
+      }
+    }
+  },
+  "toNextPlace": "Na ďalšie miesto: {points} bodov",
+  "@toNextPlace": {
+    "placeholders": {
+      "points": {
+        "type": "int"
+      }
+    }
+  },
+  "youAreTop": "Si #1",
+  "championshipRoundDescriptionPlaceholder": "Zahrajte si toto kolo, aby ste zvýšili svoj majstrovský beh.",
+  "championshipRoundCompletedLabel": "Dokončené",
+  "totalScore": "Celkové skóre: {score}",
+  "@totalScore": {
+    "placeholders": {
+      "score": {
+        "type": "String"
+      }
+    }
+  },
+  "meLabel": "Ja",
+  "leaderboardRow": "Miesto {rank}. {name}. {points} bodov",
+  "@leaderboardRow": {
+    "placeholders": {
+      "rank": {
+        "type": "int"
+      },
+      "name": {
+        "type": "String"
+      },
+      "points": {
+        "type": "String"
+      }
+    }
+  },
+  "yourPosition": "Moje miesto {rank}. {points} bodov",
+  "@yourPosition": {
+    "placeholders": {
+      "rank": {
+        "type": "int"
+      },
+      "points": {
+        "type": "String"
+      }
+    }
+  },
+  "pointsShort": "bodov",
+  "championshipAutoScroll": "Automatické posúvanie na moju pozíciu",
+  "bestLabel": "Najlepšie",
+  "play": "Hrať",
+  "battleTitle": "Bitka",
+  "battleWinRate": "Vyhráva {count}%",
+  "@battleWinRate": {
+    "description": "Battle mode win percentage label.",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "battleYouLabel": "vy",
+  "battleVictoryTitle": "Vyhrali ste!",
+  "battleDefeatTitle": "Súper skončil prvý",
+  "battleDefeatMessage": "{name} vyriešil hádanku pred vami.",
+  "@battleDefeatMessage": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "battleSimpleDefeatTitle": "Prehrali ste",
+  "battleExitToMainMenu": "Hlavné menu",
+  "playerFlagSettingTitle": "Vlajka hráča",
+  "selectPlayerFlag": "Vyberte si vlajku",
+  "confirmFlagSelectionTitle": "Potvrďte svoju vlajku",
+  "confirmFlagSelectionMessage": "Naozaj chcete vybrať túto vlajku? Svoju vlajku môžete neskôr zmeniť v nastaveniach hry.",
+  "confirmFlagSelectionConfirm": "Potvrďte",
+  "startAction": "Štart",
+  "levelHeading": "Úroveň {level} – {difficulty}",
+  "@levelHeading": {
+    "placeholders": {
+      "level": {
+        "type": "int"
+      },
+      "difficulty": {
+        "type": "String"
+      }
+    }
+  },
+  "rankProgress": "Postup v poradí",
+  "rankLabel": "Hodnotenie {rank}",
+  "@rankLabel": {
+    "placeholders": {
+      "rank": {
+        "type": "int"
+      }
+    }
+  },
+  "newGame": "Nová hra",
+  "continueGame": "Pokračovať v hre",
+  "weeklyProgress": "Týždenný pokrok",
+  "rewardsTitle": "Odmeny",
+  "rewardNoMistakesTitle": "Dokončite výzvu bez chýb",
+  "rewardExtraHearts": "+{count, plural, one {# srdce} other {# srdiečka}}",
+  "@rewardExtraHearts": {
+    "placeholders": {
+      "count": {
+        "type": "num"
+      }
+    }
+  },
+  "rewardThreeInRowTitle": "Splňte tri výzvy za sebou",
+  "rewardUniqueTrophy": "Jedinečná trofej",
+  "rewardSevenDayTitle": "Udržujte 7-dňovú sériu",
+  "rewardStars": "+{count, plural, one {# hviezda} other {# hviezdy}}",
+  "@rewardStars": {
+    "placeholders": {
+      "count": {
+        "type": "num"
+      }
+    }
+  },
+  "todayPuzzle": "Dnešná hádanka",
+  "todayPuzzleDescription": "Dokončite sudoku a získajte extra odmenu a udržte si sériu nažive.",
+  "continueAction": "Pokračovať",
+  "adMessage": "Reklama: Nájdite skryté predmety! Hrajte teraz.",
+  "adPlay": "Hrať",
+  "undo": "Vrátiť späť",
+  "erase": "Vymazať",
+  "autoNotes": "Automatické poznámky",
+  "statusOn": "ZAP.",
+  "statusOff": "VYPNUTÉ",
+  "notes": "Poznámky",
+  "hint": "Nápoveda",
+  "undoAdTitle": "Pozrite si reklamu, ktorú chcete vrátiť späť",
+  "undoAdDescription": "Pozrite si túto krátku reklamu a zrušte svoj posledný krok.",
+  "undoAdCountdown": "Reklama sa skončí o {seconds}s",
+  "@undoAdCountdown": {
+    "placeholders": {
+      "seconds": {
+        "type": "int"
+      }
+    }
+  },
+  "hintAdTitle": "Pozrite si reklamu a získajte tip",
+  "hintAdDescription": "Pozrite si túto krátku reklamu a získajte tip.",
+  "hintAdCountdown": "Reklama sa skončí o {seconds}s",
+  "@hintAdCountdown": {
+    "placeholders": {
+      "seconds": {
+        "type": "int"
+      }
+    }
+  },
+  "lifeAdTitle": "Pozrite si reklamu na obnovenie srdca",
+  "lifeAdDescription": "Pozrite si túto krátku reklamu a obnovte červené srdce a hrajte ďalej.",
+  "lifeAdCountdown": "Reklama sa skončí o {seconds}s",
+  "@lifeAdCountdown": {
+    "placeholders": {
+      "seconds": {
+        "type": "int"
+      }
+    }
+  },
+  "gameScreenTitle": "sudoku",
+  "combo_x": "Kombinácia ×{count}",
+  "@combo_x": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "streak_n": "Pruh {count}",
+  "@streak_n": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "speed_bonus": "Bonus za rýchlosť {time}",
+  "@speed_bonus": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "comboX": "Kombinácia x{count}",
+  "@comboX": {
+    "description": "Combo multiplier badge",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "streakN": "Pruh {count}",
+  "@streakN": {
+    "description": "Streak badge",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "speedBonus": "Bonus za rýchlosť ({time})",
+  "@speedBonus": {
+    "description": "Award for finishing faster than target",
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "noActiveGameMessage": "Žiadna aktívna hra. Vráťte sa na domovskú obrazovku.",
+  "victoryTitle": "Gratulujem!",
+  "victoryMessage": "Hádanka vyriešená za {time}.",
+  "@victoryMessage": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "backToHome": "Domov",
+  "playAnother": "Hrajte znova",
+  "outOfLivesTitle": "Si bez srdca",
+  "outOfLivesDescription": "Obnovte jedno červené srdce, aby ste mohli hrať ďalej.",
+  "restoreLifeAction": "Obnovte 1 červené srdce",
+  "cancelAction": "Zrušiť",
+  "settingsTitle": "Nastavenia",
+  "themeSectionTitle": "Téma",
+  "themeWhite": "Klasické svetlo",
+  "themeCream": "Krém",
+  "themeGreen": "Mincovňa",
+  "themeBlack": "Tmavý",
+  "themePurple": "Fialová Tmavá",
+  "themeFontSize": "Veľkosť písma",
+  "fontSizeExtraSmall": "Extra malý",
+  "fontSizeSmall": "Malý",
+  "fontSizeMedium": "Stredná",
+  "fontSizeLarge": "Veľký",
+  "fontSizeExtraLarge": "Extra veľké",
+  "languageSectionTitle": "Jazyk",
+  "audioSectionTitle": "Zvuk a hudba",
+  "soundsEffectsLabel": "Zvukové efekty",
+  "vibrationLabel": "Vibrácie",
+  "comboBadgesLabel": "Kombinované odznaky",
+  "comboHapticsLabel": "Haptika odznaku",
+  "miscSectionTitle": "Iné",
+  "howToPlayTitle": "Ako hrať",
+  "howToPlayRowRule": "Každý riadok má číslice 1 až 9 bez opakovania",
+  "howToPlayColumnRule": "Každý stĺpec obsahuje číslice 1 až 9 bez opakovania",
+  "howToPlayBoxRule": "Každé políčko 3×3 má číslice 1 až 9 bez opakovania",
+  "howToPlayFooter": "Vyplňte každú bunku a vyhráte!",
+  "howToPlayAction": "Dobre",
+  "championshipLocalSection": "majstrovstvá (miestne)",
+  "hideCompletedNumbersLabel": "Skryť dokončené číslice",
+  "aboutApp": "O",
+  "versionLabel": "Verzia {version}",
+  "@versionLabel": {
+    "placeholders": {
+      "version": {
+        "type": "String"
+      }
+    }
+  },
+  "aboutLegalese": "Nahreba UZOR Inc.",
+  "languageEnglish": "angličtina",
+  "languageRussian": "Русский",
+  "languageUkrainian": "Українська",
+  "languageGerman": "Deutsch",
+  "languageFrench": "Français",
+  "languageChinese": "中文",
+  "languageHindi": "हिन्दी",
+  "languageGeorgian": "ქართული",
+  "languageSpanish": "Španielčina",
+  "languageItalian": "Italiano",
+  "languageJapanese": "日本語",
+  "languageKorean": "한국어",
+  "languageTurkish": "Türkçe",
+  "languagePolish": "Polski",
+  "languagePortuguese": "Português",
+  "languageIndonesian": "Bahasa Indonézia",
+  "languageVietnamese": "Tiếng Việt",
+  "languageThai": "ไทย",
+  "languageDutch": "Nederlands",
+  "languageSwedish": "Svenska",
+  "languageRomanian": "Română",
+  "languageCzech": "čeština",
+  "languageFinnish": "Suomi",
+  "languageKazakh": "Қазақ тілі",
+  "languageBulgarian": "Български",
+  "languageMalay": "Bahasa Melayu",
+  "languageNepali": "नेपाली",
+  "languagePunjabi": "ਪੰਜਾਬੀ",
+  "languageSwahili": "kiswahilčina",
+  "languageTamil": "தமிழ்",
+  "languageSlovak": "slovenčina",
+  "export": "Exportovať",
+  "import": "Importovať",
+  "resetMyScore": "Obnoviť moje skóre",
+  "resetMyScoreConfirmation": "Naozaj chcete obnoviť skóre? Túto akciu nie je možné vrátiť späť.",
+  "resetAction": "Resetovať",
+  "regenerateOpponents": "Regenerovať protivníkov",
+  "confirm": "Potvrďte",
+  "cancel": "Zrušiť",
+  "done": "Hotovo",
+  "privacyPolicyTitle": "Zásady ochrany osobných údajov",
+  "privacyPolicyAccept": "akceptujem",
+  "privacyPolicyPrompt": "Súhlasíte so Zásadami ochrany osobných údajov?",
+  "privacyPolicyLearnMore": "Zistite viac →",
+  "privacyPolicyDecline": "odmietam",
+  "privacyPolicyClose": "Zavrieť",
+  "privacyPolicyLoadError": "Nepodarilo sa načítať zásady ochrany osobných údajov. Skúste to znova.",
+  "failed": "Nepodarilo sa",
+  "rankBadgeChasing": "Poradie #{current} • +{delta} až #{target}",
+  "@rankBadgeChasing": {
+    "placeholders": {
+      "current": {
+        "type": "int"
+      },
+      "delta": {
+        "type": "int"
+      },
+      "target": {
+        "type": "int"
+      }
+    }
+  },
+  "statsTitle": "Štatistiky",
+  "statsGamesSection": "Hry",
+  "statsGamesStarted": "Hry sa začali",
+  "statsGamesWon": "Vyhrané hry",
+  "statsWinRate": "Miera výhry",
+  "statsFlawless": "Bezchybné povrchové úpravy",
+  "statsTimeSection": "Čas",
+  "statsBestTime": "Najlepší čas",
+  "statsAverageTime": "Priemerný čas",
+  "statsStreakSection": "Pruhovať",
+  "statsCurrentStreak": "Aktuálna séria",
+  "statsBestStreak": "Najlepšia séria",
+  "difficultyNovice": "nováčik",
+  "difficultyNoviceShort": "Zač.",
+  "difficultyMedium": "Stredne pokročilý",
+  "difficultyMediumShort": "Str.",
+  "difficultyHigh": "Pokročilé",
+  "difficultyHighShort": "Pok.",
+  "difficultyExpert": "Expert",
+  "difficultyExpertShort": "Exp.",
+  "difficultyMaster": "Majster",
+  "difficultyMasterShort": "Maj.",
+  "ach_title_supermind": "Supermyseľ",
+  "ach_desc_supermind": "Vyhrajte na ľubovoľnej obtiažnosti bez chýb či rád za menej ako 2 minúty a 30 sekúnd",
+  "rateDialogTitle": "Páči sa ti hra? 💛",
+  "rateDialogSubtitle": "Tvoje hodnotenie pomôže Sudokuu byť ešte lepším!",
+  "rateDialogDismiss": "Odísť",
+  "rateDialogConfirm": "Áno, je skvelá!"
+}

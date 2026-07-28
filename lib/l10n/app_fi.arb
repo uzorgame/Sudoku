@@ -1,0 +1,418 @@
+{
+  "@@locale": "fi",
+  "@championshipScore": {
+    "placeholders": {
+      "score": {
+        "type": "int"
+      }
+    }
+  },
+  "@toNextPlace": {
+    "placeholders": {
+      "points": {
+        "type": "int"
+      }
+    }
+  },
+  "@totalScore": {
+    "placeholders": {
+      "score": {
+        "type": "String"
+      }
+    }
+  },
+  "@leaderboardRow": {
+    "placeholders": {
+      "rank": {
+        "type": "int"
+      },
+      "name": {
+        "type": "String"
+      },
+      "points": {
+        "type": "String"
+      }
+    }
+  },
+  "@yourPosition": {
+    "placeholders": {
+      "rank": {
+        "type": "int"
+      },
+      "points": {
+        "type": "String"
+      }
+    }
+  },
+  "@battleWinRate": {
+    "description": "Battle mode win percentage label.",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@battleDefeatMessage": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "@levelHeading": {
+    "placeholders": {
+      "level": {
+        "type": "int"
+      },
+      "difficulty": {
+        "type": "String"
+      }
+    }
+  },
+  "@rankLabel": {
+    "placeholders": {
+      "rank": {
+        "type": "int"
+      }
+    }
+  },
+  "@rewardExtraHearts": {
+    "placeholders": {
+      "count": {
+        "type": "num"
+      }
+    }
+  },
+  "@rewardStars": {
+    "placeholders": {
+      "count": {
+        "type": "num"
+      }
+    }
+  },
+  "@undoAdCountdown": {
+    "placeholders": {
+      "seconds": {
+        "type": "int"
+      }
+    }
+  },
+  "@hintAdCountdown": {
+    "placeholders": {
+      "seconds": {
+        "type": "int"
+      }
+    }
+  },
+  "@lifeAdCountdown": {
+    "placeholders": {
+      "seconds": {
+        "type": "int"
+      }
+    }
+  },
+  "@combo_x": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@streak_n": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@speed_bonus": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "@comboX": {
+    "description": "Combo multiplier badge",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@streakN": {
+    "description": "Streak badge",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@speedBonus": {
+    "description": "Award for finishing faster than target",
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "@victoryMessage": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "@versionLabel": {
+    "placeholders": {
+      "version": {
+        "type": "String"
+      }
+    }
+  },
+  "@rankBadgeChasing": {
+    "placeholders": {
+      "current": {
+        "type": "int"
+      },
+      "delta": {
+        "type": "int"
+      },
+      "target": {
+        "type": "int"
+      }
+    }
+  },
+  "appTitle": "Sudoku",
+  "navHome": "Kotiin",
+  "navDaily": "Haaste",
+  "navAchievements": "Saavutukset",
+  "achievements_title": "Saavutukset",
+  "ach_section_title": "Tavoitteet ja palkinnot",
+  "ach_title_wins_50": "50 voittoa",
+  "ach_title_no_mistakes": "Rautainen tahto",
+  "ach_title_streak_3days": "3 päivän putki",
+  "ach_title_fast_solver": "Salamannopea",
+  "ach_title_wins_100": "100 voittoa",
+  "ach_desc_wins_50": "Voita 50 kertaa klassisessa tilassa",
+  "ach_desc_no_mistakes": "Voita 3 peliä peräkkäin ilman vihjeitä ja virheitä",
+  "ach_desc_streak_3days": "Pelaa kolmena peräkkäisenä päivänä",
+  "ach_desc_fast_solver": "Ratkaise sudoku alle 3 minuutissa",
+  "ach_desc_wins_100": "Voita 100 kertaa klassisessa tilassa",
+  "ach_status_finished": "Valmis",
+  "ach_status_in_progress": "{current} peliä suoritettu",
+  "@ach_status_in_progress": {
+    "placeholders": {
+      "current": {
+        "type": "int"
+      }
+    }
+  },
+  "ach_percent": "{percent}%",
+  "@ach_percent": {
+    "placeholders": {
+      "percent": {
+        "type": "int"
+      }
+    }
+  },
+  "ach_obtained_on": "Saavutettu: {date}",
+  "@ach_obtained_on": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "ach_locked": "Lukittu",
+  "dailyStreak": "Päivittäinen viiva",
+  "selectDifficultyTitle": "Valitse vaikeus",
+  "selectDifficultyDailyChallenge": "Päivittäinen haaste",
+  "playAction": "Pelata",
+  "championshipTitle": "Mestaruus",
+  "championshipScore": "Pisteet {score}",
+  "toNextPlace": "Seuraavaan paikkaan: {points} pts",
+  "youAreTop": "Olet #1",
+  "championshipRoundDescriptionPlaceholder": "Pelaa tätä kierrosta parantaaksesi mestaruuskilpailua.",
+  "championshipRoundCompletedLabel": "Valmis",
+  "totalScore": "Kokonaispistemäärä: {score}",
+  "meLabel": "Minulle",
+  "leaderboardRow": "Aseta {rank}. {name}. {points} pisteitä",
+  "yourPosition": "Minun paikkani {rank}. {points} pisteitä",
+  "pointsShort": "pts",
+  "championshipAutoScroll": "Automaattisesti",
+  "bestLabel": "Parhaat",
+  "play": "Pelata",
+  "battleTitle": "Taistelu",
+  "battleWinRate": "Voittaa {count}%",
+  "battleYouLabel": "Sinä",
+  "battleVictoryTitle": "Voitit!",
+  "battleDefeatTitle": "Vastustaja päättyi ensin",
+  "battleDefeatMessage": "{name} ratkaisi palapelin ennen sinua.",
+  "battleSimpleDefeatTitle": "Kadotit",
+  "battleExitToMainMenu": "Päävalikko",
+  "playerFlagSettingTitle": "Pelaajan lippu",
+  "selectPlayerFlag": "Valitse lippu",
+  "confirmFlagSelectionTitle": "Vahvista lippu",
+  "confirmFlagSelectionMessage": "Haluatko varmasti valita tämän lipun? Voit muuttaa lippusi myöhemmin peliasetuksissa.",
+  "confirmFlagSelectionConfirm": "Vahvistaa",
+  "startAction": "Alkaa",
+  "levelHeading": "Taso {level} - {difficulty}",
+  "rankProgress": "Sijoitus",
+  "rankLabel": "Sijoitus {rank}",
+  "newGame": "Uusi peli",
+  "continueGame": "Jatkaa peliä",
+  "weeklyProgress": "Viikoittainen edistyminen",
+  "rewardsTitle": "Palkkiot",
+  "rewardNoMistakesTitle": "Viimeistele haaste ilman virheitä",
+  "rewardExtraHearts": "+{count, plural, one {# sydän} other {# sydämet}}",
+  "rewardThreeInRowTitle": "Suorita kolme haastetta peräkkäin",
+  "rewardUniqueTrophy": "Ainutlaatuinen pokaali",
+  "rewardSevenDayTitle": "Ylläpitää 7 päivän viiraa",
+  "rewardStars": "+{count, plural, one {# tähti} other {# tähdet}}",
+  "todayPuzzle": "Tämän päivän palapeli",
+  "todayPuzzleDescription": "Viimeistele Sudoku ansaitaksesi ylimääräisen palkinnon ja pitämään viivasi hengissä.",
+  "continueAction": "Jatkaa",
+  "adMessage": "AD: Löydä piilotetut esineet! Pelaa nyt.",
+  "adPlay": "Pelata",
+  "undo": "Kumota",
+  "erase": "Poistaa",
+  "autoNotes": "Automaattiset muistiinpanot",
+  "statusOn": "-Lla",
+  "statusOff": "POIS",
+  "notes": "Muistiinpanot",
+  "hint": "Vihje",
+  "undoAdTitle": "Katso mainos kumota",
+  "undoAdDescription": "Katso tämä lyhyt mainos kumotaksesi viimeinen siirto.",
+  "undoAdCountdown": "Mainos päättyy {seconds}s",
+  "hintAdTitle": "Katso mainos saadaksesi vihjeen",
+  "hintAdDescription": "Katso tämä lyhyt mainos ansaitaksesi vihjeen.",
+  "hintAdCountdown": "Mainos päättyy {seconds}s",
+  "lifeAdTitle": "Katso mainoksia sydämen palauttamiseksi",
+  "lifeAdDescription": "Katso tämä lyhyt mainos punaisen sydämen palauttamiseksi ja pelaamiseksi.",
+  "lifeAdCountdown": "Mainos päättyy {seconds}s",
+  "gameScreenTitle": "Sudoku",
+  "combo_x": "Yhdistelmä × {count}",
+  "streak_n": "Viiva {count}",
+  "speed_bonus": "Nopeusbonus {time}",
+  "comboX": "Kombo ×{count}",
+  "streakN": "Viiva {count}",
+  "speedBonus": "Nopeusbonus ({time})",
+  "noActiveGameMessage": "Ei aktiivista peliä. Palaa aloitusnäyttöön.",
+  "victoryTitle": "Onnittelut!",
+  "victoryMessage": "Palapeli ratkaistu {time}.",
+  "backToHome": "Kotiin",
+  "playAnother": "Pelata uudelleen",
+  "outOfLivesTitle": "Olet poissa sydämestä",
+  "outOfLivesDescription": "Palauta yksi punainen sydän jatkaaksesi pelaamista.",
+  "restoreLifeAction": "Palauta 1 punainen sydän",
+  "cancelAction": "Peruuttaa",
+  "settingsTitle": "Asetukset",
+  "themeSectionTitle": "Teema",
+  "themeWhite": "Klassinen valo",
+  "themeCream": "Kerma",
+  "themeGreen": "Minttu",
+  "themeBlack": "Tumma",
+  "themePurple": "Violetti pimeä",
+  "themeFontSize": "Fontin koko",
+  "fontSizeExtraSmall": "Ylimääräinen pieni",
+  "fontSizeSmall": "Pieni",
+  "fontSizeMedium": "Keskipitkä",
+  "fontSizeLarge": "Suuri",
+  "fontSizeExtraLarge": "Erittäin suuri",
+  "languageSectionTitle": "Kieli",
+  "audioSectionTitle": "Ääni ja musiikki",
+  "soundsEffectsLabel": "Äänitehosteet",
+  "vibrationLabel": "Värähtely",
+  "comboBadgesLabel": "Yhdistelmämerkit",
+  "comboHapticsLabel": "Merkkihaptikat",
+  "miscSectionTitle": "Muut",
+  "howToPlayTitle": "Kuinka pelata",
+  "howToPlayRowRule": "Jokaisessa rivissä on numerot 1-9 ilman toistoja",
+  "howToPlayColumnRule": "Jokaisessa sarakkeessa on numerot 1-9 ilman toistoja",
+  "howToPlayBoxRule": "Jokaisessa 3 × 3 -laatikossa on numerot 1 - 9 ilman toistoja",
+  "howToPlayFooter": "Täytä jokainen solu ja voitat!",
+  "howToPlayAction": "Sain sen",
+  "championshipLocalSection": "Championship (paikallinen)",
+  "hideCompletedNumbersLabel": "Piilota täydet numerot",
+  "aboutApp": "Noin",
+  "versionLabel": "Versio {version}",
+  "aboutLegalese": "UZOR",
+  "languageEnglish": "englanti",
+  "languageRussian": "Рйий",
+  "languageUkrainian": "Ураїнса",
+  "languageGerman": "Deutsch",
+  "languageFrench": "Français",
+  "languageChinese": "中文",
+  "languageHindi": "हिन",
+  "languageGeorgian": "ქართული",
+  "languageSpanish": "Españolia",
+  "languageItalian": "Italialainen",
+  "languageJapanese": "日本語",
+  "languageKorean": "한국어",
+  "languageTurkish": "Türkçe",
+  "languagePolish": "Polski",
+  "languagePortuguese": "portugali",
+  "languageIndonesian": "Bahasa Indonesia",
+  "languageVietnamese": "Tiput",
+  "languageThai": "ไทย",
+  "languageDutch": "Nederlands",
+  "languageSwedish": "Svenska",
+  "languageRomanian": "Română",
+  "languageCzech": "Čeština",
+  "languageFinnish": "Suomi",
+  "languageKazakh": "Қазақ т т т т т т т",
+  "languageBulgarian": "Български",
+  "languageMalay": "Bahasa Melayu",
+  "languageNepali": "नेपाली",
+  "languagePunjabi": "ਪੰਜਾਬੀ",
+  "languageSwahili": "Kiswahili",
+  "languageTamil": "தமிழ்",
+  "languageSlovak": "Slovenčina",
+  "export": "Viedä",
+  "import": "Tuoda",
+  "resetMyScore": "Nollaa pisteet",
+  "resetMyScoreConfirmation": "Oletko varma, että haluat nollata pisteet? Tätä toimintaa ei voida kumota.",
+  "resetAction": "Nollata",
+  "regenerateOpponents": "Uudistaa vastustajia",
+  "confirm": "Vahvistaa",
+  "cancel": "Peruuttaa",
+  "done": "Tehty",
+  "privacyPolicyTitle": "Tietosuojakäytäntö",
+  "privacyPolicyAccept": "Hyväksyn",
+  "privacyPolicyPrompt": "Hyväksytkö tietosuojakäytännön?",
+  "privacyPolicyLearnMore": "Lisätietoja →",
+  "privacyPolicyDecline": "Minä pudotan",
+  "privacyPolicyClose": "Lähellä",
+  "privacyPolicyLoadError": "Tietosuojakäytännön lataaminen epäonnistui. Yritä uudelleen.",
+  "failed": "Epäonnistunut",
+  "rankBadgeChasing": "Sijoitus #{current} • +{delta} - #{target}",
+  "statsTitle": "Tilastot",
+  "statsGamesSection": "Pelit",
+  "statsGamesStarted": "Pelit alkoivat",
+  "statsGamesWon": "Voitti",
+  "statsWinRate": "Voittoprosentti",
+  "statsFlawless": "Virheetön viimeistely",
+  "statsTimeSection": "Aika",
+  "statsBestTime": "Paras aika",
+  "statsAverageTime": "Keskimääräinen aika",
+  "statsStreakSection": "Rivit",
+  "statsCurrentStreak": "Nykyinen viiva",
+  "statsBestStreak": "Paras viiva",
+  "difficultyNovice": "Aloittelija",
+  "difficultyNoviceShort": "Alo.",
+  "difficultyMedium": "Keskitaso",
+  "difficultyMediumShort": "Kes.",
+  "difficultyHigh": "Vaikea",
+  "difficultyHighShort": "Vai.",
+  "difficultyExpert": "Ekspertti",
+  "difficultyExpertShort": "Eks.",
+  "difficultyMaster": "Mestari",
+  "difficultyMasterShort": "Mes.",
+  "ach_title_supermind": "Supermieli",
+  "ach_desc_supermind": "Voita millä tahansa vaikeustasolla ilman virheitä tai vihjeitä alle 2 minuutissa 30 sekunnissa",
+  "rateDialogTitle": "Pidätkö pelistä? 💛",
+  "rateDialogSubtitle": "Arvostelusi auttaa Sudokua paranemaan entisestään!",
+  "rateDialogDismiss": "Poistu",
+  "rateDialogConfirm": "Kyllä, mahtava!"
+}

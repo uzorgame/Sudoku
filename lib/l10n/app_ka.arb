@@ -1,0 +1,417 @@
+{
+  "@@locale": "ka",
+  "appTitle": "სუდოკუ",
+  "navHome": "მთავარი",
+  "navDaily": "გამოწვევა",
+  "navAchievements": "მიღწევები",
+  "achievements_title": "მიღწევები",
+  "ach_section_title": "მიზნები და ჯილდოები",
+  "ach_title_wins_50": "50 გამარჯვება",
+  "ach_title_no_mistakes": "რკინის ნება",
+  "ach_title_streak_3days": "3-დღიანი სერია",
+  "ach_title_fast_solver": "ელვისებური სისწრაფე",
+  "ach_title_wins_100": "100 გამარჯვება",
+  "ach_desc_wins_50": "მოიგე 50-ჯერ კლასიკურ რეჟიმში",
+  "ach_desc_no_mistakes": "დაასრულეთ ზედიზედ 3 თამაში მინიშნებებისა და შეცდომების გარეშე",
+  "ach_desc_streak_3days": "ითამაშე ყოველდღე ზედიზედ 3 დღე",
+  "ach_desc_fast_solver": "ამოხსენი სუდოკუ 3 წუთზე ნაკლებ დროში",
+  "ach_desc_wins_100": "მოიგე 100-ჯერ კლასიკურ რეჟიმში",
+  "ach_status_finished": "დასრულებულია",
+  "ach_status_in_progress": "დასრულებული თამაშები: {current}",
+  "@ach_status_in_progress": {
+    "placeholders": {
+      "current": {
+        "type": "int"
+      }
+    }
+  },
+  "ach_percent": "{percent}%",
+  "@ach_percent": {
+    "placeholders": {
+      "percent": {
+        "type": "int"
+      }
+    }
+  },
+  "ach_obtained_on": "მიღებულია: {date}",
+  "@ach_obtained_on": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "ach_locked": "დაბლოკილია",
+  "dailyStreak": "დღიური სერია",
+  "selectDifficultyTitle": "აირჩიეთ სირთულე",
+  "selectDifficultyDailyChallenge": "ყოველდღიური გამოწვევა",
+  "playAction": "თამაში",
+  "championshipTitle": "ჩემპიონატი",
+  "championshipScore": "ქულები {score}",
+  "@championshipScore": {
+    "placeholders": {
+      "score": {
+        "type": "int"
+      }
+    }
+  },
+  "toNextPlace": "შემდეგ ადგილზე გადასასვლელად: {points} ქულა",
+  "@toNextPlace": {
+    "placeholders": {
+      "points": {
+        "type": "int"
+      }
+    }
+  },
+  "youAreTop": "თქვენ ხართ #1",
+  "championshipRoundDescriptionPlaceholder": "ითამაშეთ ეს რაუნდი, რომ გააძლიეროთ თქვენი ჩემპიონატის სერია.",
+  "championshipRoundCompletedLabel": "დასრულებულია",
+  "totalScore": "საერთო ქულები: {score}",
+  "@totalScore": {
+    "placeholders": {
+      "score": {
+        "type": "String"
+      }
+    }
+  },
+  "meLabel": "მე",
+  "leaderboardRow": "ადგილი {rank}. {name}. {points} ქულა",
+  "@leaderboardRow": {
+    "placeholders": {
+      "rank": {
+        "type": "int"
+      },
+      "name": {
+        "type": "String"
+      },
+      "points": {
+        "type": "String"
+      }
+    }
+  },
+  "yourPosition": "ჩემი ადგილი {rank}. {points} ქულა",
+  "@yourPosition": {
+    "placeholders": {
+      "rank": {
+        "type": "int"
+      },
+      "points": {
+        "type": "String"
+      }
+    }
+  },
+  "pointsShort": "ქულ.",
+  "championshipAutoScroll": "ავტომატურად გადახვევა ჩემს პოზიციაზე",
+  "bestLabel": "საუკეთესო",
+  "play": "თამაში",
+  "battleTitle": "ბრძოლა",
+  "battleWinRate": "მოგებები {count}%",
+  "@battleWinRate": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "battleYouLabel": "შენ",
+  "battleVictoryTitle": "შენ გაიმარჯვე!",
+  "battleDefeatTitle": "მეტოქემ გაიმარჯვა",
+  "battleDefeatMessage": "{name}-მა შენზე ადრე ამოხსნა თავსატეხი.",
+  "@battleDefeatMessage": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "battleSimpleDefeatTitle": "თქვენ დამარცხდით",
+  "battleExitToMainMenu": "მთავარ მენიუში დაბრუნება",
+  "playerFlagSettingTitle": "მოთამაშის დროშა",
+  "selectPlayerFlag": "აირჩიე შენი დროშა",
+  "confirmFlagSelectionTitle": "დაადასტურე შენი დროშა",
+  "confirmFlagSelectionMessage": "დარწმუნებული ხარ, რომ ამ დროშას ირჩევ? შეგიძლია მოგვიანებით შეცვალო დროშა თამაშის პარამეტრებში.",
+  "confirmFlagSelectionConfirm": "დადასტურება",
+  "startAction": "დაწყება",
+  "levelHeading": "დონე {level} — {difficulty}",
+  "@levelHeading": {
+    "placeholders": {
+      "level": {
+        "type": "int"
+      },
+      "difficulty": {
+        "type": "String"
+      }
+    }
+  },
+  "rankProgress": "რეიტინგის პროგრესი",
+  "rankLabel": "რეიტინგი {rank}",
+  "@rankLabel": {
+    "placeholders": {
+      "rank": {
+        "type": "int"
+      }
+    }
+  },
+  "newGame": "ახალი თამაში",
+  "continueGame": "გაგრძელება",
+  "weeklyProgress": "კვირეული პროგრესი",
+  "rewardsTitle": "ჯილდოები",
+  "rewardNoMistakesTitle": "დაასრულეთ გამოწვევა შეცდომების გარეშე",
+  "rewardExtraHearts": "+{count, plural, one {# გული} other {# გულები}}",
+  "@rewardExtraHearts": {
+    "placeholders": {
+      "count": {
+        "type": "num"
+      }
+    }
+  },
+  "rewardThreeInRowTitle": "დაასრულეთ სამი გამოწვევა ზედიზედ",
+  "rewardUniqueTrophy": "უნიკალური თასი",
+  "rewardSevenDayTitle": "შეინარჩუნეთ 7-დღიანი სერია",
+  "rewardStars": "+{count, plural, one {# ვარსკვლავი} other {# ვარსკვლავები}}",
+  "@rewardStars": {
+    "placeholders": {
+      "count": {
+        "type": "num"
+      }
+    }
+  },
+  "todayPuzzle": "დღევანდელი თავსატეხი",
+  "todayPuzzleDescription": "დაასრულეთ სუდოკუ, რათა მიიღოთ დამატებითი ჯილდო და შეინარჩუნოთ სერია.",
+  "continueAction": "გაგრძელება",
+  "adMessage": "რეკლამა: იპოვეთ დამალული ობიექტები! ითამაშეთ ახლავე.",
+  "adPlay": "თამაში",
+  "undo": "გაუქმება",
+  "erase": "წაშლა",
+  "autoNotes": "ავტო შენიშვნები",
+  "statusOn": "ჩართული",
+  "statusOff": "გამორთული",
+  "notes": "შენიშვნები",
+  "hint": "მინიშნება",
+  "undoAdTitle": "უყურეთ რეკლამას გასაუქმებლად",
+  "undoAdDescription": "უყურეთ ამ მოკლე რეკლამას, რომ გააუქმოთ ბოლო სვლა.",
+  "undoAdCountdown": "რეკლამა დასრულდება {seconds} წმ-ში",
+  "@undoAdCountdown": {
+    "placeholders": {
+      "seconds": {
+        "type": "int"
+      }
+    }
+  },
+  "hintAdTitle": "უყურეთ რეკლამას მინიშნების მისაღებად",
+  "hintAdDescription": "უყურეთ ამ მოკლე რეკლამას, რათა მიიღოთ მინიშნება.",
+  "hintAdCountdown": "რეკლამა დასრულდება {seconds} წმ-ში",
+  "@hintAdCountdown": {
+    "placeholders": {
+      "seconds": {
+        "type": "int"
+      }
+    }
+  },
+  "lifeAdTitle": "უყურეთ რეკლამას გულის აღსადგენად",
+  "lifeAdDescription": "უყურეთ ამ მოკლე რეკლამას, რათა აღდგეს წითელი გული და გააგრძელოთ თამაში.",
+  "lifeAdCountdown": "რეკლამა დასრულდება {seconds} წმ-ში",
+  "@lifeAdCountdown": {
+    "placeholders": {
+      "seconds": {
+        "type": "int"
+      }
+    }
+  },
+  "gameScreenTitle": "სუდოკუ",
+  "combo_x": "კომბო ×{count}",
+  "@combo_x": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "streak_n": "სერია {count}",
+  "@streak_n": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "speed_bonus": "სისწრაფის ბონუსი {time}",
+  "@speed_bonus": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "comboX": "კომბო x{count}",
+  "@comboX": {
+    "description": "კომბოს გამამრავლებელი ბეჯი",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "streakN": "სერია {count}",
+  "@streakN": {
+    "description": "სერიის ბეჯი",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "speedBonus": "სისწრაფის ბონუსი ({time})",
+  "@speedBonus": {
+    "description": "ჯილდო მიზნამდე უფრო სწრაფად დასრულებისთვის",
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "noActiveGameMessage": "აქტიური თამაში არ არის. დაბრუნდით მთავარ ეკრანზე.",
+  "victoryTitle": "გილოცავთ!",
+  "victoryMessage": "თავსატეხი ამოხსნილია {time}-ში.",
+  "@victoryMessage": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "backToHome": "მთავარი",
+  "playAnother": "კიდევ თამაში",
+  "outOfLivesTitle": "გულები აღარ დარჩა",
+  "outOfLivesDescription": "თამაშის გასაგრძელებლად აღადგინეთ ერთი წითელი გული.",
+  "restoreLifeAction": "1 წითელი გულის აღდგენა",
+  "cancelAction": "გაუქმება",
+  "settingsTitle": "პარამეტრები",
+  "themeSectionTitle": "თემა",
+  "themeWhite": "კლასიკური ღია",
+  "themeCream": "კრემისფერი",
+  "themeGreen": "მინტი",
+  "themeBlack": "მუქი",
+  "themePurple": "იისფერი მუქი",
+  "themeFontSize": "ფონტის ზომა",
+  "fontSizeExtraSmall": "ძალიან პატარა",
+  "fontSizeSmall": "პატარა",
+  "fontSizeMedium": "საშუალო",
+  "fontSizeLarge": "დიდი",
+  "fontSizeExtraLarge": "ძალიან დიდი",
+  "languageSectionTitle": "ენა",
+  "audioSectionTitle": "ხმა და მუსიკა",
+  "soundsEffectsLabel": "ხმის ეფექტები",
+  "vibrationLabel": "ვიბრაცია",
+  "comboBadgesLabel": "კომბო ბეჯები",
+  "comboHapticsLabel": "ბეჯების ჰაპტიკა",
+  "miscSectionTitle": "სხვა",
+  "howToPlayTitle": "როგორ ვითამაშოთ",
+  "howToPlayRowRule": "ყოველ რიგში უნდა იყოს ციფრები 1-დან 9-მდე გამეორებების გარეშე",
+  "howToPlayColumnRule": "ყოველ სვეტში უნდა იყოს ციფრები 1-დან 9-მდე გამეორებების გარეშე",
+  "howToPlayBoxRule": "ყოველ 3×3 კვადრატში უნდა იყოს ციფრები 1-დან 9-მდე გამეორებების გარეშე",
+  "howToPlayFooter": "შეავსე ყველა უჯრა და გაიმარჯვე!",
+  "howToPlayAction": "გასაგებია",
+  "championshipLocalSection": "ჩემპიონატი (ლოკალური)",
+  "hideCompletedNumbersLabel": "დამალე დასრულებული ციფრები",
+  "aboutApp": "აპლიკაციის შესახებ",
+  "versionLabel": "ვერსია {version}",
+  "@versionLabel": {
+    "placeholders": {
+      "version": {
+        "type": "String"
+      }
+    }
+  },
+  "aboutLegalese": "Nahreba UZOR Inc.",
+  "languageEnglish": "ინგლისური",
+  "languageRussian": "Русский",
+  "languageUkrainian": "უკრაინული",
+  "languageGerman": "Deutsch",
+  "languageFrench": "ფრანგული",
+  "languageChinese": "中文",
+  "languageHindi": "हिन्दी",
+  "languageGeorgian": "ქართული",
+  "languageSpanish": "ესპანოლი",
+  "languageItalian": "იტალიური",
+  "languageJapanese": "日本語",
+  "languageKorean": "한국어",
+  "languageTurkish": "თურქჩე",
+  "languagePolish": "პოლსკი",
+  "languagePortuguese": "პორტუგალიელები",
+  "languageIndonesian": "ბაჰასური ინდონეზია",
+  "languageVietnamese": "Tiếng Việt",
+  "languageThai": "Ṅทย",
+  "languageDutch": "ნიდერლანდები",
+  "languageSwedish": "სვენსკა",
+  "languageRomanian": "რომანი",
+  "languageCzech": "ჩესტინა",
+  "languageFinnish": "სუომი",
+  "languageKazakh": "Қазақ тілі",
+  "languageBulgarian": "ბულგარული",
+  "languageMalay": "ბაჰასა მელაიუ",
+  "languageNepali": "नेपाली",
+  "languagePunjabi": "ਪੰਜਾਬੀ",
+  "languageSwahili": "კისუაჰილი",
+  "languageTamil": "தமிழ்",
+  "languageSlovak": "სლოვენია",
+  "export": "ექსპორტი",
+  "import": "იმპორტი",
+  "resetMyScore": "ჩემი ქულების განულება",
+  "resetMyScoreConfirmation": "დარწმუნებული ხართ, რომ გსურთ ქულების განულება? ეს ქმედება შეუქცევადია.",
+  "resetAction": "განულება",
+  "regenerateOpponents": "მოწინააღმდეგეების განახლება",
+  "confirm": "დადასტურება",
+  "cancel": "გაუქმება",
+  "done": "დასრულდა",
+  "privacyPolicyTitle": "კონფიდენციალურობის პოლიტიკა",
+  "privacyPolicyAccept": "ვეთანხმები",
+  "privacyPolicyPrompt": "ეთანხმებით კონფიდენციალურობის პოლიტიკას?",
+  "privacyPolicyLearnMore": "გაიგეთ მეტი →",
+  "privacyPolicyDecline": "ვუარყოფ",
+  "privacyPolicyClose": "დახურვა",
+  "privacyPolicyLoadError": "კონფიდენციალურობის პოლიტიკის ჩატვირთვა ვერ მოხერხდა. გთხოვთ, სცადეთ ხელახლა.",
+  "failed": "ვერ შესრულდა",
+  "rankBadgeChasing": "რეიტინგი #{current} • +{delta} რათა მიაღწიოთ #{target}",
+  "@rankBadgeChasing": {
+    "placeholders": {
+      "current": {
+        "type": "int"
+      },
+      "delta": {
+        "type": "int"
+      },
+      "target": {
+        "type": "int"
+      }
+    }
+  },
+  "statsTitle": "სტატისტიკა",
+  "statsGamesSection": "თამაშები",
+  "statsGamesStarted": "დაწყებული თამაშები",
+  "statsGamesWon": "მოგებული თამაშები",
+  "statsWinRate": "მოგების მაჩვენებელი",
+  "statsFlawless": "სრულყოფილი დასრულებები",
+  "statsTimeSection": "დრო",
+  "statsBestTime": "საუკეთესო დრო",
+  "statsAverageTime": "საშუალო დრო",
+  "statsStreakSection": "სერია",
+  "statsCurrentStreak": "მიმდინარე სერია",
+  "statsBestStreak": "საუკეთესო სერია",
+  "difficultyNovice": "დამწყები",
+  "difficultyNoviceShort": "დამ.",
+  "difficultyMedium": "საშუალო",
+  "difficultyMediumShort": "საშ.",
+  "difficultyHigh": "გამოცდილი",
+  "difficultyHighShort": "გამოც.",
+  "difficultyExpert": "ექსპერტი",
+  "difficultyExpertShort": "ექსპ.",
+  "difficultyMaster": "ოსტატი",
+  "difficultyMasterShort": "ოსტ.",
+  "ach_title_supermind": "სუპერგონება",
+  "ach_desc_supermind": "მოიგეთ ნებისმიერი სირთულე შეცდომებისა და მინიშნებების გარეშე 2 წუთსა და 30 წამზე ნაკლებში",
+  "rateDialogTitle": "თამაში მოგწონს? 💛",
+  "rateDialogSubtitle": "შენი შეფასება Sudoku-ს კიდევ უფრო გაუმჯობესებაში დაეხმარება!",
+  "rateDialogDismiss": "გასვლა",
+  "rateDialogConfirm": "დიახ, მშვენიერია!"
+}

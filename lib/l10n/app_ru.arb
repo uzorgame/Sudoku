@@ -1,0 +1,417 @@
+{
+  "@@locale": "ru",
+  "appTitle": "Судоку",
+  "navHome": "Главная",
+  "navDaily": "Испытание",
+  "navAchievements": "Достижения",
+  "achievements_title": "Достижения",
+  "ach_section_title": "Цели и награды",
+  "ach_title_wins_50": "50 побед",
+  "ach_title_no_mistakes": "Железная воля",
+  "ach_title_streak_3days": "Серия 3 дней",
+  "ach_title_fast_solver": "Молниеносно",
+  "ach_title_wins_100": "100 побед",
+  "ach_desc_wins_50": "Победите 50 раз в классическом режиме",
+  "ach_desc_no_mistakes": "Пройдите 3 игры подряд без подсказок и без ошибок",
+  "ach_desc_streak_3days": "Играйте ежедневно 3 дня подряд",
+  "ach_desc_fast_solver": "Решите судоку менее чем за 3 минуты",
+  "ach_desc_wins_100": "Победите 100 раз в классическом режиме",
+  "ach_status_finished": "Выполнено",
+  "ach_status_in_progress": "{current} игр завершено",
+  "@ach_status_in_progress": {
+    "placeholders": {
+      "current": {
+        "type": "int"
+      }
+    }
+  },
+  "ach_percent": "{percent}%",
+  "@ach_percent": {
+    "placeholders": {
+      "percent": {
+        "type": "int"
+      }
+    }
+  },
+  "ach_obtained_on": "Получено: {date}",
+  "@ach_obtained_on": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "ach_locked": "Не получено",
+  "dailyStreak": "Серия дней",
+  "selectDifficultyTitle": "Выберите сложность",
+  "selectDifficultyDailyChallenge": "Ежедневное испытание",
+  "playAction": "Играть",
+  "championshipTitle": "Чемпионат",
+  "championshipScore": "Счёт {score}",
+  "@championshipScore": {
+    "placeholders": {
+      "score": {
+        "type": "int"
+      }
+    }
+  },
+  "toNextPlace": "До следующего места: {points} оч.",
+  "@toNextPlace": {
+    "placeholders": {
+      "points": {
+        "type": "int"
+      }
+    }
+  },
+  "youAreTop": "Вы №1",
+  "championshipRoundDescriptionPlaceholder": "Сыграйте в этом раунде, чтобы продвинуться в чемпионате.",
+  "championshipRoundCompletedLabel": "Завершено",
+  "totalScore": "Общий счёт: {score}",
+  "@totalScore": {
+    "placeholders": {
+      "score": {
+        "type": "String"
+      }
+    }
+  },
+  "meLabel": "Я",
+  "leaderboardRow": "Место {rank}. {name}. {points} очков",
+  "@leaderboardRow": {
+    "placeholders": {
+      "rank": {
+        "type": "int"
+      },
+      "name": {
+        "type": "String"
+      },
+      "points": {
+        "type": "String"
+      }
+    }
+  },
+  "yourPosition": "Моё место {rank}. {points} очков",
+  "@yourPosition": {
+    "placeholders": {
+      "rank": {
+        "type": "int"
+      },
+      "points": {
+        "type": "String"
+      }
+    }
+  },
+  "pointsShort": "очк.",
+  "championshipAutoScroll": "Автопрокрутка к моему месту",
+  "bestLabel": "Лучший результат",
+  "play": "Играть",
+  "battleTitle": "Битва",
+  "battleWinRate": "Побед {count}%",
+  "@battleWinRate": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "battleYouLabel": "Я",
+  "battleVictoryTitle": "Ты выиграл!",
+  "battleDefeatTitle": "Соперник победил",
+  "battleDefeatMessage": "{name} решил головоломку раньше тебя.",
+  "@battleDefeatMessage": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "battleSimpleDefeatTitle": "Вы проиграли",
+  "battleExitToMainMenu": "Выйти в главное меню",
+  "playerFlagSettingTitle": "Флаг игрока",
+  "selectPlayerFlag": "Выбери свой флаг",
+  "confirmFlagSelectionTitle": "Подтвердите флаг",
+  "confirmFlagSelectionMessage": "Вы уверены, что хотите выбрать этот флаг? Флаг можно будет изменить в настройках игры.",
+  "confirmFlagSelectionConfirm": "Принять",
+  "startAction": "Начать",
+  "levelHeading": "Уровень {level} — {difficulty}",
+  "@levelHeading": {
+    "placeholders": {
+      "level": {
+        "type": "int"
+      },
+      "difficulty": {
+        "type": "String"
+      }
+    }
+  },
+  "rankProgress": "Прогресс ранга",
+  "rankLabel": "Ранг {rank}",
+  "@rankLabel": {
+    "placeholders": {
+      "rank": {
+        "type": "int"
+      }
+    }
+  },
+  "newGame": "Новая игра",
+  "continueGame": "Продолжить игру",
+  "weeklyProgress": "Недельный прогресс",
+  "rewardsTitle": "Награды",
+  "rewardNoMistakesTitle": "Пройдите вызов без ошибок",
+  "rewardExtraHearts": "+{count, plural, one {# сердце} other {# сердца}}",
+  "@rewardExtraHearts": {
+    "placeholders": {
+      "count": {
+        "type": "num"
+      }
+    }
+  },
+  "rewardThreeInRowTitle": "Выполните три вызова подряд",
+  "rewardUniqueTrophy": "Уникальный трофей",
+  "rewardSevenDayTitle": "Поддерживайте серию 7 дней",
+  "rewardStars": "+{count, plural, one {# звезда} other {# звезды}}",
+  "@rewardStars": {
+    "placeholders": {
+      "count": {
+        "type": "num"
+      }
+    }
+  },
+  "todayPuzzle": "Сегодняшняя головоломка",
+  "todayPuzzleDescription": "Решите судоку, чтобы получить дополнительную награду и продолжить серию.",
+  "continueAction": "Продолжить",
+  "adMessage": "Реклама: Найди скрытые объекты! Играй сейчас.",
+  "adPlay": "Играть",
+  "undo": "Отменить",
+  "erase": "Стереть",
+  "autoNotes": "Автозаметки",
+  "statusOn": "ВКЛ",
+  "statusOff": "ВЫКЛ",
+  "notes": "Заметки",
+  "hint": "Подсказка",
+  "undoAdTitle": "Смотреть рекламу для отмены",
+  "undoAdDescription": "Посмотрите короткую рекламу, чтобы отменить последний ход.",
+  "undoAdCountdown": "Реклама завершится через {seconds} с",
+  "@undoAdCountdown": {
+    "placeholders": {
+      "seconds": {
+        "type": "int"
+      }
+    }
+  },
+  "hintAdTitle": "Смотреть рекламу для подсказки",
+  "hintAdDescription": "Посмотрите короткую рекламу, чтобы получить подсказку.",
+  "hintAdCountdown": "Реклама завершится через {seconds} с",
+  "@hintAdCountdown": {
+    "placeholders": {
+      "seconds": {
+        "type": "int"
+      }
+    }
+  },
+  "lifeAdTitle": "Смотрите рекламу, чтобы восстановить сердце",
+  "lifeAdDescription": "Посмотрите эту короткую рекламу, чтобы восстановить красное сердце и продолжить игру.",
+  "lifeAdCountdown": "Реклама завершится через {seconds} с",
+  "@lifeAdCountdown": {
+    "placeholders": {
+      "seconds": {
+        "type": "int"
+      }
+    }
+  },
+  "gameScreenTitle": "Судоку",
+  "combo_x": "Комбо ×{count}",
+  "@combo_x": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "streak_n": "Серия {count}",
+  "@streak_n": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "speed_bonus": "Бонус скорости {time}",
+  "@speed_bonus": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "comboX": "Комбо x{count}",
+  "@comboX": {
+    "description": "Значок множителя комбо",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "streakN": "Серия {count}",
+  "@streakN": {
+    "description": "Значок серии побед",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "speedBonus": "Бонус скорости ({time})",
+  "@speedBonus": {
+    "description": "Награда за прохождение быстрее цели",
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "noActiveGameMessage": "Нет активной игры. Вернитесь на главный экран.",
+  "victoryTitle": "Поздравляем!",
+  "victoryMessage": "Головоломка решена за {time}.",
+  "@victoryMessage": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "backToHome": "На главную",
+  "playAnother": "Ещё одну",
+  "outOfLivesTitle": "Сердца закончились",
+  "outOfLivesDescription": "Восстановите одно красное сердце, чтобы продолжить игру.",
+  "restoreLifeAction": "Восстановить 1 красное сердце",
+  "cancelAction": "Отмена",
+  "settingsTitle": "Настройки",
+  "themeSectionTitle": "Тема",
+  "themeWhite": "Классическая светлая",
+  "themeCream": "Кремовая",
+  "themeGreen": "Мятная",
+  "themeBlack": "Тёмная",
+  "themePurple": "Фиолетовая тёмная",
+  "themeFontSize": "Размер шрифта",
+  "fontSizeExtraSmall": "Очень маленький",
+  "fontSizeSmall": "Маленький",
+  "fontSizeMedium": "Средний",
+  "fontSizeLarge": "Большой",
+  "fontSizeExtraLarge": "Очень большой",
+  "languageSectionTitle": "Язык",
+  "audioSectionTitle": "Звук и музыка",
+  "soundsEffectsLabel": "Звуковые эффекты",
+  "vibrationLabel": "Вибрация",
+  "comboBadgesLabel": "Бейджи комбо",
+  "comboHapticsLabel": "Вибрация бейджей",
+  "miscSectionTitle": "Другое",
+  "howToPlayTitle": "Как играть",
+  "howToPlayRowRule": "В каждой строке цифры от 1 до 9 без повторов",
+  "howToPlayColumnRule": "В каждом столбце цифры от 1 до 9 без повторов",
+  "howToPlayBoxRule": "В каждом квадрате 3×3 цифры от 1 до 9 без повторов",
+  "howToPlayFooter": "Заполни все клетки — и победа!",
+  "howToPlayAction": "ОК",
+  "championshipLocalSection": "Чемпионат (локально)",
+  "hideCompletedNumbersLabel": "Убирать использованные цифры",
+  "aboutApp": "О приложении",
+  "versionLabel": "Версия {version}",
+  "@versionLabel": {
+    "placeholders": {
+      "version": {
+        "type": "String"
+      }
+    }
+  },
+  "aboutLegalese": "Нахреба УЗОР Инк.",
+  "languageEnglish": "Английский",
+  "languageRussian": "Русский",
+  "languageUkrainian": "Украинская",
+  "languageGerman": "немецкий",
+  "languageFrench": "Франсэ",
+  "languageChinese": "中文",
+  "languageHindi": "हिन्दी",
+  "languageGeorgian": "ქართული",
+  "languageSpanish": "испанский",
+  "languageItalian": "Итальяно",
+  "languageJapanese": "日本語",
+  "languageKorean": "한국어",
+  "languageTurkish": "Тюркче",
+  "languagePolish": "Польский",
+  "languagePortuguese": "Португальский",
+  "languageIndonesian": "Бахаса Индонезия",
+  "languageVietnamese": "Тианг Вьет",
+  "languageThai": "ไทย",
+  "languageDutch": "Нидерланды",
+  "languageSwedish": "Свенска",
+  "languageRomanian": "Романа",
+  "languageCzech": "Чештина",
+  "languageFinnish": "Суоми",
+  "languageKazakh": "Қазақ тілі",
+  "languageBulgarian": "Български",
+  "languageMalay": "Бахаса Мелаю",
+  "languageNepali": "नेपाली",
+  "languagePunjabi": "ਪੰਜਾਬੀ",
+  "languageSwahili": "Кисуахили",
+  "languageTamil": "தமிழ்",
+  "languageSlovak": "Словенчина",
+  "export": "Экспорт",
+  "import": "Импорт",
+  "resetMyScore": "Сбросить мой счёт",
+  "resetMyScoreConfirmation": "Вы уверены, что хотите сбросить счёт? Это действие необратимо.",
+  "resetAction": "Сбросить",
+  "regenerateOpponents": "Перегенерировать соперников",
+  "confirm": "Подтвердить",
+  "cancel": "Отмена",
+  "done": "Готово",
+  "privacyPolicyTitle": "Политика конфиденциальности",
+  "privacyPolicyAccept": "Принимаю",
+  "privacyPolicyPrompt": "Вы принимаете Политику конфиденциальности?",
+  "privacyPolicyLearnMore": "Подробнее →",
+  "privacyPolicyDecline": "Отклоняю",
+  "privacyPolicyClose": "Закрыть",
+  "privacyPolicyLoadError": "Не удалось загрузить политику конфиденциальности. Повторите попытку.",
+  "failed": "Ошибка",
+  "rankBadgeChasing": "Место #{current} • +{delta} до #{target}",
+  "@rankBadgeChasing": {
+    "placeholders": {
+      "current": {
+        "type": "int"
+      },
+      "delta": {
+        "type": "int"
+      },
+      "target": {
+        "type": "int"
+      }
+    }
+  },
+  "statsTitle": "Статистика",
+  "statsGamesSection": "Игры",
+  "statsGamesStarted": "Начатые игры",
+  "statsGamesWon": "Выигранные игры",
+  "statsWinRate": "Процент побед",
+  "statsFlawless": "Победы без ошибок",
+  "statsTimeSection": "Время",
+  "statsBestTime": "Лучшее время",
+  "statsAverageTime": "Среднее время",
+  "statsStreakSection": "Серия",
+  "statsCurrentStreak": "Текущая серия",
+  "statsBestStreak": "Лучшая серия",
+  "difficultyNovice": "Любитель",
+  "difficultyNoviceShort": "Люб.",
+  "difficultyMedium": "Средний",
+  "difficultyMediumShort": "Ср.",
+  "difficultyHigh": "Сложный",
+  "difficultyHighShort": "Слж.",
+  "difficultyExpert": "Эксперт",
+  "difficultyExpertShort": "Эксп.",
+  "difficultyMaster": "Мастер",
+  "difficultyMasterShort": "Маст.",
+  "ach_title_supermind": "Сверхразум",
+  "ach_desc_supermind": "Пройдите любую сложность без ошибок и подсказок менее чем за 2 минуты 30 секунд",
+  "rateDialogTitle": "Нравится игра? 💛",
+  "rateDialogSubtitle": "Твоя оценка поможет Sudoku стать ещё лучше!",
+  "rateDialogDismiss": "Выйти",
+  "rateDialogConfirm": "Да, классная!"
+}

@@ -1,0 +1,418 @@
+{
+  "@@locale": "en",
+  "appTitle": "Sudoku",
+  "navHome": "Home",
+  "navDaily": "Challenge",
+  "navAchievements": "Achievements",
+  "achievements_title": "Achievements",
+  "ach_section_title": "Goals and Rewards",
+  "ach_title_wins_50": "50 Wins",
+  "ach_title_no_mistakes": "Iron Will",
+  "ach_title_streak_3days": "3-Day Streak",
+  "ach_title_fast_solver": "Lightning Fast",
+  "ach_title_wins_100": "100 Wins",
+  "ach_desc_wins_50": "Win 50 times in Classic mode",
+  "ach_desc_no_mistakes": "Complete 3 games in a row without hints or mistakes",
+  "ach_desc_streak_3days": "Play daily for 3 days in a row",
+  "ach_desc_fast_solver": "Solve a sudoku in under 3 minutes",
+  "ach_desc_wins_100": "Win 100 times in Classic mode",
+  "ach_status_finished": "Finished",
+  "ach_status_in_progress": "{current} games completed",
+  "@ach_status_in_progress": {
+    "placeholders": {
+      "current": {
+        "type": "int"
+      }
+    }
+  },
+  "ach_percent": "{percent}%",
+  "@ach_percent": {
+    "placeholders": {
+      "percent": {
+        "type": "int"
+      }
+    }
+  },
+  "ach_obtained_on": "Obtained: {date}",
+  "@ach_obtained_on": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "ach_locked": "Locked",
+  "dailyStreak": "Daily streak",
+  "selectDifficultyTitle": "Choose difficulty",
+  "selectDifficultyDailyChallenge": "Daily challenge",
+  "playAction": "Play",
+  "championshipTitle": "Championship",
+  "championshipScore": "Score {score}",
+  "@championshipScore": {
+    "placeholders": {
+      "score": {
+        "type": "int"
+      }
+    }
+  },
+  "toNextPlace": "To next place: {points} pts",
+  "@toNextPlace": {
+    "placeholders": {
+      "points": {
+        "type": "int"
+      }
+    }
+  },
+  "youAreTop": "You are #1",
+  "championshipRoundDescriptionPlaceholder": "Play this round to boost your championship run.",
+  "championshipRoundCompletedLabel": "Completed",
+  "totalScore": "Total score: {score}",
+  "@totalScore": {
+    "placeholders": {
+      "score": {
+        "type": "String"
+      }
+    }
+  },
+  "meLabel": "Me",
+  "leaderboardRow": "Place {rank}. {name}. {points} points",
+  "@leaderboardRow": {
+    "placeholders": {
+      "rank": {
+        "type": "int"
+      },
+      "name": {
+        "type": "String"
+      },
+      "points": {
+        "type": "String"
+      }
+    }
+  },
+  "yourPosition": "My place {rank}. {points} points",
+  "@yourPosition": {
+    "placeholders": {
+      "rank": {
+        "type": "int"
+      },
+      "points": {
+        "type": "String"
+      }
+    }
+  },
+  "pointsShort": "pts",
+  "championshipAutoScroll": "Auto-scroll to my position",
+  "bestLabel": "Best",
+  "play": "Play",
+  "battleTitle": "Battle",
+  "battleWinRate": "Wins {count}%",
+  "@battleWinRate": {
+    "description": "Battle mode win percentage label.",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "battleYouLabel": "You",
+  "battleVictoryTitle": "You won!",
+  "battleDefeatTitle": "Opponent finished first",
+  "battleDefeatMessage": "{name} solved the puzzle before you.",
+  "@battleDefeatMessage": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "battleSimpleDefeatTitle": "You lost",
+  "battleExitToMainMenu": "Main menu",
+  "playerFlagSettingTitle": "Player flag",
+  "selectPlayerFlag": "Choose your flag",
+  "confirmFlagSelectionTitle": "Confirm your flag",
+  "confirmFlagSelectionMessage": "Are you sure you want to choose this flag? You can change your flag later in the game settings.",
+  "confirmFlagSelectionConfirm": "Confirm",
+  "startAction": "Start",
+  "levelHeading": "Level {level} — {difficulty}",
+  "@levelHeading": {
+    "placeholders": {
+      "level": {
+        "type": "int"
+      },
+      "difficulty": {
+        "type": "String"
+      }
+    }
+  },
+  "rankProgress": "Rank progress",
+  "rankLabel": "Rank {rank}",
+  "@rankLabel": {
+    "placeholders": {
+      "rank": {
+        "type": "int"
+      }
+    }
+  },
+  "newGame": "New game",
+  "continueGame": "Continue game",
+  "weeklyProgress": "Weekly progress",
+  "rewardsTitle": "Rewards",
+  "rewardNoMistakesTitle": "Finish the challenge without mistakes",
+  "rewardExtraHearts": "+{count, plural, one {# heart} other {# hearts}}",
+  "@rewardExtraHearts": {
+    "placeholders": {
+      "count": {
+        "type": "num"
+      }
+    }
+  },
+  "rewardThreeInRowTitle": "Complete three challenges in a row",
+  "rewardUniqueTrophy": "Unique trophy",
+  "rewardSevenDayTitle": "Maintain a 7-day streak",
+  "rewardStars": "+{count, plural, one {# star} other {# stars}}",
+  "@rewardStars": {
+    "placeholders": {
+      "count": {
+        "type": "num"
+      }
+    }
+  },
+  "todayPuzzle": "Today's puzzle",
+  "todayPuzzleDescription": "Finish the sudoku to earn an extra reward and keep your streak alive.",
+  "continueAction": "Continue",
+  "adMessage": "Ad: Find hidden objects! Play now.",
+  "adPlay": "Play",
+  "undo": "Undo",
+  "erase": "Erase",
+  "autoNotes": "Auto notes",
+  "statusOn": "ON",
+  "statusOff": "OFF",
+  "notes": "Notes",
+  "hint": "Hint",
+  "undoAdTitle": "Watch ad to undo",
+  "undoAdDescription": "Watch this short ad to undo your last move.",
+  "undoAdCountdown": "Ad ends in {seconds}s",
+  "@undoAdCountdown": {
+    "placeholders": {
+      "seconds": {
+        "type": "int"
+      }
+    }
+  },
+  "hintAdTitle": "Watch ad to get a hint",
+  "hintAdDescription": "Watch this short ad to earn a hint.",
+  "hintAdCountdown": "Ad ends in {seconds}s",
+  "@hintAdCountdown": {
+    "placeholders": {
+      "seconds": {
+        "type": "int"
+      }
+    }
+  },
+  "lifeAdTitle": "Watch ad to restore a heart",
+  "lifeAdDescription": "Watch this short ad to restore a red heart and keep playing.",
+  "lifeAdCountdown": "Ad ends in {seconds}s",
+  "@lifeAdCountdown": {
+    "placeholders": {
+      "seconds": {
+        "type": "int"
+      }
+    }
+  },
+  "gameScreenTitle": "Sudoku",
+  "combo_x": "Combo ×{count}",
+  "@combo_x": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "streak_n": "Streak {count}",
+  "@streak_n": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "speed_bonus": "Speed Bonus {time}",
+  "@speed_bonus": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "comboX": "Combo x{count}",
+  "@comboX": {
+    "description": "Combo multiplier badge",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "streakN": "Streak {count}",
+  "@streakN": {
+    "description": "Streak badge",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "speedBonus": "Speed Bonus ({time})",
+  "@speedBonus": {
+    "description": "Award for finishing faster than target",
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "noActiveGameMessage": "No active game. Return to the home screen.",
+  "victoryTitle": "Congratulations!",
+  "victoryMessage": "Puzzle solved in {time}.",
+  "@victoryMessage": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "backToHome": "Home",
+  "playAnother": "Play again",
+  "outOfLivesTitle": "You're out of hearts",
+  "outOfLivesDescription": "Restore one red heart to keep playing.",
+  "restoreLifeAction": "Restore 1 red heart",
+  "cancelAction": "Cancel",
+  "settingsTitle": "Settings",
+  "themeSectionTitle": "Theme",
+  "themeWhite": "Classic Light",
+  "themeCream": "Cream",
+  "themeGreen": "Mint",
+  "themeBlack": "Dark",
+  "themePurple": "Purple Dark",
+  "themeFontSize": "Font size",
+  "fontSizeExtraSmall": "Extra small",
+  "fontSizeSmall": "Small",
+  "fontSizeMedium": "Medium",
+  "fontSizeLarge": "Large",
+  "fontSizeExtraLarge": "Extra large",
+  "languageSectionTitle": "Language",
+  "audioSectionTitle": "Sound & music",
+  "soundsEffectsLabel": "Sound effects",
+  "vibrationLabel": "Vibration",
+  "comboBadgesLabel": "Combo badges",
+  "comboHapticsLabel": "Badge haptics",
+  "miscSectionTitle": "Other",
+  "howToPlayTitle": "How to play",
+  "howToPlayRowRule": "Each row has the digits 1 to 9 with no repeats",
+  "howToPlayColumnRule": "Each column has the digits 1 to 9 with no repeats",
+  "howToPlayBoxRule": "Each 3×3 box has the digits 1 to 9 with no repeats",
+  "howToPlayFooter": "Fill every cell and you win!",
+  "howToPlayAction": "Got it",
+  "championshipLocalSection": "Championship (local)",
+  "hideCompletedNumbersLabel": "Hide completed digits",
+  "aboutApp": "About",
+  "versionLabel": "Version {version}",
+  "@versionLabel": {
+    "placeholders": {
+      "version": {
+        "type": "String"
+      }
+    }
+  },
+  "aboutLegalese": "Nahreba UZOR Inc.",
+  "languageEnglish": "English",
+  "languageRussian": "Русский",
+  "languageUkrainian": "Українська",
+  "languageGerman": "Deutsch",
+  "languageFrench": "Français",
+  "languageChinese": "中文",
+  "languageHindi": "हिन्दी",
+  "languageGeorgian": "ქართული",
+  "languageSpanish": "Español",
+  "languageItalian": "Italiano",
+  "languageJapanese": "日本語",
+  "languageKorean": "한국어",
+  "languageTurkish": "Türkçe",
+  "languagePolish": "Polski",
+  "languagePortuguese": "Português",
+  "languageIndonesian": "Bahasa Indonesia",
+  "languageVietnamese": "Tiếng Việt",
+  "languageThai": "ไทย",
+  "languageDutch": "Nederlands",
+  "languageSwedish": "Svenska",
+  "languageRomanian": "Română",
+  "languageCzech": "Čeština",
+  "languageFinnish": "Suomi",
+  "languageKazakh": "Қазақ тілі",
+  "languageBulgarian": "Български",
+  "languageMalay": "Bahasa Melayu",
+  "languageNepali": "नेपाली",
+  "languagePunjabi": "ਪੰਜਾਬੀ",
+  "languageSwahili": "Kiswahili",
+  "languageTamil": "தமிழ்",
+  "languageSlovak": "Slovenčina",
+  "export": "Export",
+  "import": "Import",
+  "resetMyScore": "Reset my score",
+  "resetMyScoreConfirmation": "Are you sure you want to reset the score? This action cannot be undone.",
+  "resetAction": "Reset",
+  "regenerateOpponents": "Regenerate opponents",
+  "confirm": "Confirm",
+  "cancel": "Cancel",
+  "done": "Done",
+  "privacyPolicyTitle": "Privacy Policy",
+  "privacyPolicyAccept": "I accept",
+  "privacyPolicyPrompt": "Do you accept the Privacy Policy?",
+  "privacyPolicyLearnMore": "Learn more →",
+  "privacyPolicyDecline": "I decline",
+  "privacyPolicyClose": "Close",
+  "privacyPolicyLoadError": "Failed to load privacy policy. Please try again.",
+  "failed": "Failed",
+  "rankBadgeChasing": "Rank #{current} • +{delta} to #{target}",
+  "@rankBadgeChasing": {
+    "placeholders": {
+      "current": {
+        "type": "int"
+      },
+      "delta": {
+        "type": "int"
+      },
+      "target": {
+        "type": "int"
+      }
+    }
+  },
+  "statsTitle": "Statistics",
+  "statsGamesSection": "Games",
+  "statsGamesStarted": "Games started",
+  "statsGamesWon": "Games won",
+  "statsWinRate": "Win rate",
+  "statsFlawless": "Flawless finishes",
+  "statsTimeSection": "Time",
+  "statsBestTime": "Best time",
+  "statsAverageTime": "Average time",
+  "statsStreakSection": "Streak",
+  "statsCurrentStreak": "Current streak",
+  "statsBestStreak": "Best streak",
+  "difficultyNovice": "Novice",
+  "difficultyNoviceShort": "Nov.",
+  "difficultyMedium": "Intermediate",
+  "difficultyMediumShort": "Int.",
+  "difficultyHigh": "Advanced",
+  "difficultyHighShort": "Adv.",
+  "difficultyExpert": "Expert",
+  "difficultyExpertShort": "Exp.",
+  "difficultyMaster": "Master",
+  "difficultyMasterShort": "Mst.",
+  "ach_title_supermind": "Supermind",
+  "ach_desc_supermind": "Beat any difficulty without mistakes or hints in under 2 minutes 30 seconds",
+  "rateDialogTitle": "Enjoying the game? 💛",
+  "rateDialogSubtitle": "Your rating will help Sudoku get even better!",
+  "rateDialogDismiss": "Exit",
+  "rateDialogConfirm": "Yes, awesome!"
+}

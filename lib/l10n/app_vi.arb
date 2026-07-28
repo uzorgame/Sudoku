@@ -1,0 +1,418 @@
+{
+  "@@locale": "vi",
+  "@championshipScore": {
+    "placeholders": {
+      "score": {
+        "type": "int"
+      }
+    }
+  },
+  "@toNextPlace": {
+    "placeholders": {
+      "points": {
+        "type": "int"
+      }
+    }
+  },
+  "@totalScore": {
+    "placeholders": {
+      "score": {
+        "type": "String"
+      }
+    }
+  },
+  "@leaderboardRow": {
+    "placeholders": {
+      "rank": {
+        "type": "int"
+      },
+      "name": {
+        "type": "String"
+      },
+      "points": {
+        "type": "String"
+      }
+    }
+  },
+  "@yourPosition": {
+    "placeholders": {
+      "rank": {
+        "type": "int"
+      },
+      "points": {
+        "type": "String"
+      }
+    }
+  },
+  "@battleWinRate": {
+    "description": "Battle mode win percentage label.",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@battleDefeatMessage": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "@levelHeading": {
+    "placeholders": {
+      "level": {
+        "type": "int"
+      },
+      "difficulty": {
+        "type": "String"
+      }
+    }
+  },
+  "@rankLabel": {
+    "placeholders": {
+      "rank": {
+        "type": "int"
+      }
+    }
+  },
+  "@rewardExtraHearts": {
+    "placeholders": {
+      "count": {
+        "type": "num"
+      }
+    }
+  },
+  "@rewardStars": {
+    "placeholders": {
+      "count": {
+        "type": "num"
+      }
+    }
+  },
+  "@undoAdCountdown": {
+    "placeholders": {
+      "seconds": {
+        "type": "int"
+      }
+    }
+  },
+  "@hintAdCountdown": {
+    "placeholders": {
+      "seconds": {
+        "type": "int"
+      }
+    }
+  },
+  "@lifeAdCountdown": {
+    "placeholders": {
+      "seconds": {
+        "type": "int"
+      }
+    }
+  },
+  "@combo_x": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@streak_n": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@speed_bonus": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "@comboX": {
+    "description": "Combo multiplier badge",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@streakN": {
+    "description": "Streak badge",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@speedBonus": {
+    "description": "Award for finishing faster than target",
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "@victoryMessage": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "@versionLabel": {
+    "placeholders": {
+      "version": {
+        "type": "String"
+      }
+    }
+  },
+  "@rankBadgeChasing": {
+    "placeholders": {
+      "current": {
+        "type": "int"
+      },
+      "delta": {
+        "type": "int"
+      },
+      "target": {
+        "type": "int"
+      }
+    }
+  },
+  "appTitle": "Sudoku",
+  "navHome": "Trang chủ",
+  "navDaily": "Thử thách",
+  "navAchievements": "Thành tựu",
+  "achievements_title": "Thành tựu",
+  "ach_section_title": "Mục tiêu và Phần thưởng",
+  "ach_title_wins_50": "50 Chiến thắng",
+  "ach_title_no_mistakes": "Ý chí thép",
+  "ach_title_streak_3days": "Chuỗi 3 Ngày",
+  "ach_title_fast_solver": "Nhanh như chớp",
+  "ach_title_wins_100": "100 Chiến thắng",
+  "ach_desc_wins_50": "Thắng 50 lần ở chế độ Cổ điển",
+  "ach_desc_no_mistakes": "Hoàn thành 3 ván liên tiếp không gợi ý và không mắc lỗi",
+  "ach_desc_streak_3days": "Chơi mỗi ngày liên tiếp trong 3 ngày",
+  "ach_desc_fast_solver": "Giải xong một ván sudoku dưới 3 phút",
+  "ach_desc_wins_100": "Thắng 100 lần ở chế độ Cổ điển",
+  "ach_status_finished": "Đã hoàn thành",
+  "ach_status_in_progress": "Đã hoàn thành {current} ván",
+  "@ach_status_in_progress": {
+    "placeholders": {
+      "current": {
+        "type": "int"
+      }
+    }
+  },
+  "ach_percent": "{percent}%",
+  "@ach_percent": {
+    "placeholders": {
+      "percent": {
+        "type": "int"
+      }
+    }
+  },
+  "ach_obtained_on": "Đạt được: {date}",
+  "@ach_obtained_on": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "ach_locked": "Đã khóa",
+  "dailyStreak": "Chuỗi hàng ngày",
+  "selectDifficultyTitle": "Chọn độ khó",
+  "selectDifficultyDailyChallenge": "Thử thách hàng ngày",
+  "playAction": "Chơi",
+  "championshipTitle": "Giải vô địch",
+  "championshipScore": "Điểm {score}",
+  "toNextPlace": "Đến địa điểm tiếp theo: {points} điểm",
+  "youAreTop": "Bạn là số 1",
+  "championshipRoundDescriptionPlaceholder": "Chơi vòng này để tăng cường khả năng vô địch của bạn.",
+  "championshipRoundCompletedLabel": "Hoàn thành",
+  "totalScore": "Tổng số điểm: {score}",
+  "meLabel": "Tôi",
+  "leaderboardRow": "Địa điểm {rank}. {name}. {points} điểm",
+  "yourPosition": "Chỗ của tôi {rank}. {points} điểm",
+  "pointsShort": "điểm",
+  "championshipAutoScroll": "Tự động cuộn đến vị trí của tôi",
+  "bestLabel": "Tốt nhất",
+  "play": "Chơi",
+  "battleTitle": "Trận đánh",
+  "battleWinRate": "Thắng {count}%",
+  "battleYouLabel": "Bạn",
+  "battleVictoryTitle": "Bạn đã thắng!",
+  "battleDefeatTitle": "Đối thủ về đích đầu tiên",
+  "battleDefeatMessage": "{name} đã giải được câu đố trước bạn.",
+  "battleSimpleDefeatTitle": "Bạn đã thua",
+  "battleExitToMainMenu": "Thực đơn chính",
+  "playerFlagSettingTitle": "Cờ người chơi",
+  "selectPlayerFlag": "Chọn cờ của bạn",
+  "confirmFlagSelectionTitle": "Xác nhận lá cờ của bạn",
+  "confirmFlagSelectionMessage": "Bạn có chắc chắn muốn chọn lá cờ này không? Bạn có thể thay đổi cờ của mình sau trong cài đặt trò chơi.",
+  "confirmFlagSelectionConfirm": "Xác nhận",
+  "startAction": "Bắt đầu",
+  "levelHeading": "Cấp độ {level} — {difficulty}",
+  "rankProgress": "Tiến độ xếp hạng",
+  "rankLabel": "Xếp hạng {rank}",
+  "newGame": "Trò chơi mới",
+  "continueGame": "Tiếp tục trò chơi",
+  "weeklyProgress": "Tiến độ hàng tuần",
+  "rewardsTitle": "Phần thưởng",
+  "rewardNoMistakesTitle": "Hoàn thành thử thách mà không phạm sai lầm",
+  "rewardExtraHearts": "+{count, plural, one {# trái tim} other {# trái tim}}",
+  "rewardThreeInRowTitle": "Hoàn thành ba thử thách liên tiếp",
+  "rewardUniqueTrophy": "Chiếc cúp độc nhất",
+  "rewardSevenDayTitle": "Duy trì chuỗi 7 ngày",
+  "rewardStars": "+{count, plural, one {# ngôi sao} other {# ngôi sao}}",
+  "todayPuzzle": "Câu đố hôm nay",
+  "todayPuzzleDescription": "Hoàn thành sudoku để kiếm thêm phần thưởng và duy trì chuỗi trận của bạn.",
+  "continueAction": "Tiếp tục",
+  "adMessage": "Quảng cáo: Tìm đồ vật bị giấu! Chơi ngay bây giờ.",
+  "adPlay": "Chơi",
+  "undo": "Hoàn tác",
+  "erase": "Xóa",
+  "autoNotes": "Ghi chú tự động",
+  "statusOn": "TRÊN",
+  "statusOff": "TẮT",
+  "notes": "Ghi chú",
+  "hint": "Gợi ý",
+  "undoAdTitle": "Xem quảng cáo để hoàn tác",
+  "undoAdDescription": "Xem quảng cáo ngắn này để hoàn tác bước đi cuối cùng của bạn.",
+  "undoAdCountdown": "Quảng cáo kết thúc sau {seconds} giây",
+  "hintAdTitle": "Xem quảng cáo để có gợi ý",
+  "hintAdDescription": "Xem quảng cáo ngắn này để nhận được gợi ý.",
+  "hintAdCountdown": "Quảng cáo kết thúc sau {seconds} giây",
+  "lifeAdTitle": "Xem quảng cáo để phục hồi trái tim",
+  "lifeAdDescription": "Hãy xem quảng cáo ngắn này để khôi phục trái tim màu đỏ và tiếp tục chơi.",
+  "lifeAdCountdown": "Quảng cáo kết thúc sau {seconds} giây",
+  "gameScreenTitle": "Sudoku",
+  "combo_x": "Kết hợp ×{count}",
+  "streak_n": "Vệt {count}",
+  "speed_bonus": "Phần thưởng tốc độ {time}",
+  "comboX": "Kết hợp x{count}",
+  "streakN": "Vệt {count}",
+  "speedBonus": "Phần thưởng tốc độ ({time})",
+  "noActiveGameMessage": "Không có trò chơi hoạt động. Quay trở lại màn hình chính.",
+  "victoryTitle": "Chúc mừng!",
+  "victoryMessage": "Câu đố được giải trong {time}.",
+  "backToHome": "Trang chủ",
+  "playAnother": "Chơi lại",
+  "outOfLivesTitle": "Bạn hết hồn rồi",
+  "outOfLivesDescription": "Khôi phục một trái tim màu đỏ để tiếp tục chơi.",
+  "restoreLifeAction": "Khôi phục 1 trái tim đỏ",
+  "cancelAction": "Hủy bỏ",
+  "settingsTitle": "Cài đặt",
+  "themeSectionTitle": "chủ đề",
+  "themeWhite": "Ánh sáng cổ điển",
+  "themeCream": "Kem",
+  "themeGreen": "bạc hà",
+  "themeBlack": "Tối tăm",
+  "themePurple": "Tím đậm",
+  "themeFontSize": "Cỡ chữ",
+  "fontSizeExtraSmall": "Cực nhỏ",
+  "fontSizeSmall": "Bé nhỏ",
+  "fontSizeMedium": "Trung bình",
+  "fontSizeLarge": "Lớn",
+  "fontSizeExtraLarge": "Cực lớn",
+  "languageSectionTitle": "Ngôn ngữ",
+  "audioSectionTitle": "Âm thanh và âm nhạc",
+  "soundsEffectsLabel": "Hiệu ứng âm thanh",
+  "vibrationLabel": "Rung",
+  "comboBadgesLabel": "Huy hiệu kết hợp",
+  "comboHapticsLabel": "Xúc giác huy hiệu",
+  "miscSectionTitle": "Khác",
+  "howToPlayTitle": "Cách chơi",
+  "howToPlayRowRule": "Mỗi hàng có các chữ số từ 1 đến 9 không lặp lại",
+  "howToPlayColumnRule": "Mỗi cột có các chữ số từ 1 đến 9 không lặp lại",
+  "howToPlayBoxRule": "Mỗi ô 3×3 có các chữ số từ 1 đến 9 không lặp lại",
+  "howToPlayFooter": "Điền vào mọi ô và bạn giành chiến thắng!",
+  "howToPlayAction": "Hiểu rồi",
+  "championshipLocalSection": "Giải vô địch (địa phương)",
+  "hideCompletedNumbersLabel": "Ẩn các chữ số đã hoàn thành",
+  "aboutApp": "Về",
+  "versionLabel": "Phiên bản {version}",
+  "aboutLegalese": "Nahreba UZOR Inc.",
+  "languageEnglish": "Tiếng Anh",
+  "languageRussian": "Русский",
+  "languageUkrainian": "Українська",
+  "languageGerman": "tiếng Đức",
+  "languageFrench": "người Pháp",
+  "languageChinese": "中文",
+  "languageHindi": "हिन्दी",
+  "languageGeorgian": "ქართული",
+  "languageSpanish": "tiếng Tây Ban Nha",
+  "languageItalian": "tiếng Ý",
+  "languageJapanese": "日本語",
+  "languageKorean": "한국어",
+  "languageTurkish": "Türkçe",
+  "languagePolish": "Tiếng Ba Lan",
+  "languagePortuguese": "người Bồ Đào Nha",
+  "languageIndonesian": "Tiếng Bahasa Indonesia",
+  "languageVietnamese": "Tiếng Việt",
+  "languageThai": "ไทย",
+  "languageDutch": "Hà Lan",
+  "languageSwedish": "Svenska",
+  "languageRomanian": "Româna",
+  "languageCzech": "Čeština",
+  "languageFinnish": "Suomi",
+  "languageKazakh": "Қазақ тілі",
+  "languageBulgarian": "Български",
+  "languageMalay": "Tiếng Bahasa Melayu",
+  "languageNepali": "नेपाली",
+  "languagePunjabi": "ਪੰਜਾਬੀ",
+  "languageSwahili": "tiếng Kiswahili",
+  "languageTamil": "தமிழ்",
+  "languageSlovak": "Tiếng Slovenia",
+  "export": "Xuất khẩu",
+  "import": "Nhập khẩu",
+  "resetMyScore": "Đặt lại điểm của tôi",
+  "resetMyScoreConfirmation": "Bạn có chắc chắn muốn đặt lại điểm số không? Không thể hoàn tác hành động này.",
+  "resetAction": "Cài lại",
+  "regenerateOpponents": "Tái sinh đối thủ",
+  "confirm": "Xác nhận",
+  "cancel": "Hủy bỏ",
+  "done": "Xong",
+  "privacyPolicyTitle": "Chính sách bảo mật",
+  "privacyPolicyAccept": "tôi chấp nhận",
+  "privacyPolicyPrompt": "Bạn có chấp nhận Chính sách quyền riêng tư không?",
+  "privacyPolicyLearnMore": "Tìm hiểu thêm →",
+  "privacyPolicyDecline": "tôi từ chối",
+  "privacyPolicyClose": "Đóng",
+  "privacyPolicyLoadError": "Không tải được chính sách quyền riêng tư. Vui lòng thử lại.",
+  "failed": "Thất bại",
+  "rankBadgeChasing": "Xếp hạng #{current} • +{delta} đến #{target}",
+  "statsTitle": "Thống kê",
+  "statsGamesSection": "Trò chơi",
+  "statsGamesStarted": "Trò chơi đã bắt đầu",
+  "statsGamesWon": "Trò chơi đã thắng",
+  "statsWinRate": "Tỷ lệ thắng",
+  "statsFlawless": "Kết thúc hoàn hảo",
+  "statsTimeSection": "Thời gian",
+  "statsBestTime": "Thời gian tốt nhất",
+  "statsAverageTime": "Thời gian trung bình",
+  "statsStreakSection": "Vệt",
+  "statsCurrentStreak": "Chuỗi hiện tại",
+  "statsBestStreak": "Chuỗi tốt nhất",
+  "difficultyNovice": "Người mới",
+  "difficultyNoviceShort": "Mới",
+  "difficultyMedium": "Trung bình",
+  "difficultyMediumShort": "TB",
+  "difficultyHigh": "Khó",
+  "difficultyHighShort": "Khó",
+  "difficultyExpert": "Chuyên gia",
+  "difficultyExpertShort": "CG",
+  "difficultyMaster": "Bậc thầy",
+  "difficultyMasterShort": "BT",
+  "ach_title_supermind": "Siêu trí tuệ",
+  "ach_desc_supermind": "Thắng ở mọi độ khó mà không mắc lỗi hay dùng gợi ý dưới 2 phút 30 giây",
+  "rateDialogTitle": "Bạn thích trò chơi chứ? 💛",
+  "rateDialogSubtitle": "Đánh giá của bạn sẽ giúp Sudoku trở nên tốt hơn nữa!",
+  "rateDialogDismiss": "Thoát",
+  "rateDialogConfirm": "Vâng, tuyệt vời!"
+}

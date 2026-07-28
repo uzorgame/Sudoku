@@ -1,0 +1,418 @@
+{
+  "@@locale": "ro",
+  "@championshipScore": {
+    "placeholders": {
+      "score": {
+        "type": "int"
+      }
+    }
+  },
+  "@toNextPlace": {
+    "placeholders": {
+      "points": {
+        "type": "int"
+      }
+    }
+  },
+  "@totalScore": {
+    "placeholders": {
+      "score": {
+        "type": "String"
+      }
+    }
+  },
+  "@leaderboardRow": {
+    "placeholders": {
+      "rank": {
+        "type": "int"
+      },
+      "name": {
+        "type": "String"
+      },
+      "points": {
+        "type": "String"
+      }
+    }
+  },
+  "@yourPosition": {
+    "placeholders": {
+      "rank": {
+        "type": "int"
+      },
+      "points": {
+        "type": "String"
+      }
+    }
+  },
+  "@battleWinRate": {
+    "description": "Battle mode win percentage label.",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@battleDefeatMessage": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "@levelHeading": {
+    "placeholders": {
+      "level": {
+        "type": "int"
+      },
+      "difficulty": {
+        "type": "String"
+      }
+    }
+  },
+  "@rankLabel": {
+    "placeholders": {
+      "rank": {
+        "type": "int"
+      }
+    }
+  },
+  "@rewardExtraHearts": {
+    "placeholders": {
+      "count": {
+        "type": "num"
+      }
+    }
+  },
+  "@rewardStars": {
+    "placeholders": {
+      "count": {
+        "type": "num"
+      }
+    }
+  },
+  "@undoAdCountdown": {
+    "placeholders": {
+      "seconds": {
+        "type": "int"
+      }
+    }
+  },
+  "@hintAdCountdown": {
+    "placeholders": {
+      "seconds": {
+        "type": "int"
+      }
+    }
+  },
+  "@lifeAdCountdown": {
+    "placeholders": {
+      "seconds": {
+        "type": "int"
+      }
+    }
+  },
+  "@combo_x": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@streak_n": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@speed_bonus": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "@comboX": {
+    "description": "Combo multiplier badge",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@streakN": {
+    "description": "Streak badge",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@speedBonus": {
+    "description": "Award for finishing faster than target",
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "@victoryMessage": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "@versionLabel": {
+    "placeholders": {
+      "version": {
+        "type": "String"
+      }
+    }
+  },
+  "@rankBadgeChasing": {
+    "placeholders": {
+      "current": {
+        "type": "int"
+      },
+      "delta": {
+        "type": "int"
+      },
+      "target": {
+        "type": "int"
+      }
+    }
+  },
+  "appTitle": "Sudoku",
+  "navHome": "Acasă",
+  "navDaily": "Provocare",
+  "navAchievements": "Realizări",
+  "achievements_title": "Realizări",
+  "ach_section_title": "Obiective și recompense",
+  "ach_title_wins_50": "50 de victorii",
+  "ach_title_no_mistakes": "Voință de fier",
+  "ach_title_streak_3days": "Serie de 3 zile",
+  "ach_title_fast_solver": "Fulgerător",
+  "ach_title_wins_100": "100 de victorii",
+  "ach_desc_wins_50": "Câștigă de 50 de ori în modul Clasic",
+  "ach_desc_no_mistakes": "Încheie 3 jocuri la rând fără indicii și fără greșeli",
+  "ach_desc_streak_3days": "Joacă zilnic timp de 3 zile la rând",
+  "ach_desc_fast_solver": "Rezolvă un sudoku în mai puțin de 3 minute",
+  "ach_desc_wins_100": "Câștigă de 100 de ori în modul Clasic",
+  "ach_status_finished": "Finalizat",
+  "ach_status_in_progress": "{current} jocuri finalizate",
+  "@ach_status_in_progress": {
+    "placeholders": {
+      "current": {
+        "type": "int"
+      }
+    }
+  },
+  "ach_percent": "{percent}%",
+  "@ach_percent": {
+    "placeholders": {
+      "percent": {
+        "type": "int"
+      }
+    }
+  },
+  "ach_obtained_on": "Obținut la: {date}",
+  "@ach_obtained_on": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "ach_locked": "Blocat",
+  "dailyStreak": "Zilnic",
+  "selectDifficultyTitle": "Alege dificultăți",
+  "selectDifficultyDailyChallenge": "Provocare zilnică",
+  "playAction": "Juca",
+  "championshipTitle": "Campionat",
+  "championshipScore": "Scor {score}",
+  "toNextPlace": "La locul următor: {points} PTS",
+  "youAreTop": "Ești #1",
+  "championshipRoundDescriptionPlaceholder": "Joacă această rundă pentru a -ți stimula alergarea campionatului.",
+  "championshipRoundCompletedLabel": "Completat",
+  "totalScore": "Scor total: {score}",
+  "meLabel": "Eu",
+  "leaderboardRow": "Plasați {rank}. {name}. {points} puncte",
+  "yourPosition": "Locul meu {rank}. {points} puncte",
+  "pointsShort": "pct",
+  "championshipAutoScroll": "Auto-scroll la poziția mea",
+  "bestLabel": "Cel mai bun",
+  "play": "Juca",
+  "battleTitle": "Luptă",
+  "battleWinRate": "Câștigă {count}%",
+  "battleYouLabel": "Tu",
+  "battleVictoryTitle": "Ai câștigat!",
+  "battleDefeatTitle": "Oponentul a terminat primul",
+  "battleDefeatMessage": "{name} a rezolvat puzzle -ul înaintea voastră.",
+  "battleSimpleDefeatTitle": "Ai pierdut",
+  "battleExitToMainMenu": "Meniul principal",
+  "playerFlagSettingTitle": "Steagul jucătorului",
+  "selectPlayerFlag": "Alege -ți steagul",
+  "confirmFlagSelectionTitle": "Confirmați -vă steagul",
+  "confirmFlagSelectionMessage": "Ești sigur că vrei să alegi acest steag? Puteți schimba steagul mai târziu în setările jocului.",
+  "confirmFlagSelectionConfirm": "Confirma",
+  "startAction": "Început",
+  "levelHeading": "Nivel {level} - {difficulty}",
+  "rankProgress": "Progresul de rang",
+  "rankLabel": "Clasament {rank}",
+  "newGame": "Joc nou",
+  "continueGame": "Continuați jocul",
+  "weeklyProgress": "Progres săptămânal",
+  "rewardsTitle": "Recompense",
+  "rewardNoMistakesTitle": "Termină provocarea fără greșeli",
+  "rewardExtraHearts": "+{count, plural, one {# inima} other {# inimile}}",
+  "rewardThreeInRowTitle": "Completați trei provocări la rând",
+  "rewardUniqueTrophy": "Trofeu unic",
+  "rewardSevenDayTitle": "Mențineți o serie de 7 zile",
+  "rewardStars": "+{count, plural, one {# stea} other {# stele}}",
+  "todayPuzzle": "Puzzle -ul de astăzi",
+  "todayPuzzleDescription": "Finalizați Sudoku pentru a câștiga o recompensă suplimentară și pentru a vă menține în viață șirul.",
+  "continueAction": "Continua",
+  "adMessage": "AD: Găsiți obiecte ascunse! Joacă acum.",
+  "adPlay": "Juca",
+  "undo": "Anula",
+  "erase": "Şterge",
+  "autoNotes": "Note auto",
+  "statusOn": "PE",
+  "statusOff": "Oprit",
+  "notes": "Note",
+  "hint": "Aluzie",
+  "undoAdTitle": "Urmăriți anunțul pentru a anula",
+  "undoAdDescription": "Urmăriți acest scurt anunț pentru a vă anula ultima mișcare.",
+  "undoAdCountdown": "Anunțul se termină în {seconds}s",
+  "hintAdTitle": "Urmăriți anunțul pentru a obține un indiciu",
+  "hintAdDescription": "Urmăriți acest scurt anunț pentru a câștiga un indiciu.",
+  "hintAdCountdown": "Anunțul se termină în {seconds}s",
+  "lifeAdTitle": "Urmăriți anunțul pentru a restabili o inimă",
+  "lifeAdDescription": "Urmăriți acest scurt anunț pentru a restabili o inimă roșie și continuați să vă jucați.",
+  "lifeAdCountdown": "Anunțul se termină în {seconds}s",
+  "gameScreenTitle": "Sudoku",
+  "combo_x": "Combo × {count}",
+  "streak_n": "Serie {count}",
+  "speed_bonus": "Bonus de viteză {time}",
+  "comboX": "Combo ×{count}",
+  "streakN": "Serie {count}",
+  "speedBonus": "Bonus de viteză ({time})",
+  "noActiveGameMessage": "Niciun joc activ. Întoarceți -vă la ecranul de pornire.",
+  "victoryTitle": "Felicitări!",
+  "victoryMessage": "Puzzle rezolvat în {time}.",
+  "backToHome": "Acasă",
+  "playAnother": "Joacă din nou",
+  "outOfLivesTitle": "Ești în afara inimilor",
+  "outOfLivesDescription": "Restabiliți o inimă roșie pentru a continua să joace.",
+  "restoreLifeAction": "Restabiliți 1 inimă roșie",
+  "cancelAction": "Anula",
+  "settingsTitle": "Setări",
+  "themeSectionTitle": "Temă",
+  "themeWhite": "Lumina clasică",
+  "themeCream": "Cremă",
+  "themeGreen": "Mentă",
+  "themeBlack": "Întuneric",
+  "themePurple": "Întuneric violet",
+  "themeFontSize": "Dimensiunea fontului",
+  "fontSizeExtraSmall": "Extra mic",
+  "fontSizeSmall": "Mic",
+  "fontSizeMedium": "Mediu",
+  "fontSizeLarge": "Mare",
+  "fontSizeExtraLarge": "Extrem de mare",
+  "languageSectionTitle": "Limbă",
+  "audioSectionTitle": "Sunet și muzică",
+  "soundsEffectsLabel": "Efecte sonore",
+  "vibrationLabel": "Vibrație",
+  "comboBadgesLabel": "Insigne combo",
+  "comboHapticsLabel": "Haptics de insigne",
+  "miscSectionTitle": "Alte",
+  "howToPlayTitle": "Cum să te joci",
+  "howToPlayRowRule": "Fiecare rând are cifrele de la 1 la 9 fără repetări",
+  "howToPlayColumnRule": "Fiecare coloană are cifrele de la 1 la 9 fără repetări",
+  "howToPlayBoxRule": "Fiecare cutie 3 × 3 are cifrele de la 1 la 9 fără repetări",
+  "howToPlayFooter": "Completați fiecare celulă și câștigați!",
+  "howToPlayAction": "Am înţeles",
+  "championshipLocalSection": "Campionat (local)",
+  "hideCompletedNumbersLabel": "Ascundeți cifrele completate",
+  "aboutApp": "Despre",
+  "versionLabel": "Versiunea {version}",
+  "aboutLegalese": "UZOR",
+  "languageEnglish": "Engleză",
+  "languageRussian": "Русский",
+  "languageUkrainian": "Ai",
+  "languageGerman": "Deutsch",
+  "languageFrench": "Franceză",
+  "languageChinese": "中文",
+  "languageHindi": "हिन्दी",
+  "languageGeorgian": "ქართული",
+  "languageSpanish": "Español",
+  "languageItalian": "Italiano",
+  "languageJapanese": "日本語",
+  "languageKorean": "한국어",
+  "languageTurkish": "Türkçe",
+  "languagePolish": "Polski",
+  "languagePortuguese": "portugheză",
+  "languageIndonesian": "Bahasa Indonezia",
+  "languageVietnamese": "Tiếng việt",
+  "languageThai": "ไทย",
+  "languageDutch": "Olanda",
+  "languageSwedish": "Svenska",
+  "languageRomanian": "ROMÂNĂ",
+  "languageCzech": "Čeština",
+  "languageFinnish": "Suomi",
+  "languageKazakh": "Қазақ т т",
+  "languageBulgarian": "Български",
+  "languageMalay": "Bahasa Melayu",
+  "languageNepali": "नेपाली",
+  "languagePunjabi": "ਪੰਜਾਬੀ",
+  "languageSwahili": "Kiswahili",
+  "languageTamil": "தமிழ்",
+  "languageSlovak": "Slovenčina",
+  "export": "Exportă",
+  "import": "Importă",
+  "resetMyScore": "Resetează -mi scorul",
+  "resetMyScoreConfirmation": "Ești sigur că vrei să resetezi scorul? Această acțiune nu poate fi anulată.",
+  "resetAction": "Resetează",
+  "regenerateOpponents": "Regenerarea adversarilor",
+  "confirm": "Confirma",
+  "cancel": "Anula",
+  "done": "Făcut",
+  "privacyPolicyTitle": "Politica de confidențialitate",
+  "privacyPolicyAccept": "Accept",
+  "privacyPolicyPrompt": "Acceptați Politica de confidențialitate?",
+  "privacyPolicyLearnMore": "Aflați mai multe →",
+  "privacyPolicyDecline": "Eu refuză",
+  "privacyPolicyClose": "Aproape",
+  "privacyPolicyLoadError": "Nu a reușit să încarce politica de confidențialitate. Vă rugăm să încercați din nou.",
+  "failed": "Eșuat",
+  "rankBadgeChasing": "Rank #{current} • +{delta} până la #{target}",
+  "statsTitle": "Statistici",
+  "statsGamesSection": "Jocuri",
+  "statsGamesStarted": "A început jocurile",
+  "statsGamesWon": "Jocurile au câștigat",
+  "statsWinRate": "Rata de câștig",
+  "statsFlawless": "Finisaje impecabile",
+  "statsTimeSection": "Timp",
+  "statsBestTime": "Cel mai bun timp",
+  "statsAverageTime": "Timp mediu",
+  "statsStreakSection": "Fâșie",
+  "statsCurrentStreak": "Streak actual",
+  "statsBestStreak": "Cea mai bună dungă",
+  "difficultyNovice": "Începător",
+  "difficultyNoviceShort": "Înc.",
+  "difficultyMedium": "Mediu",
+  "difficultyMediumShort": "Med.",
+  "difficultyHigh": "Greu",
+  "difficultyHighShort": "Greu",
+  "difficultyExpert": "Expert",
+  "difficultyExpertShort": "Exp.",
+  "difficultyMaster": "Maestru",
+  "difficultyMasterShort": "Mae.",
+  "ach_title_supermind": "Superminte",
+  "ach_desc_supermind": "Câștigă la orice dificultate fără greșeli sau indicii în mai puțin de 2 minute și 30 de secunde",
+  "rateDialogTitle": "Îți place jocul? 💛",
+  "rateDialogSubtitle": "Evaluarea ta va ajuta Sudoku să devină și mai bun!",
+  "rateDialogDismiss": "Ieși",
+  "rateDialogConfirm": "Da, e grozavă!"
+}

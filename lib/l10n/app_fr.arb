@@ -1,0 +1,417 @@
+{
+  "@@locale": "fr",
+  "appTitle": "Sudoku",
+  "navHome": "Accueil",
+  "navDaily": "Défi",
+  "navAchievements": "Succès",
+  "achievements_title": "Succès",
+  "ach_section_title": "Objectifs et récompenses",
+  "ach_title_wins_50": "50 victoires",
+  "ach_title_no_mistakes": "Volonté d'acier",
+  "ach_title_streak_3days": "Série de 3 jours",
+  "ach_title_fast_solver": "Vitesse éclair",
+  "ach_title_wins_100": "100 victoires",
+  "ach_desc_wins_50": "Remportez 50 parties en mode Classique",
+  "ach_desc_no_mistakes": "Terminez 3 parties d'affilée sans indice ni erreur",
+  "ach_desc_streak_3days": "Jouez chaque jour pendant 3 jours d'affilée",
+  "ach_desc_fast_solver": "Résolvez un sudoku en moins de 3 minutes",
+  "ach_desc_wins_100": "Remportez 100 parties en mode Classique",
+  "ach_status_finished": "Terminé",
+  "ach_status_in_progress": "{current} parties terminées",
+  "@ach_status_in_progress": {
+    "placeholders": {
+      "current": {
+        "type": "int"
+      }
+    }
+  },
+  "ach_percent": "{percent}%",
+  "@ach_percent": {
+    "placeholders": {
+      "percent": {
+        "type": "int"
+      }
+    }
+  },
+  "ach_obtained_on": "Obtenu le : {date}",
+  "@ach_obtained_on": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "ach_locked": "Verrouillé",
+  "dailyStreak": "Série quotidienne",
+  "selectDifficultyTitle": "Choisissez la difficulté",
+  "selectDifficultyDailyChallenge": "Défi quotidien",
+  "playAction": "Jouer",
+  "championshipTitle": "Championnat",
+  "championshipScore": "Note {score}",
+  "@championshipScore": {
+    "placeholders": {
+      "score": {
+        "type": "int"
+      }
+    }
+  },
+  "toNextPlace": "Jusqu'à la prochaine place : {points} pts",
+  "@toNextPlace": {
+    "placeholders": {
+      "points": {
+        "type": "int"
+      }
+    }
+  },
+  "youAreTop": "Vous êtes n°1",
+  "championshipRoundDescriptionPlaceholder": "Jouez cette manche pour booster votre parcours au championnat.",
+  "championshipRoundCompletedLabel": "Terminé",
+  "totalScore": "Score total : {score}",
+  "@totalScore": {
+    "placeholders": {
+      "score": {
+        "type": "String"
+      }
+    }
+  },
+  "meLabel": "Moi",
+  "leaderboardRow": "Placez {rank}. {name}. {points} points",
+  "@leaderboardRow": {
+    "placeholders": {
+      "rank": {
+        "type": "int"
+      },
+      "name": {
+        "type": "String"
+      },
+      "points": {
+        "type": "String"
+      }
+    }
+  },
+  "yourPosition": "Ma place {rank}. {points} points",
+  "@yourPosition": {
+    "placeholders": {
+      "rank": {
+        "type": "int"
+      },
+      "points": {
+        "type": "String"
+      }
+    }
+  },
+  "pointsShort": "points",
+  "championshipAutoScroll": "Défilement auto vers ma position",
+  "bestLabel": "Meilleur",
+  "play": "Jouer",
+  "battleTitle": "Duel",
+  "battleWinRate": "Victoires {count}%",
+  "@battleWinRate": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "battleYouLabel": "Toi",
+  "battleVictoryTitle": "Tu as gagné !",
+  "battleDefeatTitle": "L'adversaire a gagné",
+  "battleDefeatMessage": "{name} a résolu la grille avant toi.",
+  "@battleDefeatMessage": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "battleSimpleDefeatTitle": "Vous avez perdu",
+  "battleExitToMainMenu": "Menu principal",
+  "playerFlagSettingTitle": "Drapeau du joueur",
+  "selectPlayerFlag": "Choisis ton drapeau",
+  "confirmFlagSelectionTitle": "Confirme ton drapeau",
+  "confirmFlagSelectionMessage": "Es-tu sûr de vouloir choisir ce drapeau ? Tu pourras changer ton drapeau plus tard dans les paramètres du jeu.",
+  "confirmFlagSelectionConfirm": "Confirmer",
+  "startAction": "Commencer",
+  "levelHeading": "Niveau {level} — {difficulty}",
+  "@levelHeading": {
+    "placeholders": {
+      "level": {
+        "type": "int"
+      },
+      "difficulty": {
+        "type": "String"
+      }
+    }
+  },
+  "rankProgress": "Progression du rang",
+  "rankLabel": "Rang {rank}",
+  "@rankLabel": {
+    "placeholders": {
+      "rank": {
+        "type": "int"
+      }
+    }
+  },
+  "newGame": "Nouvelle partie",
+  "continueGame": "Continuer la partie",
+  "weeklyProgress": "Progression hebdomadaire",
+  "rewardsTitle": "Récompenses",
+  "rewardNoMistakesTitle": "Terminez le défi sans erreur",
+  "rewardExtraHearts": "+{count, plural, one {# cœur} other {# cœurs}}",
+  "@rewardExtraHearts": {
+    "placeholders": {
+      "count": {
+        "type": "num"
+      }
+    }
+  },
+  "rewardThreeInRowTitle": "Terminez trois défis d'affilée",
+  "rewardUniqueTrophy": "Trophée unique",
+  "rewardSevenDayTitle": "Maintenez une série de 7 jours",
+  "rewardStars": "+{count, plural, one {# étoile} other {# étoiles}}",
+  "@rewardStars": {
+    "placeholders": {
+      "count": {
+        "type": "num"
+      }
+    }
+  },
+  "todayPuzzle": "Casse-tête du jour",
+  "todayPuzzleDescription": "Terminez le sudoku pour gagner une récompense supplémentaire et prolonger votre série.",
+  "continueAction": "Continuer",
+  "adMessage": "Annonce : Trouvez les objets cachés ! Jouez maintenant.",
+  "adPlay": "Jouer",
+  "undo": "Annuler",
+  "erase": "Effacer",
+  "autoNotes": "Notes auto",
+  "statusOn": "ACTIF",
+  "statusOff": "ARRÊT",
+  "notes": "Remarques",
+  "hint": "Indice",
+  "undoAdTitle": "Voir une pub pour annuler",
+  "undoAdDescription": "Regardez cette courte publicité pour annuler votre dernier coup.",
+  "undoAdCountdown": "La pub se termine dans {seconds} s",
+  "@undoAdCountdown": {
+    "placeholders": {
+      "seconds": {
+        "type": "int"
+      }
+    }
+  },
+  "hintAdTitle": "Voir une pub pour obtenir un indice",
+  "hintAdDescription": "Regardez cette courte publicité pour obtenir un indice.",
+  "hintAdCountdown": "La pub se termine dans {seconds} s",
+  "@hintAdCountdown": {
+    "placeholders": {
+      "seconds": {
+        "type": "int"
+      }
+    }
+  },
+  "lifeAdTitle": "Voir une pub pour restaurer un cœur",
+  "lifeAdDescription": "Regardez cette courte publicité pour restaurer un cœur rouge et continuer à jouer.",
+  "lifeAdCountdown": "La pub se termine dans {seconds} s",
+  "@lifeAdCountdown": {
+    "placeholders": {
+      "seconds": {
+        "type": "int"
+      }
+    }
+  },
+  "gameScreenTitle": "Sudoku",
+  "combo_x": "Combo ×{count}",
+  "@combo_x": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "streak_n": "Série {count}",
+  "@streak_n": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "speed_bonus": "Bonus de vitesse {time}",
+  "@speed_bonus": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "comboX": "Combinaison x{count}",
+  "@comboX": {
+    "description": "Badge de multiplicateur de combo",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "streakN": "Série {count}",
+  "@streakN": {
+    "description": "Badge de série",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "speedBonus": "Bonus de vitesse ({time})",
+  "@speedBonus": {
+    "description": "Récompense pour avoir terminé plus vite que l'objectif",
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "noActiveGameMessage": "Aucune partie en cours. Revenez à l'écran d'accueil.",
+  "victoryTitle": "Félicitations !",
+  "victoryMessage": "Énigme résolue en {time}.",
+  "@victoryMessage": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "backToHome": "Accueil",
+  "playAnother": "Rejouer",
+  "outOfLivesTitle": "Plus de cœurs",
+  "outOfLivesDescription": "Restaurez un cœur rouge pour continuer.",
+  "restoreLifeAction": "Restaurer 1 cœur rouge",
+  "cancelAction": "Annuler",
+  "settingsTitle": "Paramètres",
+  "themeSectionTitle": "Thème",
+  "themeWhite": "Classique claire",
+  "themeCream": "Crème",
+  "themeGreen": "Menthe",
+  "themeBlack": "Sombre",
+  "themePurple": "Violette sombre",
+  "themeFontSize": "Taille de police",
+  "fontSizeExtraSmall": "Très petite",
+  "fontSizeSmall": "Petite",
+  "fontSizeMedium": "Moyenne",
+  "fontSizeLarge": "Grande",
+  "fontSizeExtraLarge": "Très grande",
+  "languageSectionTitle": "Langue",
+  "audioSectionTitle": "Son & musique",
+  "soundsEffectsLabel": "Effets sonores",
+  "vibrationLabel": "Vibrations",
+  "comboBadgesLabel": "Badges combo",
+  "comboHapticsLabel": "Retour haptique des badges",
+  "miscSectionTitle": "Autre",
+  "howToPlayTitle": "Comment jouer",
+  "howToPlayRowRule": "Chaque ligne contient les chiffres de 1 à 9 sans doublons",
+  "howToPlayColumnRule": "Chaque colonne contient les chiffres de 1 à 9 sans doublons",
+  "howToPlayBoxRule": "Chaque carré 3×3 contient les chiffres de 1 à 9 sans doublons",
+  "howToPlayFooter": "Remplis toutes les cases et tu gagnes !",
+  "howToPlayAction": "Compris",
+  "championshipLocalSection": "Championnat (local)",
+  "hideCompletedNumbersLabel": "Masquer les chiffres utilisés",
+  "aboutApp": "À propos",
+  "versionLabel": "Version {version}",
+  "@versionLabel": {
+    "placeholders": {
+      "version": {
+        "type": "String"
+      }
+    }
+  },
+  "aboutLegalese": "Nahreba UZOR Inc.",
+  "languageEnglish": "Anglais",
+  "languageRussian": "russe",
+  "languageUkrainian": "Українська",
+  "languageGerman": "Allemand",
+  "languageFrench": "Français",
+  "languageChinese": "Chine",
+  "languageHindi": "हिन्दी",
+  "languageGeorgian": "ქართული",
+  "languageSpanish": "espagnol",
+  "languageItalian": "Italien",
+  "languageJapanese": "日本語",
+  "languageKorean": "한국어",
+  "languageTurkish": "Turc",
+  "languagePolish": "Polski",
+  "languagePortuguese": "Portugais",
+  "languageIndonesian": "Bahasa Indonésie",
+  "languageVietnamese": "Tiếng Việt",
+  "languageThai": "ไทย",
+  "languageDutch": "Pays-Bas",
+  "languageSwedish": "Suède",
+  "languageRomanian": "Română",
+  "languageCzech": "Ceština",
+  "languageFinnish": "Suomi",
+  "languageKazakh": "Қазақ тілі",
+  "languageBulgarian": "Български",
+  "languageMalay": "Bahasa Melayu",
+  "languageNepali": "नेपाली",
+  "languagePunjabi": "ਪੰਜਾਬੀ",
+  "languageSwahili": "Kiswahili",
+  "languageTamil": "தமிழ்",
+  "languageSlovak": "Slovénie",
+  "export": "Exporter",
+  "import": "Importer",
+  "resetMyScore": "Réinitialiser mon score",
+  "resetMyScoreConfirmation": "Voulez-vous vraiment réinitialiser le score ? Cette action est irréversible.",
+  "resetAction": "Réinitialiser",
+  "regenerateOpponents": "Régénérer les adversaires",
+  "confirm": "Confirmer",
+  "cancel": "Annuler",
+  "done": "Terminé",
+  "privacyPolicyTitle": "Politique de confidentialité",
+  "privacyPolicyAccept": "J'accepte",
+  "privacyPolicyPrompt": "Acceptez-vous la politique de confidentialité ?",
+  "privacyPolicyLearnMore": "En savoir plus →",
+  "privacyPolicyDecline": "Je refuse",
+  "privacyPolicyClose": "Fermer",
+  "privacyPolicyLoadError": "Impossible de charger la politique de confidentialité. Veuillez réessayer.",
+  "failed": "Échec",
+  "rankBadgeChasing": "Rang #{current} • +{delta} vers #{target}",
+  "@rankBadgeChasing": {
+    "placeholders": {
+      "current": {
+        "type": "int"
+      },
+      "delta": {
+        "type": "int"
+      },
+      "target": {
+        "type": "int"
+      }
+    }
+  },
+  "statsTitle": "Statistiques",
+  "statsGamesSection": "Parties",
+  "statsGamesStarted": "Parties lancées",
+  "statsGamesWon": "Parties gagnées",
+  "statsWinRate": "Taux de victoire",
+  "statsFlawless": "Fin sans erreur",
+  "statsTimeSection": "Temps",
+  "statsBestTime": "Meilleur temps",
+  "statsAverageTime": "Temps moyen",
+  "statsStreakSection": "Série",
+  "statsCurrentStreak": "Série actuelle",
+  "statsBestStreak": "Meilleure série",
+  "difficultyNovice": "Débutant",
+  "difficultyNoviceShort": "Déb.",
+  "difficultyMedium": "Intermédiaire",
+  "difficultyMediumShort": "Inter.",
+  "difficultyHigh": "Difficile",
+  "difficultyHighShort": "Diff.",
+  "difficultyExpert": "Expert",
+  "difficultyExpertShort": "Exp.",
+  "difficultyMaster": "Maître",
+  "difficultyMasterShort": "Maît.",
+  "ach_title_supermind": "Super-esprit",
+  "ach_desc_supermind": "Remportez n'importe quelle difficulté sans erreur ni indice en moins de 2 minutes 30",
+  "rateDialogTitle": "Le jeu te plaît ? 💛",
+  "rateDialogSubtitle": "Votre note aidera Sudoku à devenir encore meilleur !",
+  "rateDialogDismiss": "Quitter",
+  "rateDialogConfirm": "Oui, elle est géniale !"
+}

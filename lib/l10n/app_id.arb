@@ -1,0 +1,418 @@
+{
+  "@@locale": "id",
+  "@championshipScore": {
+    "placeholders": {
+      "score": {
+        "type": "int"
+      }
+    }
+  },
+  "@toNextPlace": {
+    "placeholders": {
+      "points": {
+        "type": "int"
+      }
+    }
+  },
+  "@totalScore": {
+    "placeholders": {
+      "score": {
+        "type": "String"
+      }
+    }
+  },
+  "@leaderboardRow": {
+    "placeholders": {
+      "rank": {
+        "type": "int"
+      },
+      "name": {
+        "type": "String"
+      },
+      "points": {
+        "type": "String"
+      }
+    }
+  },
+  "@yourPosition": {
+    "placeholders": {
+      "rank": {
+        "type": "int"
+      },
+      "points": {
+        "type": "String"
+      }
+    }
+  },
+  "@battleWinRate": {
+    "description": "Battle mode win percentage label.",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@battleDefeatMessage": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "@levelHeading": {
+    "placeholders": {
+      "level": {
+        "type": "int"
+      },
+      "difficulty": {
+        "type": "String"
+      }
+    }
+  },
+  "@rankLabel": {
+    "placeholders": {
+      "rank": {
+        "type": "int"
+      }
+    }
+  },
+  "@rewardExtraHearts": {
+    "placeholders": {
+      "count": {
+        "type": "num"
+      }
+    }
+  },
+  "@rewardStars": {
+    "placeholders": {
+      "count": {
+        "type": "num"
+      }
+    }
+  },
+  "@undoAdCountdown": {
+    "placeholders": {
+      "seconds": {
+        "type": "int"
+      }
+    }
+  },
+  "@hintAdCountdown": {
+    "placeholders": {
+      "seconds": {
+        "type": "int"
+      }
+    }
+  },
+  "@lifeAdCountdown": {
+    "placeholders": {
+      "seconds": {
+        "type": "int"
+      }
+    }
+  },
+  "@combo_x": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@streak_n": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@speed_bonus": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "@comboX": {
+    "description": "Combo multiplier badge",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@streakN": {
+    "description": "Streak badge",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@speedBonus": {
+    "description": "Award for finishing faster than target",
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "@victoryMessage": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "@versionLabel": {
+    "placeholders": {
+      "version": {
+        "type": "String"
+      }
+    }
+  },
+  "@rankBadgeChasing": {
+    "placeholders": {
+      "current": {
+        "type": "int"
+      },
+      "delta": {
+        "type": "int"
+      },
+      "target": {
+        "type": "int"
+      }
+    }
+  },
+  "appTitle": "Sudoku",
+  "navHome": "Rumah",
+  "navDaily": "Tantangan",
+  "navAchievements": "Pencapaian",
+  "achievements_title": "Pencapaian",
+  "ach_section_title": "Target dan Hadiah",
+  "ach_title_wins_50": "50 Kemenangan",
+  "ach_title_no_mistakes": "Tekad Baja",
+  "ach_title_streak_3days": "Rekor 3 Hari",
+  "ach_title_fast_solver": "Secepat Kilat",
+  "ach_title_wins_100": "100 Kemenangan",
+  "ach_desc_wins_50": "Menang 50 kali di mode Klasik",
+  "ach_desc_no_mistakes": "Selesaikan 3 permainan berturut-turut tanpa petunjuk dan tanpa kesalahan",
+  "ach_desc_streak_3days": "Main setiap hari selama 3 hari berturut-turut",
+  "ach_desc_fast_solver": "Selesaikan satu sudoku dalam waktu kurang dari 3 menit",
+  "ach_desc_wins_100": "Menang 100 kali di mode Klasik",
+  "ach_status_finished": "Selesai",
+  "ach_status_in_progress": "{current} permainan selesai",
+  "@ach_status_in_progress": {
+    "placeholders": {
+      "current": {
+        "type": "int"
+      }
+    }
+  },
+  "ach_percent": "{percent}%",
+  "@ach_percent": {
+    "placeholders": {
+      "percent": {
+        "type": "int"
+      }
+    }
+  },
+  "ach_obtained_on": "Diperoleh: {date}",
+  "@ach_obtained_on": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "ach_locked": "Terkunci",
+  "dailyStreak": "Pukulan harian",
+  "selectDifficultyTitle": "Pilih tingkat kesulitan",
+  "selectDifficultyDailyChallenge": "Tantangan harian",
+  "playAction": "Bermain",
+  "championshipTitle": "Kejuaraan",
+  "championshipScore": "Skor {score}",
+  "toNextPlace": "Ke tempat berikutnya: {points} poin",
+  "youAreTop": "Anda #1",
+  "championshipRoundDescriptionPlaceholder": "Mainkan putaran ini untuk meningkatkan laju kejuaraan Anda.",
+  "championshipRoundCompletedLabel": "Selesai",
+  "totalScore": "Skor total: {score}",
+  "meLabel": "Aku",
+  "leaderboardRow": "Tempat {rank}. {name}. {points} poin",
+  "yourPosition": "Tempat saya {rank}. {points} poin",
+  "pointsShort": "poin",
+  "championshipAutoScroll": "Gulir otomatis ke posisi saya",
+  "bestLabel": "Terbaik",
+  "play": "Bermain",
+  "battleTitle": "Pertempuran",
+  "battleWinRate": "Menang {count}%",
+  "battleYouLabel": "Anda",
+  "battleVictoryTitle": "Anda menang!",
+  "battleDefeatTitle": "Lawan selesai lebih dulu",
+  "battleDefeatMessage": "{name} memecahkan teka-teki sebelum Anda.",
+  "battleSimpleDefeatTitle": "Anda kalah",
+  "battleExitToMainMenu": "Menu utama",
+  "playerFlagSettingTitle": "Bendera pemain",
+  "selectPlayerFlag": "Pilih bendera Anda",
+  "confirmFlagSelectionTitle": "Konfirmasikan bendera Anda",
+  "confirmFlagSelectionMessage": "Apakah Anda yakin ingin memilih bendera ini? Anda dapat mengubah bendera Anda nanti di pengaturan game.",
+  "confirmFlagSelectionConfirm": "Mengonfirmasi",
+  "startAction": "Awal",
+  "levelHeading": "Tingkat {level} — {difficulty}",
+  "rankProgress": "Kemajuan peringkat",
+  "rankLabel": "Peringkat {rank}",
+  "newGame": "Permainan baru",
+  "continueGame": "Lanjutkan permainan",
+  "weeklyProgress": "Kemajuan mingguan",
+  "rewardsTitle": "Hadiah",
+  "rewardNoMistakesTitle": "Selesaikan tantangan tanpa kesalahan",
+  "rewardExtraHearts": "+{count, plural, one {# jantung} other {# hati}}",
+  "rewardThreeInRowTitle": "Selesaikan tiga tantangan berturut-turut",
+  "rewardUniqueTrophy": "Piala unik",
+  "rewardSevenDayTitle": "Pertahankan rekor 7 hari berturut-turut",
+  "rewardStars": "+{count, plural, one {# bintang} other {# bintang}}",
+  "todayPuzzle": "Teka-teki hari ini",
+  "todayPuzzleDescription": "Selesaikan sudoku untuk mendapatkan hadiah ekstra dan pertahankan pukulan Anda tetap hidup.",
+  "continueAction": "Melanjutkan",
+  "adMessage": "Iklan: Temukan benda tersembunyi! Mainkan sekarang.",
+  "adPlay": "Bermain",
+  "undo": "Membuka",
+  "erase": "Menghapus",
+  "autoNotes": "Catatan otomatis",
+  "statusOn": "PADA",
+  "statusOff": "MATI",
+  "notes": "Catatan",
+  "hint": "Petunjuk",
+  "undoAdTitle": "Tonton iklan untuk membatalkan",
+  "undoAdDescription": "Tonton iklan singkat ini untuk membatalkan langkah terakhir Anda.",
+  "undoAdCountdown": "Iklan berakhir dalam {seconds}s",
+  "hintAdTitle": "Tonton iklan untuk mendapatkan petunjuk",
+  "hintAdDescription": "Tonton iklan singkat ini untuk mendapatkan petunjuk.",
+  "hintAdCountdown": "Iklan berakhir dalam {seconds}s",
+  "lifeAdTitle": "Tonton iklan untuk memulihkan hati",
+  "lifeAdDescription": "Tonton iklan singkat ini untuk mengembalikan hati yang merah dan terus bermain.",
+  "lifeAdCountdown": "Iklan berakhir dalam {seconds}s",
+  "gameScreenTitle": "Sudoku",
+  "combo_x": "Kombo ×{count}",
+  "streak_n": "Garis {count}",
+  "speed_bonus": "Bonus Kecepatan {time}",
+  "comboX": "Kombo x{count}",
+  "streakN": "Garis {count}",
+  "speedBonus": "Bonus Kecepatan ({time})",
+  "noActiveGameMessage": "Tidak ada permainan aktif. Kembali ke layar beranda.",
+  "victoryTitle": "Selamat!",
+  "victoryMessage": "Teka-teki terpecahkan dalam {time}.",
+  "backToHome": "Rumah",
+  "playAnother": "Mainkan lagi",
+  "outOfLivesTitle": "Kamu kehabisan hati",
+  "outOfLivesDescription": "Kembalikan satu hati merah untuk terus bermain.",
+  "restoreLifeAction": "Kembalikan 1 hati merah",
+  "cancelAction": "Membatalkan",
+  "settingsTitle": "Pengaturan",
+  "themeSectionTitle": "Tema",
+  "themeWhite": "Cahaya Klasik",
+  "themeCream": "Krim",
+  "themeGreen": "daun mint",
+  "themeBlack": "Gelap",
+  "themePurple": "Ungu Gelap",
+  "themeFontSize": "Ukuran huruf",
+  "fontSizeExtraSmall": "Sangat kecil",
+  "fontSizeSmall": "Kecil",
+  "fontSizeMedium": "Sedang",
+  "fontSizeLarge": "Besar",
+  "fontSizeExtraLarge": "Ekstra besar",
+  "languageSectionTitle": "Bahasa",
+  "audioSectionTitle": "Suara & musik",
+  "soundsEffectsLabel": "Efek suara",
+  "vibrationLabel": "Getaran",
+  "comboBadgesLabel": "Lencana kombo",
+  "comboHapticsLabel": "Haptik lencana",
+  "miscSectionTitle": "Lainnya",
+  "howToPlayTitle": "Cara bermain",
+  "howToPlayRowRule": "Setiap baris memiliki angka 1 hingga 9 tanpa pengulangan",
+  "howToPlayColumnRule": "Setiap kolom memiliki angka 1 sampai 9 tanpa pengulangan",
+  "howToPlayBoxRule": "Setiap kotak 3x3 memiliki angka 1 sampai 9 tanpa pengulangan",
+  "howToPlayFooter": "Isi setiap sel dan Anda menang!",
+  "howToPlayAction": "Mengerti",
+  "championshipLocalSection": "Kejuaraan (lokal)",
+  "hideCompletedNumbersLabel": "Sembunyikan digit yang sudah selesai",
+  "aboutApp": "Tentang",
+  "versionLabel": "Versi {version}",
+  "aboutLegalese": "Nahreba UZOR Inc.",
+  "languageEnglish": "Bahasa inggris",
+  "languageRussian": "Русский",
+  "languageUkrainian": "Українська",
+  "languageGerman": "Jerman",
+  "languageFrench": "Perancis",
+  "languageChinese": "tidak",
+  "languageHindi": "हिन्दी",
+  "languageGeorgian": "ქართული",
+  "languageSpanish": "Spanyol",
+  "languageItalian": "Italia",
+  "languageJapanese": "日本語",
+  "languageKorean": "한국어",
+  "languageTurkish": "Turki",
+  "languagePolish": "Polski",
+  "languagePortuguese": "Portugis",
+  "languageIndonesian": "Bahasa Indonesia",
+  "languageVietnamese": "Tiếng Việt",
+  "languageThai": "ya",
+  "languageDutch": "Belanda",
+  "languageSwedish": "Svenska",
+  "languageRomanian": "Romawi",
+  "languageCzech": "Ceština",
+  "languageFinnish": "Suomi",
+  "languageKazakh": "begitulah",
+  "languageBulgarian": "Български",
+  "languageMalay": "Bahasa Melayu",
+  "languageNepali": "नेपाली",
+  "languagePunjabi": "baiklah",
+  "languageSwahili": "Kiswahili",
+  "languageTamil": "தமிழ்",
+  "languageSlovak": "Slovenia",
+  "export": "Ekspor",
+  "import": "Impor",
+  "resetMyScore": "Atur ulang skor saya",
+  "resetMyScoreConfirmation": "Apakah Anda yakin ingin mengatur ulang skor? Tindakan ini tidak dapat dibatalkan.",
+  "resetAction": "Mengatur ulang",
+  "regenerateOpponents": "Regenerasi lawan",
+  "confirm": "Mengonfirmasi",
+  "cancel": "Membatalkan",
+  "done": "Selesai",
+  "privacyPolicyTitle": "Kebijakan Privasi",
+  "privacyPolicyAccept": "saya terima",
+  "privacyPolicyPrompt": "Apakah Anda menerima Kebijakan Privasi?",
+  "privacyPolicyLearnMore": "Pelajari lebih lanjut →",
+  "privacyPolicyDecline": "saya menolak",
+  "privacyPolicyClose": "Menutup",
+  "privacyPolicyLoadError": "Gagal memuat kebijakan privasi. Silakan coba lagi.",
+  "failed": "Gagal",
+  "rankBadgeChasing": "Peringkat #{current} • +{delta} hingga #{target}",
+  "statsTitle": "Statistik",
+  "statsGamesSection": "Pertandingan",
+  "statsGamesStarted": "Permainan dimulai",
+  "statsGamesWon": "Permainan dimenangkan",
+  "statsWinRate": "Tingkat kemenangan",
+  "statsFlawless": "Hasil akhir yang sempurna",
+  "statsTimeSection": "Waktu",
+  "statsBestTime": "Waktu terbaik",
+  "statsAverageTime": "Waktu rata-rata",
+  "statsStreakSection": "Garis",
+  "statsCurrentStreak": "Pukulan saat ini",
+  "statsBestStreak": "Pukulan terbaik",
+  "difficultyNovice": "Pemula",
+  "difficultyNoviceShort": "Pem.",
+  "difficultyMedium": "Menengah",
+  "difficultyMediumShort": "Men.",
+  "difficultyHigh": "Sulit",
+  "difficultyHighShort": "Sul.",
+  "difficultyExpert": "Ahli",
+  "difficultyExpertShort": "Ahl.",
+  "difficultyMaster": "Mahir",
+  "difficultyMasterShort": "Mah.",
+  "ach_title_supermind": "Super Otak",
+  "ach_desc_supermind": "Menangkan level apa pun tanpa kesalahan atau petunjuk dalam waktu kurang dari 2 menit 30 detik",
+  "rateDialogTitle": "Suka dengan gamenya? 💛",
+  "rateDialogSubtitle": "Rating kamu akan membantu Sudoku jadi lebih baik lagi!",
+  "rateDialogDismiss": "Keluar",
+  "rateDialogConfirm": "Ya, keren!"
+}

@@ -1,0 +1,417 @@
+{
+  "@@locale": "hi",
+  "appTitle": "सुडोकू",
+  "navHome": "होम",
+  "navDaily": "चुनौती",
+  "navAchievements": "उपलब्धियाँ",
+  "achievements_title": "उपलब्धियाँ",
+  "ach_section_title": "लक्ष्य और पुरस्कार",
+  "ach_title_wins_50": "50 जीत",
+  "ach_title_no_mistakes": "लोहे की इच्छा",
+  "ach_title_streak_3days": "3 दिन की श्रृंखला",
+  "ach_title_fast_solver": "बिजली सी तेज़",
+  "ach_title_wins_100": "100 जीत",
+  "ach_desc_wins_50": "क्लासिक मोड में 50 बार जीतें",
+  "ach_desc_no_mistakes": "लगातार 3 खेल बिना संकेत और बिना गलती के पूरा करें",
+  "ach_desc_streak_3days": "लगातार 3 दिनों तक रोज़ खेलें",
+  "ach_desc_fast_solver": "3 मिनट से कम समय में एक सुडोकू हल करें",
+  "ach_desc_wins_100": "क्लासिक मोड में 100 बार जीतें",
+  "ach_status_finished": "पूरा हुआ",
+  "ach_status_in_progress": "{current} खेल पूरे हुए",
+  "@ach_status_in_progress": {
+    "placeholders": {
+      "current": {
+        "type": "int"
+      }
+    }
+  },
+  "ach_percent": "{percent}%",
+  "@ach_percent": {
+    "placeholders": {
+      "percent": {
+        "type": "int"
+      }
+    }
+  },
+  "ach_obtained_on": "प्राप्ति तिथि: {date}",
+  "@ach_obtained_on": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "ach_locked": "लॉक",
+  "dailyStreak": "दैनिक श्रृंखला",
+  "selectDifficultyTitle": "कठिनाई चुनें",
+  "selectDifficultyDailyChallenge": "दैनिक चुनौती",
+  "playAction": "खेलें",
+  "championshipTitle": "चैम्पियनशिप",
+  "championshipScore": "स्कोर {score}",
+  "@championshipScore": {
+    "placeholders": {
+      "score": {
+        "type": "int"
+      }
+    }
+  },
+  "toNextPlace": "अगले स्थान तक: {points} अंक",
+  "@toNextPlace": {
+    "placeholders": {
+      "points": {
+        "type": "int"
+      }
+    }
+  },
+  "youAreTop": "आप नं. 1 हैं",
+  "championshipRoundDescriptionPlaceholder": "इस राउंड को खेलें और अपने चैम्पियनशिप सफर को आगे बढ़ाएँ।",
+  "championshipRoundCompletedLabel": "पूरा हुआ",
+  "totalScore": "कुल स्कोर: {score}",
+  "@totalScore": {
+    "placeholders": {
+      "score": {
+        "type": "String"
+      }
+    }
+  },
+  "meLabel": "मैं",
+  "leaderboardRow": "स्थान {rank}. {name}. {points} अंक",
+  "@leaderboardRow": {
+    "placeholders": {
+      "rank": {
+        "type": "int"
+      },
+      "name": {
+        "type": "String"
+      },
+      "points": {
+        "type": "String"
+      }
+    }
+  },
+  "yourPosition": "मेरा स्थान {rank}. {points} अंक",
+  "@yourPosition": {
+    "placeholders": {
+      "rank": {
+        "type": "int"
+      },
+      "points": {
+        "type": "String"
+      }
+    }
+  },
+  "pointsShort": "अंक",
+  "championshipAutoScroll": "मेरी स्थिति तक स्वतः स्क्रॉल करें",
+  "bestLabel": "श्रेष्ठ",
+  "play": "खेलें",
+  "battleTitle": "बैटल",
+  "battleWinRate": "जीतें {count}%",
+  "@battleWinRate": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "battleYouLabel": "आप",
+  "battleVictoryTitle": "आप जीत गए!",
+  "battleDefeatTitle": "प्रतिद्वंदी जीत गया",
+  "battleDefeatMessage": "{name} ने आपसे पहले पहेली हल कर ली।",
+  "@battleDefeatMessage": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "battleSimpleDefeatTitle": "आप हार गए",
+  "battleExitToMainMenu": "मुख्य मेनू पर जाएं",
+  "playerFlagSettingTitle": "खिलाड़ी का झंडा",
+  "selectPlayerFlag": "अपना झंडा चुनें",
+  "confirmFlagSelectionTitle": "अपने झंडे की पुष्टि करें",
+  "confirmFlagSelectionMessage": "क्या आप सुनिश्चित हैं कि आप इस झंडे को चुनना चाहते हैं? आप बाद में खेल की सेटिंग्स में अपना झंडा बदल सकते हैं।",
+  "confirmFlagSelectionConfirm": "पुष्टि करें",
+  "startAction": "शुरू करें",
+  "levelHeading": "स्तर {level} — {difficulty}",
+  "@levelHeading": {
+    "placeholders": {
+      "level": {
+        "type": "int"
+      },
+      "difficulty": {
+        "type": "String"
+      }
+    }
+  },
+  "rankProgress": "रैंक प्रगति",
+  "rankLabel": "रैंक {rank}",
+  "@rankLabel": {
+    "placeholders": {
+      "rank": {
+        "type": "int"
+      }
+    }
+  },
+  "newGame": "नया खेल",
+  "continueGame": "खेल जारी रखें",
+  "weeklyProgress": "साप्ताहिक प्रगति",
+  "rewardsTitle": "इनाम",
+  "rewardNoMistakesTitle": "बिना गलती के चुनौती पूरी करें",
+  "rewardExtraHearts": "+{count, plural, one {# दिल} other {# दिल}}",
+  "@rewardExtraHearts": {
+    "placeholders": {
+      "count": {
+        "type": "num"
+      }
+    }
+  },
+  "rewardThreeInRowTitle": "लगातार तीन चुनौतियाँ पूरी करें",
+  "rewardUniqueTrophy": "विशेष ट्रॉफी",
+  "rewardSevenDayTitle": "7-दिन की श्रृंखला बनाए रखें",
+  "rewardStars": "+{count, plural, one {# तारा} other {# सितारे}}",
+  "@rewardStars": {
+    "placeholders": {
+      "count": {
+        "type": "num"
+      }
+    }
+  },
+  "todayPuzzle": "आज की पहेली",
+  "todayPuzzleDescription": "अतिरिक्त इनाम पाने और श्रृंखला बनाए रखने के लिए सुडोकू पूरा करें।",
+  "continueAction": "जारी रखें",
+  "adMessage": "विज्ञापन: छिपी वस्तुएँ खोजें! अभी खेलें।",
+  "adPlay": "खेलें",
+  "undo": "पूर्ववत् करें",
+  "erase": "मिटाएँ",
+  "autoNotes": "स्वचालित नोट्स",
+  "statusOn": "चालू",
+  "statusOff": "बंद",
+  "notes": "नोट्स",
+  "hint": "संकेत",
+  "undoAdTitle": "पूर्ववत करने के लिए विज्ञापन देखें",
+  "undoAdDescription": "अपनी पिछली चाल पूर्ववत करने के लिए यह छोटा विज्ञापन देखें।",
+  "undoAdCountdown": "विज्ञापन {seconds} सेकंड में समाप्त होगा",
+  "@undoAdCountdown": {
+    "placeholders": {
+      "seconds": {
+        "type": "int"
+      }
+    }
+  },
+  "hintAdTitle": "संकेत पाने के लिए विज्ञापन देखें",
+  "hintAdDescription": "एक संकेत पाने के लिए यह छोटा विज्ञापन देखें।",
+  "hintAdCountdown": "विज्ञापन {seconds} सेकंड में समाप्त होगा",
+  "@hintAdCountdown": {
+    "placeholders": {
+      "seconds": {
+        "type": "int"
+      }
+    }
+  },
+  "lifeAdTitle": "दिल बहाल करने के लिए विज्ञापन देखें",
+  "lifeAdDescription": "यह छोटा विज्ञापन देखें ताकि लाल दिल बहाल हो और खेल जारी रखें।",
+  "lifeAdCountdown": "विज्ञापन {seconds} सेकंड में समाप्त होगा",
+  "@lifeAdCountdown": {
+    "placeholders": {
+      "seconds": {
+        "type": "int"
+      }
+    }
+  },
+  "gameScreenTitle": "सुडोकू",
+  "combo_x": "कॉम्बो ×{count}",
+  "@combo_x": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "streak_n": "स्ट्रिक {count}",
+  "@streak_n": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "speed_bonus": "स्पीड बोनस {time}",
+  "@speed_bonus": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "comboX": "कॉम्बो x{count}",
+  "@comboX": {
+    "description": "कॉम्बो गुणक बैज",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "streakN": "स्ट्रिक {count}",
+  "@streakN": {
+    "description": "स्ट्रिक बैज",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "speedBonus": "स्पीड बोनस ({time})",
+  "@speedBonus": {
+    "description": "लक्ष्य से तेज़ समाप्त करने पर पुरस्कार",
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "noActiveGameMessage": "कोई सक्रिय खेल नहीं। होम स्क्रीन पर लौटें।",
+  "victoryTitle": "बधाई!",
+  "victoryMessage": "{time} में पहेली हल हुई।",
+  "@victoryMessage": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "backToHome": "होम",
+  "playAnother": "फिर से खेलें",
+  "outOfLivesTitle": "दिल समाप्त",
+  "outOfLivesDescription": "खेल जारी रखने के लिए एक लाल दिल पुनर्स्थापित करें।",
+  "restoreLifeAction": "1 लाल दिल पुनर्स्थापित करें",
+  "cancelAction": "रद्द करें",
+  "settingsTitle": "सेटिंग्स",
+  "themeSectionTitle": "थीम",
+  "themeWhite": "क्लासिक हल्की",
+  "themeCream": "क्रीमी",
+  "themeGreen": "मिंट",
+  "themeBlack": "डार्क",
+  "themePurple": "गहरा बैंगनी",
+  "themeFontSize": "फ़ॉन्ट आकार",
+  "fontSizeExtraSmall": "अतिरिक्त छोटा",
+  "fontSizeSmall": "छोटा",
+  "fontSizeMedium": "मध्यम",
+  "fontSizeLarge": "बड़ा",
+  "fontSizeExtraLarge": "अतिरिक्त बड़ा",
+  "languageSectionTitle": "भाषा",
+  "audioSectionTitle": "ध्वनि और संगीत",
+  "soundsEffectsLabel": "ध्वनि प्रभाव",
+  "vibrationLabel": "कंपन",
+  "comboBadgesLabel": "कॉम्बो बैज",
+  "comboHapticsLabel": "बैज हैप्टिक्स",
+  "miscSectionTitle": "अन्य",
+  "howToPlayTitle": "कैसे खेलें",
+  "howToPlayRowRule": "हर पंक्ति में 1 से 9 तक अंक बिना दोहराव के होने चाहिए",
+  "howToPlayColumnRule": "हर स्तंभ में 1 से 9 तक अंक बिना दोहराव के होने चाहिए",
+  "howToPlayBoxRule": "हर 3×3 बॉक्स में 1 से 9 तक अंक बिना दोहराव के होने चाहिए",
+  "howToPlayFooter": "सभी खाने भरें और जीत जाएँ!",
+  "howToPlayAction": "ठीक है",
+  "championshipLocalSection": "चैम्पियनशिप (स्थानीय)",
+  "hideCompletedNumbersLabel": "प्रयुक्त अंकों को छुपाएँ",
+  "aboutApp": "ऐप के बारे में",
+  "versionLabel": "संस्करण {version}",
+  "@versionLabel": {
+    "placeholders": {
+      "version": {
+        "type": "String"
+      }
+    }
+  },
+  "aboutLegalese": "नहरेबा उज़ोर इंक.",
+  "languageEnglish": "अंग्रेज़ी",
+  "languageRussian": "Русский",
+  "languageUkrainian": "Українська",
+  "languageGerman": "deutsch",
+  "languageFrench": "फ़्रांसीसी",
+  "languageChinese": "中文",
+  "languageHindi": "हिन्दी",
+  "languageGeorgian": "धन्यवाद",
+  "languageSpanish": "Español",
+  "languageItalian": "Italiano",
+  "languageJapanese": "ठीक है",
+  "languageKorean": "धन्यवाद",
+  "languageTurkish": "तुर्कसे",
+  "languagePolish": "पोल्स्की",
+  "languagePortuguese": "पुर्तगाली",
+  "languageIndonesian": "बहासा इंडोनेशिया",
+  "languageVietnamese": "तियांग वियत",
+  "languageThai": "ไทย",
+  "languageDutch": "नीदरलैंड",
+  "languageSwedish": "स्वेन्स्का",
+  "languageRomanian": "रोमाना",
+  "languageCzech": "Čeština",
+  "languageFinnish": "सुओमी",
+  "languageKazakh": "Қазақ тілі",
+  "languageBulgarian": "Български",
+  "languageMalay": "बहासा मेलायु",
+  "languageNepali": "नेपाली",
+  "languagePunjabi": "धन्यवाद",
+  "languageSwahili": "Kiswahili",
+  "languageTamil": "தமிழ்",
+  "languageSlovak": "स्लोवेनसिना",
+  "export": "निर्यात",
+  "import": "आयात",
+  "resetMyScore": "मेरा स्कोर रीसेट करें",
+  "resetMyScoreConfirmation": "क्या आप वाकई स्कोर रीसेट करना चाहते हैं? यह कार्रवाई अपरिवर्तनीय है।",
+  "resetAction": "रीसेट करें",
+  "regenerateOpponents": "प्रतिद्वंद्वी पुनः उत्पन्न करें",
+  "confirm": "पुष्टि करें",
+  "cancel": "रद्द करें",
+  "done": "पूर्ण",
+  "privacyPolicyTitle": "गोपनीयता नीति",
+  "privacyPolicyAccept": "मैं सहमत हूँ",
+  "privacyPolicyPrompt": "क्या आप गोपनीयता नीति को स्वीकार करते हैं?",
+  "privacyPolicyLearnMore": "अधिक जानें →",
+  "privacyPolicyDecline": "मैं अस्वीकार करता हूँ",
+  "privacyPolicyClose": "बंद करें",
+  "privacyPolicyLoadError": "गोपनीयता नीति लोड नहीं हो सकी। कृपया दोबारा प्रयास करें।",
+  "failed": "असफल",
+  "rankBadgeChasing": "रैंक #{current} • +{delta} से #{target}",
+  "@rankBadgeChasing": {
+    "placeholders": {
+      "current": {
+        "type": "int"
+      },
+      "delta": {
+        "type": "int"
+      },
+      "target": {
+        "type": "int"
+      }
+    }
+  },
+  "statsTitle": "आँकड़े",
+  "statsGamesSection": "खेल",
+  "statsGamesStarted": "शुरू किए गए खेल",
+  "statsGamesWon": "जीते गए खेल",
+  "statsWinRate": "जीत दर",
+  "statsFlawless": "बिना गलती की जीतें",
+  "statsTimeSection": "समय",
+  "statsBestTime": "सर्वश्रेष्ठ समय",
+  "statsAverageTime": "औसत समय",
+  "statsStreakSection": "श्रृंखला",
+  "statsCurrentStreak": "वर्तमान श्रृंखला",
+  "statsBestStreak": "सर्वश्रेष्ठ श्रृंखला",
+  "difficultyNovice": "नवागंतुक",
+  "difficultyNoviceShort": "नवा.",
+  "difficultyMedium": "मध्यम",
+  "difficultyMediumShort": "मध्.",
+  "difficultyHigh": "कठिन",
+  "difficultyHighShort": "कठि.",
+  "difficultyExpert": "विशेषज्ञ",
+  "difficultyExpertShort": "विशे.",
+  "difficultyMaster": "मास्टर",
+  "difficultyMasterShort": "मास्.",
+  "ach_title_supermind": "सुपरमाइंड",
+  "ach_desc_supermind": "किसी भी कठिनाई पर बिना गलती और बिना संकेत के 2 मिनट 30 सेकंड से कम में जीतें",
+  "rateDialogTitle": "क्या आपको खेल पसंद आया? 💛",
+  "rateDialogSubtitle": "आपकी रेटिंग Sudoku को और बेहतर बनाने में मदद करेगी!",
+  "rateDialogDismiss": "बाहर निकलें",
+  "rateDialogConfirm": "हाँ, कमाल है!"
+}

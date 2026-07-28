@@ -1,0 +1,418 @@
+{
+  "@@locale": "sv",
+  "@championshipScore": {
+    "placeholders": {
+      "score": {
+        "type": "int"
+      }
+    }
+  },
+  "@toNextPlace": {
+    "placeholders": {
+      "points": {
+        "type": "int"
+      }
+    }
+  },
+  "@totalScore": {
+    "placeholders": {
+      "score": {
+        "type": "String"
+      }
+    }
+  },
+  "@leaderboardRow": {
+    "placeholders": {
+      "rank": {
+        "type": "int"
+      },
+      "name": {
+        "type": "String"
+      },
+      "points": {
+        "type": "String"
+      }
+    }
+  },
+  "@yourPosition": {
+    "placeholders": {
+      "rank": {
+        "type": "int"
+      },
+      "points": {
+        "type": "String"
+      }
+    }
+  },
+  "@battleWinRate": {
+    "description": "Battle mode win percentage label.",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@battleDefeatMessage": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "@levelHeading": {
+    "placeholders": {
+      "level": {
+        "type": "int"
+      },
+      "difficulty": {
+        "type": "String"
+      }
+    }
+  },
+  "@rankLabel": {
+    "placeholders": {
+      "rank": {
+        "type": "int"
+      }
+    }
+  },
+  "@rewardExtraHearts": {
+    "placeholders": {
+      "count": {
+        "type": "num"
+      }
+    }
+  },
+  "@rewardStars": {
+    "placeholders": {
+      "count": {
+        "type": "num"
+      }
+    }
+  },
+  "@undoAdCountdown": {
+    "placeholders": {
+      "seconds": {
+        "type": "int"
+      }
+    }
+  },
+  "@hintAdCountdown": {
+    "placeholders": {
+      "seconds": {
+        "type": "int"
+      }
+    }
+  },
+  "@lifeAdCountdown": {
+    "placeholders": {
+      "seconds": {
+        "type": "int"
+      }
+    }
+  },
+  "@combo_x": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@streak_n": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@speed_bonus": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "@comboX": {
+    "description": "Combo multiplier badge",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@streakN": {
+    "description": "Streak badge",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@speedBonus": {
+    "description": "Award for finishing faster than target",
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "@victoryMessage": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "@versionLabel": {
+    "placeholders": {
+      "version": {
+        "type": "String"
+      }
+    }
+  },
+  "@rankBadgeChasing": {
+    "placeholders": {
+      "current": {
+        "type": "int"
+      },
+      "delta": {
+        "type": "int"
+      },
+      "target": {
+        "type": "int"
+      }
+    }
+  },
+  "appTitle": "Sudoku",
+  "navHome": "Hem",
+  "navDaily": "Utmaning",
+  "navAchievements": "Prestationer",
+  "achievements_title": "Prestationer",
+  "ach_section_title": "Mål och belöningar",
+  "ach_title_wins_50": "50 vinster",
+  "ach_title_no_mistakes": "Järnvilja",
+  "ach_title_streak_3days": "3-dagars svit",
+  "ach_title_fast_solver": "Blixtsnabb",
+  "ach_title_wins_100": "100 vinster",
+  "ach_desc_wins_50": "Vinn 50 gånger i klassiskt läge",
+  "ach_desc_no_mistakes": "Klara 3 matcher i rad utan ledtrådar eller misstag",
+  "ach_desc_streak_3days": "Spela dagligen i 3 dagar i rad",
+  "ach_desc_fast_solver": "Lös ett sudoku på under 3 minuter",
+  "ach_desc_wins_100": "Vinn 100 gånger i klassiskt läge",
+  "ach_status_finished": "Slutförd",
+  "ach_status_in_progress": "{current} spel slutförda",
+  "@ach_status_in_progress": {
+    "placeholders": {
+      "current": {
+        "type": "int"
+      }
+    }
+  },
+  "ach_percent": "{percent}%",
+  "@ach_percent": {
+    "placeholders": {
+      "percent": {
+        "type": "int"
+      }
+    }
+  },
+  "ach_obtained_on": "Erhållen: {date}",
+  "@ach_obtained_on": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "ach_locked": "Låst",
+  "dailyStreak": "Daglig strimma",
+  "selectDifficultyTitle": "Välj svårighet",
+  "selectDifficultyDailyChallenge": "Daglig utmaning",
+  "playAction": "Spela",
+  "championshipTitle": "Mästerskap",
+  "championshipScore": "Poäng {score}",
+  "toNextPlace": "Till nästa plats: {points} pts",
+  "youAreTop": "Du är nr 1",
+  "championshipRoundDescriptionPlaceholder": "Spela den här omgången för att öka ditt mästerskap.",
+  "championshipRoundCompletedLabel": "Avslutad",
+  "totalScore": "Total poäng: {score}",
+  "meLabel": "Mig",
+  "leaderboardRow": "Plats {rank}. {name}. {points} poäng",
+  "yourPosition": "Min plats {rank}. {points} poäng",
+  "pointsShort": "punkter",
+  "championshipAutoScroll": "Auto-rulla till min position",
+  "bestLabel": "Bäst",
+  "play": "Spela",
+  "battleTitle": "Slåss",
+  "battleWinRate": "Vinster {count}%",
+  "battleYouLabel": "Du",
+  "battleVictoryTitle": "Du vann!",
+  "battleDefeatTitle": "Motståndaren slutade först",
+  "battleDefeatMessage": "{name} löste pusslet före dig.",
+  "battleSimpleDefeatTitle": "Du tappade",
+  "battleExitToMainMenu": "Huvudmeny",
+  "playerFlagSettingTitle": "Spelflagga",
+  "selectPlayerFlag": "Välj din flagga",
+  "confirmFlagSelectionTitle": "Bekräfta din flagga",
+  "confirmFlagSelectionMessage": "Är du säker på att du vill välja den här flaggan? Du kan ändra din flagga senare i spelinställningarna.",
+  "confirmFlagSelectionConfirm": "Bekräfta",
+  "startAction": "Starta",
+  "levelHeading": "Nivå {level} - {difficulty}",
+  "rankProgress": "Rangframsteg",
+  "rankLabel": "Rang {rank}",
+  "newGame": "Nytt spel",
+  "continueGame": "Fortsätt",
+  "weeklyProgress": "Veckovisa framsteg",
+  "rewardsTitle": "Belöning",
+  "rewardNoMistakesTitle": "Avsluta utmaningen utan misstag",
+  "rewardExtraHearts": "+{count, plural, one {# hjärta} other {# hjärtan}}",
+  "rewardThreeInRowTitle": "Slutför tre utmaningar i rad",
+  "rewardUniqueTrophy": "Unik trofé",
+  "rewardSevenDayTitle": "Behåll en 7-dagars rad",
+  "rewardStars": "+{count, plural, one {# stjärna} other {# stjärnor}}",
+  "todayPuzzle": "Dagens pussel",
+  "todayPuzzleDescription": "Avsluta Sudoku för att tjäna en extra belöning och hålla din rad vid liv.",
+  "continueAction": "Fortsätta",
+  "adMessage": "AD: Hitta dolda föremål! Spela nu.",
+  "adPlay": "Spela",
+  "undo": "Ångra",
+  "erase": "Radera",
+  "autoNotes": "Auto Notes",
+  "statusOn": "PÅ",
+  "statusOff": "AV",
+  "notes": "Anteckningar",
+  "hint": "Antydan",
+  "undoAdTitle": "Titta på annonsen att ångra",
+  "undoAdDescription": "Titta på den här korta annonsen för att ångra ditt sista drag.",
+  "undoAdCountdown": "AD slutar i {seconds}s",
+  "hintAdTitle": "Titta på annonsen för att få en tips",
+  "hintAdDescription": "Titta på den här korta annonsen för att tjäna ett tips.",
+  "hintAdCountdown": "AD slutar i {seconds}s",
+  "lifeAdTitle": "Titta på AD för att återställa ett hjärta",
+  "lifeAdDescription": "Titta på denna korta annons för att återställa ett rött hjärta och fortsätta spela.",
+  "lifeAdCountdown": "AD slutar i {seconds}s",
+  "gameScreenTitle": "Sudoku",
+  "combo_x": "Combo × {count}",
+  "streak_n": "Svit {count}",
+  "speed_bonus": "Hastighetsbonus {time}",
+  "comboX": "Kombo ×{count}",
+  "streakN": "Svit {count}",
+  "speedBonus": "Hastighetsbonus ({time})",
+  "noActiveGameMessage": "Inget aktivt spel. Återgå till hemskärmen.",
+  "victoryTitle": "Grattis!",
+  "victoryMessage": "Pussel löst i {time}.",
+  "backToHome": "Hem",
+  "playAnother": "Spela igen",
+  "outOfLivesTitle": "Du är ur hjärtan",
+  "outOfLivesDescription": "Återställ ett rött hjärta för att fortsätta spela.",
+  "restoreLifeAction": "Återställ 1 rött hjärta",
+  "cancelAction": "Avboka",
+  "settingsTitle": "Inställningar",
+  "themeSectionTitle": "Tema",
+  "themeWhite": "Klassiskt ljus",
+  "themeCream": "Grädde",
+  "themeGreen": "Mynta",
+  "themeBlack": "Mörk",
+  "themePurple": "Lila mörk",
+  "themeFontSize": "Fontstorlek",
+  "fontSizeExtraSmall": "Extra liten",
+  "fontSizeSmall": "Små",
+  "fontSizeMedium": "Mellan",
+  "fontSizeLarge": "Stor",
+  "fontSizeExtraLarge": "Extra stor",
+  "languageSectionTitle": "Språk",
+  "audioSectionTitle": "Ljud och musik",
+  "soundsEffectsLabel": "Ljudeffekter",
+  "vibrationLabel": "Vibrationer",
+  "comboBadgesLabel": "Combo -märken",
+  "comboHapticsLabel": "Märke haptik",
+  "miscSectionTitle": "Andra",
+  "howToPlayTitle": "Hur man spelar",
+  "howToPlayRowRule": "Varje rad har siffrorna 1 till 9 utan upprepningar",
+  "howToPlayColumnRule": "Varje kolumn har siffrorna 1 till 9 utan upprepningar",
+  "howToPlayBoxRule": "Varje 3 × 3 -låda har siffrorna 1 till 9 utan upprepningar",
+  "howToPlayFooter": "Fyll varje cell så vinner du!",
+  "howToPlayAction": "Fick",
+  "championshipLocalSection": "Mästerskap (lokal)",
+  "hideCompletedNumbersLabel": "Dölj slutförda siffror",
+  "aboutApp": "Om",
+  "versionLabel": "Version {version}",
+  "aboutLegalese": "UZOR",
+  "languageEnglish": "Engelska",
+  "languageRussian": "Руский",
+  "languageUkrainian": "Du",
+  "languageGerman": "Deutsch",
+  "languageFrench": "Français",
+  "languageChinese": "中文",
+  "languageHindi": "हिन",
+  "languageGeorgian": "ქართული",
+  "languageSpanish": "Español",
+  "languageItalian": "Italiensk",
+  "languageJapanese": "日本語",
+  "languageKorean": "한국어",
+  "languageTurkish": "Türkçe",
+  "languagePolish": "Polski",
+  "languagePortuguese": "Portugis",
+  "languageIndonesian": "Bahasa indonesien",
+  "languageVietnamese": "Tiếng việt",
+  "languageThai": "ไทย",
+  "languageDutch": "Nederland",
+  "languageSwedish": "Svenska",
+  "languageRomanian": "Română",
+  "languageCzech": "Čeština",
+  "languageFinnish": "Suomi",
+  "languageKazakh": "Қазақ ті",
+  "languageBulgarian": "Български",
+  "languageMalay": "Bahasa Melayu",
+  "languageNepali": "नेपाली",
+  "languagePunjabi": "ਪੰਜਾਬੀ",
+  "languageSwahili": "Kiswahili",
+  "languageTamil": "தமிழ்",
+  "languageSlovak": "Slovenčina",
+  "export": "Exportera",
+  "import": "Importera",
+  "resetMyScore": "Återställ min poäng",
+  "resetMyScoreConfirmation": "Är du säker på att du vill återställa poängen? Denna åtgärd kan inte ångras.",
+  "resetAction": "Återställa",
+  "regenerateOpponents": "Regenerera motståndare",
+  "confirm": "Bekräfta",
+  "cancel": "Avboka",
+  "done": "Gjort",
+  "privacyPolicyTitle": "Integritetspolicy",
+  "privacyPolicyAccept": "Jag accepterar",
+  "privacyPolicyPrompt": "Accepterar du sekretesspolicyn?",
+  "privacyPolicyLearnMore": "Lär dig mer →",
+  "privacyPolicyDecline": "Jag avvisar",
+  "privacyPolicyClose": "Nära",
+  "privacyPolicyLoadError": "Det gick inte att ladda integritetspolicyn. Försök igen.",
+  "failed": "Misslyckad",
+  "rankBadgeChasing": "Rang #{current} • +{delta} till #{target}",
+  "statsTitle": "Statistik",
+  "statsGamesSection": "Spel",
+  "statsGamesStarted": "Spel började",
+  "statsGamesWon": "Spel vann",
+  "statsWinRate": "Vinstränta",
+  "statsFlawless": "Felfri finish",
+  "statsTimeSection": "Tid",
+  "statsBestTime": "Bästa tiden",
+  "statsAverageTime": "Genomsnittlig tid",
+  "statsStreakSection": "Strimma",
+  "statsCurrentStreak": "Aktuell rad",
+  "statsBestStreak": "Bästa strimma",
+  "difficultyNovice": "Nybörjare",
+  "difficultyNoviceShort": "Nyb.",
+  "difficultyMedium": "Medel",
+  "difficultyMediumShort": "Med.",
+  "difficultyHigh": "Svår",
+  "difficultyHighShort": "Svår",
+  "difficultyExpert": "Expert",
+  "difficultyExpertShort": "Exp.",
+  "difficultyMaster": "Mästare",
+  "difficultyMasterShort": "Mäs.",
+  "ach_title_supermind": "Superhjärna",
+  "ach_desc_supermind": "Vinn på valfri svårighetsgrad utan misstag eller ledtrådar på under 2 minuter och 30 sekunder",
+  "rateDialogTitle": "Gillar du spelet? 💛",
+  "rateDialogSubtitle": "Ditt betyg hjälper Sudoku att bli ännu bättre!",
+  "rateDialogDismiss": "Avsluta",
+  "rateDialogConfirm": "Ja, den är grym!"
+}

@@ -1,0 +1,418 @@
+{
+  "@@locale": "pa",
+  "appTitle": "ਸੁਡੋਕੂ",
+  "navHome": "ਮੁੱਖ",
+  "navDaily": "ਚੁਣੌਤੀ",
+  "navAchievements": "ਉਪਲਬਧੀਆਂ",
+  "achievements_title": "ਉਪਲਬਧੀਆਂ",
+  "ach_section_title": "ਲਕਸ਼ ਅਤੇ ਇਨਾਮ",
+  "ach_title_wins_50": "50 ਜਿੱਤਾਂ",
+  "ach_title_no_mistakes": "ਲੋਹੀ ਇਰਾਦਾ",
+  "ach_title_streak_3days": "3 ਦਿਨਾਂ ਦੀ ਲੜੀ",
+  "ach_title_fast_solver": "ਬਿਜਲੀ ਵਰਗੀ ਤੇਜ਼ੀ",
+  "ach_title_wins_100": "100 ਜਿੱਤਾਂ",
+  "ach_desc_wins_50": "ਕਲਾਸਿਕ ਮੋਡ ਵਿੱਚ 50 ਵਾਰ ਜਿੱਤੋ",
+  "ach_desc_no_mistakes": "ਬਿਨਾ ਸੰਕੇਤਾਂ ਅਤੇ ਬਿਨਾ ਗਲਤੀ ਦੇ ਲਗਾਤਾਰ 3 ਖੇਡਾਂ ਪੂਰੀ ਕਰੋ",
+  "ach_desc_streak_3days": "ਲਗਾਤਾਰ 3 ਦਿਨ ਹਰ ਰੋਜ਼ ਖੇਡੋ",
+  "ach_desc_fast_solver": "3 ਮਿੰਟ ਤੋਂ ਘੱਟ ਸਮੇਂ ਵਿੱਚ ਇੱਕ ਸੁਡੋਕੂ ਹੱਲ ਕਰੋ",
+  "ach_desc_wins_100": "ਕਲਾਸਿਕ ਮੋਡ ਵਿੱਚ 100 ਵਾਰ ਜਿੱਤੋ",
+  "ach_status_finished": "ਮੁਕੰਮਲ",
+  "ach_status_in_progress": "{current} ਖੇਡਾਂ ਮੁਕੰਮਲ ਹੋਈਆਂ",
+  "@ach_status_in_progress": {
+    "placeholders": {
+      "current": {
+        "type": "int"
+      }
+    }
+  },
+  "ach_percent": "{percent}%",
+  "@ach_percent": {
+    "placeholders": {
+      "percent": {
+        "type": "int"
+      }
+    }
+  },
+  "ach_obtained_on": "ਪ੍ਰਾਪਤ: {date}",
+  "@ach_obtained_on": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "ach_locked": "ਲਾਕ ਕੀਤਾ",
+  "dailyStreak": "ਰੋਜ਼ਾਨਾ ਸਟ੍ਰੀਕ",
+  "selectDifficultyTitle": "ਮੁਸ਼ਕਲ ਚੁਣੋ",
+  "selectDifficultyDailyChallenge": "ਰੋਜ਼ਾਨਾ ਚੁਣੌਤੀ",
+  "playAction": "ਖੇਡੋ",
+  "championshipTitle": "ਚੈਂਪੀਅਨਸ਼ਿਪ",
+  "championshipScore": "ਸਕੋਰ {score}",
+  "@championshipScore": {
+    "placeholders": {
+      "score": {
+        "type": "int"
+      }
+    }
+  },
+  "toNextPlace": "ਅਗਲੇ ਸਥਾਨ ਲਈ: {points} ਅੰਕ",
+  "@toNextPlace": {
+    "placeholders": {
+      "points": {
+        "type": "int"
+      }
+    }
+  },
+  "youAreTop": "ਤੁਸੀਂ #1 ਹੋ",
+  "championshipRoundDescriptionPlaceholder": "ਆਪਣੀ ਚੈਂਪੀਅਨਸ਼ਿਪ ਦੀ ਦੌੜ ਨੂੰ ਵਧਾਉਣ ਲਈ ਇਹ ਦੌਰ ਖੇਡੋ।",
+  "championshipRoundCompletedLabel": "ਪੂਰਾ ਹੋਇਆ",
+  "totalScore": "ਕੁੱਲ ਸਕੋਰ: {score}",
+  "@totalScore": {
+    "placeholders": {
+      "score": {
+        "type": "String"
+      }
+    }
+  },
+  "meLabel": "ਮੈਂ",
+  "leaderboardRow": "ਸਥਾਨ {rank}। {name}। {points} ਪੁਆਇੰਟ",
+  "@leaderboardRow": {
+    "placeholders": {
+      "rank": {
+        "type": "int"
+      },
+      "name": {
+        "type": "String"
+      },
+      "points": {
+        "type": "String"
+      }
+    }
+  },
+  "yourPosition": "ਮੇਰੀ ਜਗ੍ਹਾ {rank}। {points} ਪੁਆਇੰਟ",
+  "@yourPosition": {
+    "placeholders": {
+      "rank": {
+        "type": "int"
+      },
+      "points": {
+        "type": "String"
+      }
+    }
+  },
+  "pointsShort": "ਅੰਕ",
+  "championshipAutoScroll": "ਮੇਰੀ ਸਥਿਤੀ ਤੱਕ ਆਟੋ-ਸਕ੍ਰੌਲ ਕਰੋ",
+  "bestLabel": "ਵਧੀਆ",
+  "play": "ਖੇਡੋ",
+  "battleTitle": "ਲੜਾਈ",
+  "battleWinRate": "ਜਿੱਤਾਂ {count}%",
+  "@battleWinRate": {
+    "description": "Battle mode win percentage label.",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "battleYouLabel": "ਤੁਹਾਨੂੰ",
+  "battleVictoryTitle": "ਤੁਸੀਂ ਜਿੱਤ ਗਏ!",
+  "battleDefeatTitle": "ਵਿਰੋਧੀ ਪਹਿਲੇ ਸਥਾਨ 'ਤੇ ਰਿਹਾ",
+  "battleDefeatMessage": "{name} ਨੇ ਤੁਹਾਡੇ ਸਾਹਮਣੇ ਬੁਝਾਰਤ ਹੱਲ ਕੀਤੀ।",
+  "@battleDefeatMessage": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "battleSimpleDefeatTitle": "ਤੁਸੀਂ ਹਾਰ ਗਏ ਹੋ",
+  "battleExitToMainMenu": "ਮੁੱਖ ਮੀਨੂ",
+  "playerFlagSettingTitle": "ਖਿਡਾਰੀ ਝੰਡਾ",
+  "selectPlayerFlag": "ਆਪਣਾ ਝੰਡਾ ਚੁਣੋ",
+  "confirmFlagSelectionTitle": "ਆਪਣੇ ਝੰਡੇ ਦੀ ਪੁਸ਼ਟੀ ਕਰੋ",
+  "confirmFlagSelectionMessage": "ਕੀ ਤੁਸੀਂ ਯਕੀਨੀ ਤੌਰ 'ਤੇ ਇਹ ਝੰਡਾ ਚੁਣਨਾ ਚਾਹੁੰਦੇ ਹੋ? ਤੁਸੀਂ ਬਾਅਦ ਵਿੱਚ ਗੇਮ ਸੈਟਿੰਗਾਂ ਵਿੱਚ ਆਪਣਾ ਫਲੈਗ ਬਦਲ ਸਕਦੇ ਹੋ।",
+  "confirmFlagSelectionConfirm": "ਪੁਸ਼ਟੀ ਕਰੋ",
+  "startAction": "ਸ਼ੁਰੂ ਕਰੋ",
+  "levelHeading": "ਪੱਧਰ {level} — {difficulty}",
+  "@levelHeading": {
+    "placeholders": {
+      "level": {
+        "type": "int"
+      },
+      "difficulty": {
+        "type": "String"
+      }
+    }
+  },
+  "rankProgress": "ਦਰਜਾ ਤਰੱਕੀ",
+  "rankLabel": "ਦਰਜਾ {rank}",
+  "@rankLabel": {
+    "placeholders": {
+      "rank": {
+        "type": "int"
+      }
+    }
+  },
+  "newGame": "ਨਵੀਂ ਖੇਡ",
+  "continueGame": "ਖੇਡ ਜਾਰੀ ਰੱਖੋ",
+  "weeklyProgress": "ਹਫਤਾਵਾਰੀ ਤਰੱਕੀ",
+  "rewardsTitle": "ਇਨਾਮ",
+  "rewardNoMistakesTitle": "ਬਿਨਾਂ ਕਿਸੇ ਗਲਤੀ ਦੇ ਚੁਣੌਤੀ ਨੂੰ ਪੂਰਾ ਕਰੋ",
+  "rewardExtraHearts": "+{count, plural, one {# ਦਿਲ} other {# ਦਿਲ}}",
+  "@rewardExtraHearts": {
+    "placeholders": {
+      "count": {
+        "type": "num"
+      }
+    }
+  },
+  "rewardThreeInRowTitle": "ਲਗਾਤਾਰ ਤਿੰਨ ਚੁਣੌਤੀਆਂ ਨੂੰ ਪੂਰਾ ਕਰੋ",
+  "rewardUniqueTrophy": "ਵਿਲੱਖਣ ਟਰਾਫੀ",
+  "rewardSevenDayTitle": "7-ਦਿਨ ਦੀ ਸਟ੍ਰੀਕ ਬਣਾਈ ਰੱਖੋ",
+  "rewardStars": "+{count, plural, one {# ਤਾਰਾ} other {# ਤਾਰੇ}}",
+  "@rewardStars": {
+    "placeholders": {
+      "count": {
+        "type": "num"
+      }
+    }
+  },
+  "todayPuzzle": "ਅੱਜ ਦੀ ਬੁਝਾਰਤ",
+  "todayPuzzleDescription": "ਇੱਕ ਵਾਧੂ ਇਨਾਮ ਕਮਾਉਣ ਅਤੇ ਆਪਣੀ ਸਟ੍ਰੀਕ ਨੂੰ ਜ਼ਿੰਦਾ ਰੱਖਣ ਲਈ ਸੁਡੋਕੁ ਨੂੰ ਪੂਰਾ ਕਰੋ।",
+  "continueAction": "ਜਾਰੀ ਰੱਖੋ",
+  "adMessage": "ਵਿਗਿਆਪਨ: ਲੁਕੀਆਂ ਹੋਈਆਂ ਚੀਜ਼ਾਂ ਲੱਭੋ! ਹੁਣੇ ਚਲਾਓ।",
+  "adPlay": "ਖੇਡੋ",
+  "undo": "ਅਣਡੂ",
+  "erase": "ਮਿਟਾਓ",
+  "autoNotes": "ਆਟੋ ਨੋਟਸ",
+  "statusOn": "ਚਾਲੂ",
+  "statusOff": "ਬੰਦ",
+  "notes": "ਨੋਟਸ",
+  "hint": "ਇਸ਼ਾਰਾ",
+  "undoAdTitle": "ਅਨਡੂ ਕਰਨ ਲਈ ਵਿਗਿਆਪਨ ਦੇਖੋ",
+  "undoAdDescription": "ਆਪਣੀ ਆਖਰੀ ਚਾਲ ਨੂੰ ਅਨਡੂ ਕਰਨ ਲਈ ਇਹ ਛੋਟਾ ਵਿਗਿਆਪਨ ਦੇਖੋ।",
+  "undoAdCountdown": "ਵਿਗਿਆਪਨ {seconds}s ਵਿੱਚ ਖਤਮ ਹੁੰਦਾ ਹੈ",
+  "@undoAdCountdown": {
+    "placeholders": {
+      "seconds": {
+        "type": "int"
+      }
+    }
+  },
+  "hintAdTitle": "ਇੱਕ ਸੰਕੇਤ ਪ੍ਰਾਪਤ ਕਰਨ ਲਈ ਵਿਗਿਆਪਨ ਦੇਖੋ",
+  "hintAdDescription": "ਇੱਕ ਸੰਕੇਤ ਕਮਾਉਣ ਲਈ ਇਹ ਛੋਟਾ ਵਿਗਿਆਪਨ ਦੇਖੋ।",
+  "hintAdCountdown": "ਵਿਗਿਆਪਨ {seconds}s ਵਿੱਚ ਖਤਮ ਹੁੰਦਾ ਹੈ",
+  "@hintAdCountdown": {
+    "placeholders": {
+      "seconds": {
+        "type": "int"
+      }
+    }
+  },
+  "lifeAdTitle": "ਦਿਲ ਨੂੰ ਬਹਾਲ ਕਰਨ ਲਈ ਵਿਗਿਆਪਨ ਦੇਖੋ",
+  "lifeAdDescription": "ਲਾਲ ਦਿਲ ਨੂੰ ਬਹਾਲ ਕਰਨ ਅਤੇ ਖੇਡਦੇ ਰਹਿਣ ਲਈ ਇਹ ਛੋਟਾ ਵਿਗਿਆਪਨ ਦੇਖੋ।",
+  "lifeAdCountdown": "ਵਿਗਿਆਪਨ {seconds}s ਵਿੱਚ ਖਤਮ ਹੁੰਦਾ ਹੈ",
+  "@lifeAdCountdown": {
+    "placeholders": {
+      "seconds": {
+        "type": "int"
+      }
+    }
+  },
+  "gameScreenTitle": "ਸੁਡੋਕੁ",
+  "combo_x": "ਕੰਬੋ ×{count}",
+  "@combo_x": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "streak_n": "ਸਟ੍ਰੀਕ {count}",
+  "@streak_n": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "speed_bonus": "ਸਪੀਡ ਬੋਨਸ {time}",
+  "@speed_bonus": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "comboX": "ਕੰਬੋ x{count}",
+  "@comboX": {
+    "description": "Combo multiplier badge",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "streakN": "ਸਟ੍ਰੀਕ {count}",
+  "@streakN": {
+    "description": "Streak badge",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "speedBonus": "ਸਪੀਡ ਬੋਨਸ ({time})",
+  "@speedBonus": {
+    "description": "Award for finishing faster than target",
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "noActiveGameMessage": "ਕੋਈ ਕਿਰਿਆਸ਼ੀਲ ਖੇਡ ਨਹੀਂ ਹੈ। ਹੋਮ ਸਕ੍ਰੀਨ 'ਤੇ ਵਾਪਸ ਜਾਓ।",
+  "victoryTitle": "ਵਧਾਈਆਂ!",
+  "victoryMessage": "ਬੁਝਾਰਤ {time} ਵਿੱਚ ਹੱਲ ਕੀਤੀ ਗਈ।",
+  "@victoryMessage": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "backToHome": "ਘਰ",
+  "playAnother": "ਦੁਬਾਰਾ ਖੇਡੋ",
+  "outOfLivesTitle": "ਤੁਸੀਂ ਦਿਲਾਂ ਤੋਂ ਬਾਹਰ ਹੋ",
+  "outOfLivesDescription": "ਖੇਡਦੇ ਰਹਿਣ ਲਈ ਇੱਕ ਲਾਲ ਦਿਲ ਨੂੰ ਬਹਾਲ ਕਰੋ।",
+  "restoreLifeAction": "1 ਲਾਲ ਦਿਲ ਨੂੰ ਬਹਾਲ ਕਰੋ",
+  "cancelAction": "ਰੱਦ ਕਰੋ",
+  "settingsTitle": "ਸੈਟਿੰਗਾਂ",
+  "themeSectionTitle": "ਥੀਮ",
+  "themeWhite": "ਕਲਾਸਿਕ ਲਾਈਟ",
+  "themeCream": "ਕਰੀਮ",
+  "themeGreen": "ਪੁਦੀਨੇ",
+  "themeBlack": "ਹਨੇਰਾ",
+  "themePurple": "ਜਾਮਨੀ ਗੂੜ੍ਹਾ",
+  "themeFontSize": "ਫੌਂਟ ਦਾ ਆਕਾਰ",
+  "fontSizeExtraSmall": "ਵਾਧੂ ਛੋਟਾ",
+  "fontSizeSmall": "ਛੋਟਾ",
+  "fontSizeMedium": "ਦਰਮਿਆਨਾ",
+  "fontSizeLarge": "ਵੱਡਾ",
+  "fontSizeExtraLarge": "ਵਾਧੂ ਵੱਡਾ",
+  "languageSectionTitle": "ਭਾਸ਼ਾ",
+  "audioSectionTitle": "ਧੁਨੀ ਅਤੇ ਸੰਗੀਤ",
+  "soundsEffectsLabel": "ਧੁਨੀ ਪ੍ਰਭਾਵ",
+  "vibrationLabel": "ਵਾਈਬ੍ਰੇਸ਼ਨ",
+  "comboBadgesLabel": "ਕੰਬੋ ਬੈਜ",
+  "comboHapticsLabel": "ਬੈਜ ਹੈਪਟਿਕਸ",
+  "miscSectionTitle": "ਹੋਰ",
+  "howToPlayTitle": "ਕਿਵੇਂ ਖੇਡਣਾ ਹੈ",
+  "howToPlayRowRule": "ਹਰੇਕ ਕਤਾਰ ਵਿੱਚ 1 ਤੋਂ 9 ਅੰਕ ਹੁੰਦੇ ਹਨ, ਬਿਨਾਂ ਦੁਹਰਾਏ",
+  "howToPlayColumnRule": "ਹਰੇਕ ਕਾਲਮ ਵਿੱਚ 1 ਤੋਂ 9 ਅੰਕ ਹੁੰਦੇ ਹਨ, ਬਿਨਾਂ ਦੁਹਰਾਏ",
+  "howToPlayBoxRule": "ਹਰੇਕ 3×3 ਬਕਸੇ ਵਿੱਚ 1 ਤੋਂ 9 ਤੱਕ ਅੰਕ ਹੁੰਦੇ ਹਨ, ਬਿਨਾਂ ਦੁਹਰਾਏ",
+  "howToPlayFooter": "ਹਰ ਸੈੱਲ ਨੂੰ ਭਰੋ ਅਤੇ ਤੁਸੀਂ ਜਿੱਤੋਗੇ!",
+  "howToPlayAction": "ਮਿਲ ਗਿਆ",
+  "championshipLocalSection": "ਚੈਂਪੀਅਨਸ਼ਿਪ (ਸਥਾਨਕ)",
+  "hideCompletedNumbersLabel": "ਮੁਕੰਮਲ ਹੋਏ ਅੰਕਾਂ ਨੂੰ ਲੁਕਾਓ",
+  "aboutApp": "ਬਾਰੇ",
+  "versionLabel": "ਸੰਸਕਰਣ {version}",
+  "@versionLabel": {
+    "placeholders": {
+      "version": {
+        "type": "String"
+      }
+    }
+  },
+  "aboutLegalese": "ਨਾਹਰੇਬਾ ਉਜ਼ੋਰ ਇੰਕ.",
+  "languageEnglish": "ਅੰਗਰੇਜ਼ੀ",
+  "languageRussian": "ਰੂਸੀ",
+  "languageUkrainian": "Українська",
+  "languageGerman": "Deutsch",
+  "languageFrench": "Français",
+  "languageChinese": "中文",
+  "languageHindi": "ਹਿੰਦੀ",
+  "languageGeorgian": "ქართული",
+  "languageSpanish": "ਸਪੈਨੋਲ",
+  "languageItalian": "ਇਤਾਲਵੀ",
+  "languageJapanese": "日本語",
+  "languageKorean": "한국어",
+  "languageTurkish": "ਤੁਰਕਸੇ",
+  "languagePolish": "ਪੋਲਸਕੀ",
+  "languagePortuguese": "ਪੁਰਤਗਾਲੀ",
+  "languageIndonesian": "ਬਹਾਸਾ ਇੰਡੋਨੇਸ਼ੀਆ",
+  "languageVietnamese": "Việt Tiếng",
+  "languageThai": "ไทย",
+  "languageDutch": "ਨੀਦਰਲੈਂਡਜ਼",
+  "languageSwedish": "ਸਵੇਂਸਕਾ",
+  "languageRomanian": "ਰੋਮਨਾ",
+  "languageCzech": "Čeština",
+  "languageFinnish": "ਸੁਓਮੀ",
+  "languageKazakh": "Қазақ tilі",
+  "languageBulgarian": "ਬਲਗਾਰਸਕੀ",
+  "languageMalay": "ਬਹਸਾ ਮੇਲਾਯੁ",
+  "languageNepali": "नेपाली",
+  "languagePunjabi": "ਪੰਜਾਬੀ",
+  "languageSwahili": "ਕਿਸਵਹਿਲੀ",
+  "languageTamil": "தமிழ்",
+  "languageSlovak": "ਸਲੋਵੇਨਚੀਨਾ",
+  "export": "ਨਿਰਯਾਤ",
+  "import": "ਆਯਾਤ ਕਰੋ",
+  "resetMyScore": "ਮੇਰਾ ਸਕੋਰ ਰੀਸੈਟ ਕਰੋ",
+  "resetMyScoreConfirmation": "ਕੀ ਤੁਸੀਂ ਯਕੀਨੀ ਤੌਰ 'ਤੇ ਸਕੋਰ ਨੂੰ ਰੀਸੈਟ ਕਰਨਾ ਚਾਹੁੰਦੇ ਹੋ? ਇਸ ਕਾਰਵਾਈ ਨੂੰ ਅਣਕੀਤਾ ਨਹੀਂ ਕੀਤਾ ਜਾ ਸਕਦਾ।",
+  "resetAction": "ਰੀਸੈਟ ਕਰੋ",
+  "regenerateOpponents": "ਵਿਰੋਧੀਆਂ ਨੂੰ ਮੁੜ ਪੈਦਾ ਕਰੋ",
+  "confirm": "ਪੁਸ਼ਟੀ ਕਰੋ",
+  "cancel": "ਰੱਦ ਕਰੋ",
+  "done": "ਹੋ ਗਿਆ",
+  "privacyPolicyTitle": "ਪਰਾਈਵੇਟ ਨੀਤੀ",
+  "privacyPolicyAccept": "ਮੈਂ ਸਵੀਕਾਰ ਕਰਦਾ ਹਾਂ",
+  "privacyPolicyPrompt": "ਕੀ ਤੁਸੀਂ ਗੋਪਨੀਯਤਾ ਨੀਤੀ ਨੂੰ ਸਵੀਕਾਰ ਕਰਦੇ ਹੋ?",
+  "privacyPolicyLearnMore": "ਹੋਰ ਜਾਣੋ →",
+  "privacyPolicyDecline": "ਮੈਂ ਇਨਕਾਰ ਕਰਦਾ ਹਾਂ",
+  "privacyPolicyClose": "ਬੰਦ ਕਰੋ",
+  "privacyPolicyLoadError": "ਗੋਪਨੀਯਤਾ ਨੀਤੀ ਨੂੰ ਲੋਡ ਕਰਨਾ ਅਸਫਲ ਰਿਹਾ। ਕਿਰਪਾ ਕਰਕੇ ਦੁਬਾਰਾ ਕੋਸ਼ਿਸ਼ ਕਰੋ।",
+  "failed": "ਅਸਫਲ ਰਿਹਾ",
+  "rankBadgeChasing": "ਰੈਂਕ #{current} • +{delta} ਤੋਂ #{target}",
+  "@rankBadgeChasing": {
+    "placeholders": {
+      "current": {
+        "type": "int"
+      },
+      "delta": {
+        "type": "int"
+      },
+      "target": {
+        "type": "int"
+      }
+    }
+  },
+  "statsTitle": "ਅੰਕੜੇ",
+  "statsGamesSection": "ਖੇਡਾਂ",
+  "statsGamesStarted": "ਖੇਡਾਂ ਸ਼ੁਰੂ ਹੋ ਗਈਆਂ",
+  "statsGamesWon": "ਖੇਡਾਂ ਜਿੱਤੀਆਂ",
+  "statsWinRate": "ਜਿੱਤ ਦਰ",
+  "statsFlawless": "ਨਿਰਦੋਸ਼ ਮੁਕੰਮਲ",
+  "statsTimeSection": "ਸਮਾਂ",
+  "statsBestTime": "ਵਧੀਆ ਸਮਾਂ",
+  "statsAverageTime": "ਔਸਤ ਸਮਾਂ",
+  "statsStreakSection": "ਸਟ੍ਰੀਕ",
+  "statsCurrentStreak": "ਮੌਜੂਦਾ ਸਟ੍ਰੀਕ",
+  "statsBestStreak": "ਵਧੀਆ ਸਟ੍ਰੀਕ",
+  "difficultyNovice": "ਨਵੀਨਤਮ",
+  "difficultyNoviceShort": "ਨਵੰਬਰ",
+  "difficultyMedium": "ਵਿਚਕਾਰਲਾ",
+  "difficultyMediumShort": "ਇੰਟ.",
+  "difficultyHigh": "ਉੱਨਤ",
+  "difficultyHighShort": "ਐਡਵੋਕੇਟ",
+  "difficultyExpert": "ਮਾਹਰ",
+  "difficultyExpertShort": "ਐਕਸਪ.",
+  "difficultyMaster": "ਮਾਸਟਰ",
+  "difficultyMasterShort": "ਸ਼੍ਰੀਮਤੀ",
+  "ach_title_supermind": "ਸੁਪਰਮਾਈਂਡ",
+  "ach_desc_supermind": "ਕਿਸੇ ਵੀ ਮੁਸ਼ਕਲ ’ਤੇ ਬਿਨਾ ਗਲਤੀ ਅਤੇ ਬਿਨਾ ਸੰਕੇਤ 2 ਮਿੰਟ 30 ਸਕਿੰਟ ਤੋਂ ਘੱਟ ਸਮੇਂ ਵਿੱਚ ਜਿੱਤੋ",
+  "rateDialogTitle": "ਕੀ ਤੁਹਾਨੂੰ ਖੇਡ ਪਸੰਦ ਆਈ? 💛",
+  "rateDialogSubtitle": "ਤੁਹਾਡੀ ਰੇਟਿੰਗ Sudoku ਨੂੰ ਹੋਰ ਵੀ ਬਿਹਤਰ ਬਣਾਉਣ ਵਿੱਚ ਮਦਦ ਕਰੇਗੀ!",
+  "rateDialogDismiss": "ਬਾਹਰ ਜਾਓ",
+  "rateDialogConfirm": "ਹਾਂ, ਵਧੀਆ ਹੈ!"
+}
